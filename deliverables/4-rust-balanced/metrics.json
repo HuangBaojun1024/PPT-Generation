@@ -7,9 +7,9 @@
   "imagesPlanned": 5,
   "imagesGenerated": 5,
   "costUsd": {
-    "llmText": 1.0646,
+    "llmText": 3.3146,
     "image": 0.35,
-    "total": 1.4146
+    "total": 3.6646
   },
   "latencyMs": {
     "plan": 24804,
@@ -25,19 +25,19 @@
   "byRole": {
     "planner": {
       "calls": 1,
-      "costUsd": 0.0145,
+      "costUsd": 0.0449,
       "inputTokens": 1234,
       "outputTokens": 1291
     },
     "writer": {
       "calls": 5,
-      "costUsd": 0.0581,
+      "costUsd": 0.1811,
       "inputTokens": 5630,
       "outputTokens": 5101
     },
     "coder": {
       "calls": 36,
-      "costUsd": 0.9921,
+      "costUsd": 3.0886,
       "inputTokens": 89976,
       "outputTokens": 87960
     }
@@ -50,7 +50,7 @@
       "provider": "saturday",
       "inputTokens": 1234,
       "outputTokens": 1291,
-      "costUsd": 0.0144525,
+      "costUsd": 0.0449,
       "latencyMs": 24802,
       "ok": true
     },
@@ -61,7 +61,7 @@
       "provider": "saturday",
       "inputTokens": 1128,
       "outputTokens": 853,
-      "costUsd": 0.00994,
+      "costUsd": 0.0312,
       "latencyMs": 16879,
       "ok": true
     },
@@ -72,7 +72,7 @@
       "provider": "saturday",
       "inputTokens": 1125,
       "outputTokens": 946,
-      "costUsd": 0.01086625,
+      "costUsd": 0.034,
       "latencyMs": 18537,
       "ok": true
     },
@@ -83,7 +83,7 @@
       "provider": "saturday",
       "inputTokens": 1131,
       "outputTokens": 1175,
-      "costUsd": 0.01316375,
+      "costUsd": 0.0409,
       "latencyMs": 23195,
       "ok": true
     },
@@ -94,7 +94,7 @@
       "provider": "saturday",
       "inputTokens": 1124,
       "outputTokens": 987,
-      "costUsd": 0.011275,
+      "costUsd": 0.0352,
       "latencyMs": 19250,
       "ok": true
     },
@@ -105,7 +105,7 @@
       "provider": "saturday",
       "inputTokens": 1122,
       "outputTokens": 1140,
-      "costUsd": 0.0128025,
+      "costUsd": 0.0398,
       "latencyMs": 21790,
       "ok": true
     },
@@ -116,7 +116,7 @@
       "provider": "saturday",
       "inputTokens": 1568,
       "outputTokens": 910,
-      "costUsd": 0.01106,
+      "costUsd": 0.0351,
       "latencyMs": 18001,
       "ok": true
     },
@@ -127,7 +127,7 @@
       "provider": "saturday",
       "inputTokens": 1601,
       "outputTokens": 1037,
-      "costUsd": 0.01237125,
+      "costUsd": 0.0391,
       "latencyMs": 20918,
       "ok": true
     },
@@ -138,7 +138,7 @@
       "provider": "saturday",
       "inputTokens": 1599,
       "outputTokens": 1180,
-      "costUsd": 0.01379875,
+      "costUsd": 0.0434,
       "latencyMs": 27801,
       "ok": true
     },
@@ -149,7 +149,7 @@
       "provider": "saturday",
       "inputTokens": 1863,
       "outputTokens": 1934,
-      "costUsd": 0.02166875,
+      "costUsd": 0.0673,
       "latencyMs": 36445,
       "ok": true
     },
@@ -160,7 +160,7 @@
       "provider": "saturday",
       "inputTokens": 2181,
       "outputTokens": 2202,
-      "costUsd": 0.02474625,
+      "costUsd": 0.077,
       "latencyMs": 41177,
       "ok": true
     },
@@ -171,7 +171,7 @@
       "provider": "saturday",
       "inputTokens": 1659,
       "outputTokens": 2212,
-      "costUsd": 0.02419375,
+      "costUsd": 0.0747,
       "latencyMs": 41582,
       "ok": true
     },
@@ -182,7 +182,7 @@
       "provider": "saturday",
       "inputTokens": 2052,
       "outputTokens": 2269,
-      "costUsd": 0.025255,
+      "costUsd": 0.0783,
       "latencyMs": 42598,
       "ok": true
     },
@@ -193,7 +193,7 @@
       "provider": "saturday",
       "inputTokens": 2481,
       "outputTokens": 2702,
-      "costUsd": 0.03012125,
+      "costUsd": 0.0935,
       "latencyMs": 50144,
       "ok": true
     },
@@ -204,7 +204,7 @@
       "provider": "saturday",
       "inputTokens": 2733,
       "outputTokens": 2689,
-      "costUsd": 0.03030625,
+      "costUsd": 0.0943,
       "latencyMs": 50769,
       "ok": true
     },
@@ -215,7 +215,7 @@
       "provider": "saturday",
       "inputTokens": 1951,
       "outputTokens": 2742,
-      "costUsd": 0.02985875,
+      "costUsd": 0.092,
       "latencyMs": 55826,
       "ok": true
     },
@@ -226,7 +226,7 @@
       "provider": "saturday",
       "inputTokens": 1590,
       "outputTokens": 1121,
-      "costUsd": 0.0131975,
+      "costUsd": 0.0416,
       "latencyMs": 22794,
       "ok": true
     },
@@ -237,7 +237,7 @@
       "provider": "saturday",
       "inputTokens": 2879,
       "outputTokens": 3013,
-      "costUsd": 0.03372875,
+      "costUsd": 0.1048,
       "latencyMs": 55703,
       "ok": true
     },
@@ -248,7 +248,7 @@
       "provider": "saturday",
       "inputTokens": 1590,
       "outputTokens": 1237,
-      "costUsd": 0.0143575,
+      "costUsd": 0.0451,
       "latencyMs": 25212,
       "ok": true
     },
@@ -259,7 +259,7 @@
       "provider": "saturday",
       "inputTokens": 2376,
       "outputTokens": 2754,
-      "costUsd": 0.03051,
+      "costUsd": 0.0945,
       "latencyMs": 50961,
       "ok": true
     },
@@ -270,7 +270,7 @@
       "provider": "saturday",
       "inputTokens": 2309,
       "outputTokens": 1868,
-      "costUsd": 0.02156625,
+      "costUsd": 0.0676,
       "latencyMs": 39890,
       "ok": true
     },
@@ -281,7 +281,7 @@
       "provider": "saturday",
       "inputTokens": 2348,
       "outputTokens": 2210,
-      "costUsd": 0.025035,
+      "costUsd": 0.078,
       "latencyMs": 42302,
       "ok": true
     },
@@ -292,7 +292,7 @@
       "provider": "saturday",
       "inputTokens": 3551,
       "outputTokens": 3926,
-      "costUsd": 0.04369875,
+      "costUsd": 0.1355,
       "latencyMs": 72278,
       "ok": true
     },
@@ -303,7 +303,7 @@
       "provider": "saturday",
       "inputTokens": 1950,
       "outputTokens": 1913,
-      "costUsd": 0.0215675,
+      "costUsd": 0.0671,
       "latencyMs": 37751,
       "ok": true
     },
@@ -314,7 +314,7 @@
       "provider": "saturday",
       "inputTokens": 1565,
       "outputTokens": 1086,
-      "costUsd": 0.01281625,
+      "costUsd": 0.0404,
       "latencyMs": 22028,
       "ok": true
     },
@@ -325,7 +325,7 @@
       "provider": "saturday",
       "inputTokens": 2066,
       "outputTokens": 2916,
-      "costUsd": 0.0317425,
+      "costUsd": 0.0978,
       "latencyMs": 54365,
       "ok": true
     },
@@ -336,7 +336,7 @@
       "provider": "saturday",
       "inputTokens": 3186,
       "outputTokens": 3552,
-      "costUsd": 0.0395025,
+      "costUsd": 0.1225,
       "latencyMs": 65282,
       "ok": true
     },
@@ -347,7 +347,7 @@
       "provider": "saturday",
       "inputTokens": 2748,
       "outputTokens": 2539,
-      "costUsd": 0.028825,
+      "costUsd": 0.0899,
       "latencyMs": 47918,
       "ok": true
     },
@@ -358,7 +358,7 @@
       "provider": "saturday",
       "inputTokens": 2136,
       "outputTokens": 2293,
-      "costUsd": 0.0256,
+      "costUsd": 0.0795,
       "latencyMs": 43038,
       "ok": true
     },
@@ -369,7 +369,7 @@
       "provider": "saturday",
       "inputTokens": 1549,
       "outputTokens": 1238,
-      "costUsd": 0.01431625,
+      "costUsd": 0.0449,
       "latencyMs": 23688,
       "ok": true
     },
@@ -380,7 +380,7 @@
       "provider": "saturday",
       "inputTokens": 2495,
       "outputTokens": 2959,
-      "costUsd": 0.03270875,
+      "costUsd": 0.1012,
       "latencyMs": 55377,
       "ok": true
     },
@@ -391,7 +391,7 @@
       "provider": "saturday",
       "inputTokens": 2836,
       "outputTokens": 3800,
-      "costUsd": 0.041545,
+      "costUsd": 0.1282,
       "latencyMs": 70035,
       "ok": true
     },
@@ -402,7 +402,7 @@
       "provider": "saturday",
       "inputTokens": 2060,
       "outputTokens": 2414,
-      "costUsd": 0.026715,
+      "costUsd": 0.0827,
       "latencyMs": 46260,
       "ok": true
     },
@@ -413,7 +413,7 @@
       "provider": "saturday",
       "inputTokens": 2622,
       "outputTokens": 3936,
-      "costUsd": 0.0426375,
+      "costUsd": 0.1312,
       "latencyMs": 73218,
       "ok": true
     },
@@ -424,7 +424,7 @@
       "provider": "saturday",
       "inputTokens": 1696,
       "outputTokens": 3579,
-      "costUsd": 0.03791,
+      "costUsd": 0.1159,
       "latencyMs": 66069,
       "ok": true
     },
@@ -435,7 +435,7 @@
       "provider": "saturday",
       "inputTokens": 2691,
       "outputTokens": 3893,
-      "costUsd": 0.04229375,
+      "costUsd": 0.1302,
       "latencyMs": 78477,
       "ok": true
     },
@@ -446,7 +446,7 @@
       "provider": "saturday",
       "inputTokens": 3128,
       "outputTokens": 1772,
-      "costUsd": 0.02163,
+      "costUsd": 0.0688,
       "latencyMs": 33364,
       "ok": true
     },
@@ -457,7 +457,7 @@
       "provider": "saturday",
       "inputTokens": 3600,
       "outputTokens": 2206,
-      "costUsd": 0.02656,
+      "costUsd": 0.0842,
       "latencyMs": 42393,
       "ok": true
     },
@@ -468,7 +468,7 @@
       "provider": "saturday",
       "inputTokens": 4106,
       "outputTokens": 2753,
-      "costUsd": 0.0326625,
+      "costUsd": 0.1031,
       "latencyMs": 53421,
       "ok": true
     },
@@ -479,7 +479,7 @@
       "provider": "saturday",
       "inputTokens": 2540,
       "outputTokens": 1130,
-      "costUsd": 0.014475,
+      "costUsd": 0.0466,
       "latencyMs": 21714,
       "ok": true
     },
@@ -490,7 +490,7 @@
       "provider": "saturday",
       "inputTokens": 5352,
       "outputTokens": 3968,
-      "costUsd": 0.04637,
+      "costUsd": 0.1458,
       "latencyMs": 73221,
       "ok": true
     },
@@ -501,7 +501,7 @@
       "provider": "saturday",
       "inputTokens": 5319,
       "outputTokens": 4007,
-      "costUsd": 0.04671875,
+      "costUsd": 0.1468,
       "latencyMs": 73790,
       "ok": true
     }

@@ -1,7 +1,7 @@
 {
-  "_comment": "单价为占位预估（USD），以网关实测账单校准后回填。文本模型按每百万 token 计价，图片按张计价。",
+  "_comment": "单价按官方 list price（USD）。文本按每百万 token 计价；图片按张估算（gpt-image-2 官方按图片 token 计费，1536x1024 medium≈$0.07/张、high≈$0.19/张）。glm/fable/opus 为非 OpenAI 模型，仅 full preset 参考，取业界估算。",
   "text": {
-    "gpt-5.5": { "inputPerMTok": 1.25, "outputPerMTok": 10 },
+    "gpt-5.5": { "inputPerMTok": 5, "outputPerMTok": 30 },
     "glm-5.1": { "inputPerMTok": 0.6, "outputPerMTok": 2.2 },
     "claude-fable-5": { "inputPerMTok": 3, "outputPerMTok": 15 },
     "claude-opus-4-7": { "inputPerMTok": 15, "outputPerMTok": 75 }
