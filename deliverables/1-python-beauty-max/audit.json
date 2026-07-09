@@ -1,0 +1,506 @@
+{
+  "reviewScore": null,
+  "entries": [
+    {
+      "slide": 9,
+      "level": "L1",
+      "issues": [
+        "[pageOverflow] slide 内容 1280x910 超出画布 1280x720"
+      ],
+      "action": "coder 修复（第 1 次）"
+    },
+    {
+      "slide": 9,
+      "level": "L1",
+      "issues": [
+        "[pageOverflow] slide 内容 1280x910 超出画布 1280x720"
+      ],
+      "action": "coder 修复（第 2 次）"
+    },
+    {
+      "slide": 9,
+      "level": "L1",
+      "issues": [
+        "[pageOverflow] slide 内容 1280x910 超出画布 1280x720"
+      ],
+      "action": "修复预算耗尽，接受当前版本"
+    }
+  ],
+  "decisions": [
+    {
+      "index": 0,
+      "pageType": "cover",
+      "useImage": true,
+      "imageRole": "background",
+      "imagePrompt": "封面氛围图：Python 入门 30 分钟. Wide cinematic composition with generous negative space suitable as a presentation slide background, key subject off-center. Friendly dark-mode coding classroom visuals with soft neon accents: mint #7EE787, warm yellow #F2C94C, coral #FF7A59 on deep charcoal #101418. Clean vector illustrations, rounded UI cards, subtle terminal textures, gentle glow lighting, approachable beginner-friendly mood, minimal clutter. Strictly no text, no letters, no words, no watermark, no logo, no UI elements.",
+      "imagePath": "/Users/hbj/Desktop/Workspace/ppt-generator-interview/out-final/1-python-beauty-max/assets/slide-01.png",
+      "icons": [],
+      "chart": null,
+      "table": null,
+      "fixCount": 0
+    },
+    {
+      "index": 1,
+      "pageType": "agenda",
+      "useImage": false,
+      "imageRole": "none",
+      "imagePrompt": null,
+      "imagePath": null,
+      "icons": [],
+      "chart": null,
+      "table": null,
+      "fixCount": 0
+    },
+    {
+      "index": 2,
+      "pageType": "chapter",
+      "useImage": true,
+      "imageRole": "background",
+      "imagePrompt": "章节氛围图：先跑起来（Python 入门 30 分钟）. Wide cinematic composition with generous negative space suitable as a presentation slide background, key subject off-center. Friendly dark-mode coding classroom visuals with soft neon accents: mint #7EE787, warm yellow #F2C94C, coral #FF7A59 on deep charcoal #101418. Clean vector illustrations, rounded UI cards, subtle terminal textures, gentle glow lighting, approachable beginner-friendly mood, minimal clutter. Strictly no text, no letters, no words, no watermark, no logo, no UI elements.",
+      "imagePath": "/Users/hbj/Desktop/Workspace/ppt-generator-interview/out-final/1-python-beauty-max/assets/slide-03.png",
+      "icons": [],
+      "chart": null,
+      "table": null,
+      "fixCount": 0
+    },
+    {
+      "index": 3,
+      "pageType": "bigIdea",
+      "useImage": true,
+      "imageRole": "supporting",
+      "imagePrompt": "新手把写着指令的便签递给友好的电脑. Clean single-subject composition suitable as an editorial illustration inside a presentation slide. Friendly dark-mode coding classroom visuals with soft neon accents: mint #7EE787, warm yellow #F2C94C, coral #FF7A59 on deep charcoal #101418. Clean vector illustrations, rounded UI cards, subtle terminal textures, gentle glow lighting, approachable beginner-friendly mood, minimal clutter. Strictly no text, no letters, no words, no watermark, no logo, no UI elements.",
+      "imagePath": "/Users/hbj/Desktop/Workspace/ppt-generator-interview/out-final/1-python-beauty-max/assets/slide-04.png",
+      "icons": [
+        "computer-tower"
+      ],
+      "chart": null,
+      "table": null,
+      "fixCount": 0
+    },
+    {
+      "index": 4,
+      "pageType": "code",
+      "useImage": false,
+      "imageRole": "none",
+      "imagePrompt": null,
+      "imagePath": null,
+      "icons": [
+        "terminal",
+        "play-circle"
+      ],
+      "chart": null,
+      "table": null,
+      "fixCount": 0
+    },
+    {
+      "index": 5,
+      "pageType": "comparison",
+      "useImage": false,
+      "imageRole": "none",
+      "imagePrompt": null,
+      "imagePath": null,
+      "icons": [
+        "map-pin",
+        "wrench"
+      ],
+      "chart": null,
+      "table": {
+        "headers": [
+          "情况",
+          "像什么",
+          "怎么处理"
+        ],
+        "rows": [
+          [
+            "少引号",
+            "句子没收尾",
+            "补上成对引号"
+          ],
+          [
+            "少括号",
+            "指令没说完",
+            "检查左右括号"
+          ],
+          [
+            "拼错 print",
+            "叫错名字",
+            "按原样改回 print"
+          ]
+        ]
+      },
+      "fixCount": 0
+    },
+    {
+      "index": 6,
+      "pageType": "checklist",
+      "useImage": true,
+      "imageRole": "supporting",
+      "imagePrompt": "桌面上电脑显示运行成功，新手开心举手. Clean single-subject composition suitable as an editorial illustration inside a presentation slide. Friendly dark-mode coding classroom visuals with soft neon accents: mint #7EE787, warm yellow #F2C94C, coral #FF7A59 on deep charcoal #101418. Clean vector illustrations, rounded UI cards, subtle terminal textures, gentle glow lighting, approachable beginner-friendly mood, minimal clutter. Strictly no text, no letters, no words, no watermark, no logo, no UI elements.",
+      "imagePath": "/Users/hbj/Desktop/Workspace/ppt-generator-interview/out-final/1-python-beauty-max/assets/slide-07.png",
+      "icons": [
+        "folder-open",
+        "keyboard",
+        "play",
+        "check-circle"
+      ],
+      "chart": null,
+      "table": null,
+      "fixCount": 0
+    },
+    {
+      "index": 7,
+      "pageType": "chapter",
+      "useImage": true,
+      "imageRole": "background",
+      "imagePrompt": "章节氛围图：变量：给信息贴标签（Python 入门 30 分钟）. Wide cinematic composition with generous negative space suitable as a presentation slide background, key subject off-center. Friendly dark-mode coding classroom visuals with soft neon accents: mint #7EE787, warm yellow #F2C94C, coral #FF7A59 on deep charcoal #101418. Clean vector illustrations, rounded UI cards, subtle terminal textures, gentle glow lighting, approachable beginner-friendly mood, minimal clutter. Strictly no text, no letters, no words, no watermark, no logo, no UI elements.",
+      "imagePath": "/Users/hbj/Desktop/Workspace/ppt-generator-interview/out-final/1-python-beauty-max/assets/slide-08.png",
+      "icons": [],
+      "chart": null,
+      "table": null,
+      "fixCount": 0
+    },
+    {
+      "index": 8,
+      "pageType": "bigIdea",
+      "useImage": true,
+      "imageRole": "supporting",
+      "imagePrompt": "厨房冰箱上贴着写有name和age的便签. Clean single-subject composition suitable as an editorial illustration inside a presentation slide. Friendly dark-mode coding classroom visuals with soft neon accents: mint #7EE787, warm yellow #F2C94C, coral #FF7A59 on deep charcoal #101418. Clean vector illustrations, rounded UI cards, subtle terminal textures, gentle glow lighting, approachable beginner-friendly mood, minimal clutter. Strictly no text, no letters, no words, no watermark, no logo, no UI elements.",
+      "imagePath": "/Users/hbj/Desktop/Workspace/ppt-generator-interview/out-final/1-python-beauty-max/assets/slide-09.png",
+      "icons": [
+        "tag",
+        "box-arrow-down"
+      ],
+      "chart": null,
+      "table": null,
+      "fixCount": 2
+    },
+    {
+      "index": 9,
+      "pageType": "comparison",
+      "useImage": false,
+      "imageRole": "none",
+      "imagePrompt": null,
+      "imagePath": null,
+      "icons": [
+        "copy",
+        "eye"
+      ],
+      "chart": null,
+      "table": null,
+      "fixCount": 0
+    },
+    {
+      "index": 10,
+      "pageType": "code",
+      "useImage": false,
+      "imageRole": "none",
+      "imagePrompt": null,
+      "imagePath": null,
+      "icons": [
+        "code",
+        "approximate-equals",
+        "terminal"
+      ],
+      "chart": null,
+      "table": null,
+      "fixCount": 0
+    },
+    {
+      "index": 11,
+      "pageType": "checklist",
+      "useImage": true,
+      "imageRole": "supporting",
+      "imagePrompt": "书桌上四张变量命名便签，旁边有电脑. Clean single-subject composition suitable as an editorial illustration inside a presentation slide. Friendly dark-mode coding classroom visuals with soft neon accents: mint #7EE787, warm yellow #F2C94C, coral #FF7A59 on deep charcoal #101418. Clean vector illustrations, rounded UI cards, subtle terminal textures, gentle glow lighting, approachable beginner-friendly mood, minimal clutter. Strictly no text, no letters, no words, no watermark, no logo, no UI elements.",
+      "imagePath": "/Users/hbj/Desktop/Workspace/ppt-generator-interview/out-final/1-python-beauty-max/assets/slide-12.png",
+      "icons": [
+        "check-circle",
+        "keyboard"
+      ],
+      "chart": null,
+      "table": null,
+      "fixCount": 0
+    },
+    {
+      "index": 12,
+      "pageType": "chapter",
+      "useImage": true,
+      "imageRole": "background",
+      "imagePrompt": "章节氛围图：循环：让重复自动发生（Python 入门 30 分钟）. Wide cinematic composition with generous negative space suitable as a presentation slide background, key subject off-center. Friendly dark-mode coding classroom visuals with soft neon accents: mint #7EE787, warm yellow #F2C94C, coral #FF7A59 on deep charcoal #101418. Clean vector illustrations, rounded UI cards, subtle terminal textures, gentle glow lighting, approachable beginner-friendly mood, minimal clutter. Strictly no text, no letters, no words, no watermark, no logo, no UI elements.",
+      "imagePath": "/Users/hbj/Desktop/Workspace/ppt-generator-interview/out-final/1-python-beauty-max/assets/slide-13.png",
+      "icons": [],
+      "chart": null,
+      "table": null,
+      "fixCount": 0
+    },
+    {
+      "index": 13,
+      "pageType": "bigIdea",
+      "useImage": true,
+      "imageRole": "supporting",
+      "imagePrompt": "一个人把一叠重复任务交给小机器人处理. Clean single-subject composition suitable as an editorial illustration inside a presentation slide. Friendly dark-mode coding classroom visuals with soft neon accents: mint #7EE787, warm yellow #F2C94C, coral #FF7A59 on deep charcoal #101418. Clean vector illustrations, rounded UI cards, subtle terminal textures, gentle glow lighting, approachable beginner-friendly mood, minimal clutter. Strictly no text, no letters, no words, no watermark, no logo, no UI elements.",
+      "imagePath": "/Users/hbj/Desktop/Workspace/ppt-generator-interview/out-final/1-python-beauty-max/assets/slide-14.png",
+      "icons": [
+        "repeat",
+        "align-bottom"
+      ],
+      "chart": null,
+      "table": null,
+      "fixCount": 0
+    },
+    {
+      "index": 14,
+      "pageType": "comparison",
+      "useImage": false,
+      "imageRole": "none",
+      "imagePrompt": null,
+      "imagePath": null,
+      "icons": [
+        "copy",
+        "repeat",
+        "wrench"
+      ],
+      "chart": null,
+      "table": null,
+      "fixCount": 0
+    },
+    {
+      "index": 15,
+      "pageType": "code",
+      "useImage": false,
+      "imageRole": "none",
+      "imagePrompt": null,
+      "imagePath": null,
+      "icons": [
+        "code",
+        "hash",
+        "text-indent"
+      ],
+      "chart": null,
+      "table": null,
+      "fixCount": 0
+    },
+    {
+      "index": 16,
+      "pageType": "process",
+      "useImage": false,
+      "imageRole": "none",
+      "imagePrompt": null,
+      "imagePath": null,
+      "icons": [
+        "play"
+      ],
+      "chart": null,
+      "table": null,
+      "fixCount": 0
+    },
+    {
+      "index": 17,
+      "pageType": "code",
+      "useImage": false,
+      "imageRole": "none",
+      "imagePrompt": null,
+      "imagePath": null,
+      "icons": [
+        "users"
+      ],
+      "chart": null,
+      "table": null,
+      "fixCount": 0
+    },
+    {
+      "index": 18,
+      "pageType": "chapter",
+      "useImage": true,
+      "imageRole": "background",
+      "imagePrompt": "章节氛围图：列表与字典：装下数据（Python 入门 30 分钟）. Wide cinematic composition with generous negative space suitable as a presentation slide background, key subject off-center. Friendly dark-mode coding classroom visuals with soft neon accents: mint #7EE787, warm yellow #F2C94C, coral #FF7A59 on deep charcoal #101418. Clean vector illustrations, rounded UI cards, subtle terminal textures, gentle glow lighting, approachable beginner-friendly mood, minimal clutter. Strictly no text, no letters, no words, no watermark, no logo, no UI elements.",
+      "imagePath": "/Users/hbj/Desktop/Workspace/ppt-generator-interview/out-final/1-python-beauty-max/assets/slide-19.png",
+      "icons": [],
+      "chart": null,
+      "table": null,
+      "fixCount": 0
+    },
+    {
+      "index": 19,
+      "pageType": "bigIdea",
+      "useImage": false,
+      "imageRole": "none",
+      "imagePrompt": null,
+      "imagePath": null,
+      "icons": [
+        "list",
+        "book-open"
+      ],
+      "chart": null,
+      "table": null,
+      "fixCount": 0
+    },
+    {
+      "index": 20,
+      "pageType": "comparison",
+      "useImage": false,
+      "imageRole": "none",
+      "imagePrompt": null,
+      "imagePath": null,
+      "icons": [],
+      "chart": null,
+      "table": {
+        "headers": [
+          "问题",
+          "列表 list",
+          "字典 dict"
+        ],
+        "rows": [
+          [
+            "像什么",
+            "排队名单",
+            "通讯录卡片"
+          ],
+          [
+            "怎么取",
+            "按位置",
+            "按名字"
+          ],
+          [
+            "适合放",
+            "一串同类数据",
+            "一件事的多项信息"
+          ]
+        ]
+      },
+      "fixCount": 0
+    },
+    {
+      "index": 21,
+      "pageType": "code",
+      "useImage": false,
+      "imageRole": "none",
+      "imagePrompt": null,
+      "imagePath": null,
+      "icons": [
+        "code",
+        "plus-circle",
+        "list"
+      ],
+      "chart": null,
+      "table": null,
+      "fixCount": 0
+    },
+    {
+      "index": 22,
+      "pageType": "threePoints",
+      "useImage": false,
+      "imageRole": "none",
+      "imagePrompt": null,
+      "imagePath": null,
+      "icons": [
+        "key",
+        "user"
+      ],
+      "chart": null,
+      "table": null,
+      "fixCount": 0
+    },
+    {
+      "index": 23,
+      "pageType": "process",
+      "useImage": false,
+      "imageRole": "none",
+      "imagePrompt": null,
+      "imagePath": null,
+      "icons": [
+        "folder-plus",
+        "repeat",
+        "package"
+      ],
+      "chart": null,
+      "table": null,
+      "fixCount": 0
+    },
+    {
+      "index": 24,
+      "pageType": "chapter",
+      "useImage": true,
+      "imageRole": "background",
+      "imagePrompt": "章节氛围图：函数：把步骤打包（Python 入门 30 分钟）. Wide cinematic composition with generous negative space suitable as a presentation slide background, key subject off-center. Friendly dark-mode coding classroom visuals with soft neon accents: mint #7EE787, warm yellow #F2C94C, coral #FF7A59 on deep charcoal #101418. Clean vector illustrations, rounded UI cards, subtle terminal textures, gentle glow lighting, approachable beginner-friendly mood, minimal clutter. Strictly no text, no letters, no words, no watermark, no logo, no UI elements.",
+      "imagePath": "/Users/hbj/Desktop/Workspace/ppt-generator-interview/out-final/1-python-beauty-max/assets/slide-25.png",
+      "icons": [],
+      "chart": null,
+      "table": null,
+      "fixCount": 0
+    },
+    {
+      "index": 25,
+      "pageType": "bigIdea",
+      "useImage": false,
+      "imageRole": "none",
+      "imagePrompt": null,
+      "imagePath": null,
+      "icons": [
+        "package",
+        "repeat",
+        "play"
+      ],
+      "chart": null,
+      "table": null,
+      "fixCount": 0
+    },
+    {
+      "index": 26,
+      "pageType": "threePoints",
+      "useImage": false,
+      "imageRole": "none",
+      "imagePrompt": null,
+      "imagePath": null,
+      "icons": [
+        "eye",
+        "wrench"
+      ],
+      "chart": null,
+      "table": null,
+      "fixCount": 0
+    },
+    {
+      "index": 27,
+      "pageType": "code",
+      "useImage": false,
+      "imageRole": "none",
+      "imagePrompt": null,
+      "imagePath": null,
+      "icons": [
+        "code",
+        "terminal"
+      ],
+      "chart": null,
+      "table": null,
+      "fixCount": 0
+    },
+    {
+      "index": 28,
+      "pageType": "process",
+      "useImage": false,
+      "imageRole": "none",
+      "imagePrompt": null,
+      "imagePath": null,
+      "icons": [
+        "list-checks",
+        "repeat",
+        "box-arrow-down"
+      ],
+      "chart": null,
+      "table": null,
+      "fixCount": 0
+    },
+    {
+      "index": 29,
+      "pageType": "closing",
+      "useImage": true,
+      "imageRole": "background",
+      "imagePrompt": "收尾氛围图：Python 入门 30 分钟. Wide cinematic composition with generous negative space suitable as a presentation slide background, key subject off-center. Friendly dark-mode coding classroom visuals with soft neon accents: mint #7EE787, warm yellow #F2C94C, coral #FF7A59 on deep charcoal #101418. Clean vector illustrations, rounded UI cards, subtle terminal textures, gentle glow lighting, approachable beginner-friendly mood, minimal clutter. Strictly no text, no letters, no words, no watermark, no logo, no UI elements.",
+      "imagePath": "/Users/hbj/Desktop/Workspace/ppt-generator-interview/out-final/1-python-beauty-max/assets/slide-30.png",
+      "icons": [],
+      "chart": null,
+      "table": null,
+      "fixCount": 0
+    }
+  ]
+}

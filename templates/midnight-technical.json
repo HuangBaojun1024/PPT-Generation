@@ -1,0 +1,91 @@
+{
+  "templateId": "midnight-technical",
+  "name": "深色技术风",
+  "bestFor": ["技术分享", "编程教学", "架构方案", "产品发布", "开发者受众"],
+  "notGoodFor": ["温馨生活方式", "纸质印刷感需求"],
+  "motifs": [
+    "深色底 + 主色霓虹感强调（发光边框 box-shadow: 0 0 24px 主色 25% 透明度）",
+    "等宽字体元素点缀：小标签、快捷键、代码片段",
+    "细网格或点阵背景纹理（CSS 渐变实现，透明度 5%）",
+    "终端窗口样式卡片：顶部三个圆点 + 深色内容区"
+  ],
+  "styleNotes": "深色开发者美学。背景用深色（接近 #0B1120），文字浅色，主色做霓虹强调。代码和术语用等宽字体。避免大面积亮色块。",
+  "layouts": {
+    "cover": {
+      "hint": "深色整页 + 抽象科技背景图或网格纹理，中央大标题（56-72px，可部分用主色），下方等宽字体小标签（受众/时长）。",
+      "maxItems": 0, "density": "low", "allowFullBleedImage": true
+    },
+    "agenda": {
+      "hint": "目录：模拟代码编辑器侧栏，章节像文件树（等宽编号 + 章节名 + 注释色说明）。",
+      "maxItems": 6, "density": "medium"
+    },
+    "chapter": {
+      "hint": "章节页：超大等宽章节号（如 // 02）+ 章节标题，背景可放低透明度抽象图。",
+      "maxItems": 1, "density": "low", "allowFullBleedImage": true
+    },
+    "bigIdea": {
+      "hint": "大观点：一句话大字居中，关键术语用主色 + 等宽字体，像一行被高亮的代码注释。",
+      "maxItems": 1, "density": "low"
+    },
+    "concept": {
+      "hint": "概念页：左侧文字要点，右侧示意（图标组合 / 终端卡片 / 配图）。类比解释用引用块样式。",
+      "maxItems": 3, "density": "medium"
+    },
+    "threePoints": {
+      "hint": "三卡片：深色卡 + 细边框 + 主色图标，标题 + 两行说明，hover 发光感（静态阴影即可）。",
+      "maxItems": 3, "density": "medium"
+    },
+    "comparison": {
+      "hint": "对比：两栏终端风卡片（如 Before/After、Python/Rust），要点行前用 + / - 或 ✓ / ✗ 等宽符号。",
+      "maxItems": 4, "density": "medium"
+    },
+    "metricCards": {
+      "hint": "指标卡：等宽字体大数字 + 单位，主色发光描边卡片，2x2 或 1x4。",
+      "maxItems": 4, "density": "medium"
+    },
+    "timeline": {
+      "hint": "时间线：横向，节点用主色圆点 + 发光，标签等宽字体。",
+      "maxItems": 5, "density": "medium"
+    },
+    "roadmap": {
+      "hint": "路线图：阶段卡片横排 + 箭头，阶段状态用标签（DONE / WIP / NEXT，等宽字体胶囊）。",
+      "maxItems": 4, "density": "medium"
+    },
+    "process": {
+      "hint": "流程：横向步骤，节点像管道（pipeline）连接，每步图标 + 名称 + 一行说明。",
+      "maxItems": 5, "density": "medium"
+    },
+    "table": {
+      "hint": "表格：深色表格，表头主色文字 + 底部主色细线，斑马纹用 3% 白。等宽字体数值列。",
+      "maxItems": 6, "density": "high"
+    },
+    "caseStory": {
+      "hint": "案例页：左图右文或终端演示卡片 + 说明要点。",
+      "maxItems": 3, "density": "medium"
+    },
+    "quote": {
+      "hint": "金句：整页深色，中央大字，语法高亮式的着色（关键词主色）。",
+      "maxItems": 1, "density": "low", "allowFullBleedImage": true
+    },
+    "imageSpread": {
+      "hint": "大图页：科技感图片全屏 + 一角标题小卡。",
+      "maxItems": 1, "density": "low", "allowFullBleedImage": true
+    },
+    "checklist": {
+      "hint": "清单：等宽 [x] 复选样式列表，完成项主色，要点 + 小字说明。",
+      "maxItems": 5, "density": "medium"
+    },
+    "code": {
+      "hint": "代码页：终端窗口卡片（顶部三圆点）内放代码（等宽 15-17px，主色/辅助色语法高亮，含注释），旁边或下方 2-3 条解释。代码必须真实可运行。",
+      "maxItems": 3, "density": "high"
+    },
+    "barChart": {
+      "hint": "图表页：提供的 SVG 图表放深色卡片中，配一行主色结论。",
+      "maxItems": 2, "density": "medium"
+    },
+    "closing": {
+      "hint": "收尾：深色整页，中央大字 CTA + 等宽字体的下一步命令行式提示（如 $ start learning）。",
+      "maxItems": 2, "density": "low", "allowFullBleedImage": true
+    }
+  }
+}

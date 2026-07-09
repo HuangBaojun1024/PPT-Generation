@@ -1,0 +1,598 @@
+{
+  "reviewScore": null,
+  "entries": [
+    {
+      "slide": 15,
+      "level": "L1",
+      "issues": [
+        "[overlap] 文本重叠: \"ARASHIYAMA · KIN\" 与 \"周六看街巷与神社，周日留给自然和\"",
+        "[overlap] 装饰元素(div 250x10)与文字重叠: \"周六看街巷与神社，周日留给自然和\""
+      ],
+      "action": "coder 修复（第 1 次）"
+    },
+    {
+      "slide": 2,
+      "level": "L1",
+      "issues": [
+        "[textClipped] 文本被裁剪: \"目录…\" (328x86 > 328x70)",
+        "[textClipped] 文本被裁剪: \"01…\" (104x64 > 104x52)",
+        "[textClipped] 文本被裁剪: \"02…\" (104x64 > 104x52)",
+        "[textClipped] 文本被裁剪: \"03…\" (104x64 > 104x52)",
+        "[textClipped] 文本被裁剪: \"04…\" (104x64 > 104x52)",
+        "[textClipped] 文本被裁剪: \"05…\" (104x64 > 104x52)"
+      ],
+      "action": "coder 修复（第 1 次）"
+    },
+    {
+      "slide": 13,
+      "level": "L1",
+      "issues": [
+        "[overlap] 文本重叠: \"13\" 与 \"祇园夜色要轻声看\""
+      ],
+      "action": "coder 修复（第 1 次）"
+    },
+    {
+      "slide": 9,
+      "level": "L1",
+      "issues": [
+        "[textClipped] 文本被裁剪: \"東山…\" (68x41 > 68x34)"
+      ],
+      "action": "coder 修复（第 1 次）"
+    },
+    {
+      "slide": 21,
+      "level": "L1",
+      "issues": [
+        "[textClipped] 文本被裁剪: \"01…\" (34x41 > 34x34)",
+        "[textClipped] 文本被裁剪: \"02…\" (41x41 > 41x34)",
+        "[textClipped] 文本被裁剪: \"03…\" (41x41 > 41x34)"
+      ],
+      "action": "coder 修复（第 1 次）"
+    },
+    {
+      "slide": 25,
+      "level": "L1",
+      "issues": [
+        "[pageOverflow] slide 内容 1280x739 超出画布 1280x720",
+        "[textClipped] 文本被裁剪: \"¥3000…\" (278x69 > 278x58)",
+        "[textClipped] 文本被裁剪: \"900元…\" (128x57 > 128x48)",
+        "[textClipped] 文本被裁剪: \"700元…\" (126x57 > 126x48)",
+        "[textClipped] 文本被裁剪: \"500元…\" (128x57 > 128x48)",
+        "[textClipped] 文本被裁剪: \"900元…\" (128x57 > 128x48)"
+      ],
+      "action": "coder 修复（第 1 次）"
+    },
+    {
+      "slide": 25,
+      "level": "L1",
+      "issues": [
+        "[pageOverflow] slide 内容 1280x733 超出画布 1280x720"
+      ],
+      "action": "修复预算耗尽，接受当前版本"
+    },
+    {
+      "slide": 28,
+      "level": "L1",
+      "issues": [
+        "[pageOverflow] slide 内容 1280x744 超出画布 1280x720",
+        "[safeMargin] 文本超出画布: \"保存酒店地址、保险电话和最近派出所。\""
+      ],
+      "action": "coder 修复（第 1 次）"
+    },
+    {
+      "slide": 26,
+      "level": "L1",
+      "issues": [
+        "[textClipped] 文本被裁剪: \"交通别买太复杂…\" (364x65 > 364x55)"
+      ],
+      "action": "coder 修复（第 1 次）"
+    }
+  ],
+  "decisions": [
+    {
+      "index": 0,
+      "pageType": "cover",
+      "useImage": true,
+      "imageRole": "background",
+      "imagePrompt": "封面氛围图：周末两天玩遍京都. Wide cinematic composition with generous negative space suitable as a presentation slide background, key subject off-center. Editorial travel magazine style with soft washi paper texture, warm morning light, muted matcha green #6B7D3A, terracotta #B76E4C and gold #D8A23A accents. Clean composition, gentle shadows, natural film tones, elegant Kyoto atmosphere, suitable for first-time travelers. Strictly no text, no letters, no words, no watermark, no logo, no UI elements.",
+      "imagePath": "/Users/hbj/Desktop/Workspace/ppt-generator-interview/out-final/5-kyoto-balanced/assets/slide-01.png",
+      "icons": [],
+      "chart": null,
+      "table": null,
+      "fixCount": 0
+    },
+    {
+      "index": 1,
+      "pageType": "agenda",
+      "useImage": false,
+      "imageRole": "none",
+      "imagePrompt": null,
+      "imagePath": null,
+      "icons": [],
+      "chart": null,
+      "table": null,
+      "fixCount": 1
+    },
+    {
+      "index": 2,
+      "pageType": "chapter",
+      "useImage": true,
+      "imageRole": "background",
+      "imagePrompt": "章节氛围图：先决定怎么玩（周末两天玩遍京都）. Wide cinematic composition with generous negative space suitable as a presentation slide background, key subject off-center. Editorial travel magazine style with soft washi paper texture, warm morning light, muted matcha green #6B7D3A, terracotta #B76E4C and gold #D8A23A accents. Clean composition, gentle shadows, natural film tones, elegant Kyoto atmosphere, suitable for first-time travelers. Strictly no text, no letters, no words, no watermark, no logo, no UI elements.",
+      "imagePath": "/Users/hbj/Desktop/Workspace/ppt-generator-interview/out-final/5-kyoto-balanced/assets/slide-03.png",
+      "icons": [],
+      "chart": null,
+      "table": null,
+      "fixCount": 0
+    },
+    {
+      "index": 3,
+      "pageType": "bigIdea",
+      "useImage": false,
+      "imageRole": "none",
+      "imagePrompt": null,
+      "imagePath": null,
+      "icons": [],
+      "chart": null,
+      "table": null,
+      "fixCount": 0
+    },
+    {
+      "index": 4,
+      "pageType": "threePoints",
+      "useImage": false,
+      "imageRole": "none",
+      "imagePrompt": null,
+      "imagePath": null,
+      "icons": [
+        "coffee"
+      ],
+      "chart": null,
+      "table": null,
+      "fixCount": 0
+    },
+    {
+      "index": 5,
+      "pageType": "comparison",
+      "useImage": false,
+      "imageRole": "none",
+      "imagePrompt": null,
+      "imagePath": null,
+      "icons": [
+        "map-trifold",
+        "train",
+        "clock"
+      ],
+      "chart": null,
+      "table": null,
+      "fixCount": 0
+    },
+    {
+      "index": 6,
+      "pageType": "roadmap",
+      "useImage": false,
+      "imageRole": "none",
+      "imagePrompt": null,
+      "imagePath": null,
+      "icons": [
+        "footprints",
+        "moon",
+        "check-circle"
+      ],
+      "chart": null,
+      "table": null,
+      "fixCount": 0
+    },
+    {
+      "index": 7,
+      "pageType": "chapter",
+      "useImage": true,
+      "imageRole": "background",
+      "imagePrompt": "章节氛围图：周六：从清水寺到祇园（周末两天玩遍京都）. Wide cinematic composition with generous negative space suitable as a presentation slide background, key subject off-center. Editorial travel magazine style with soft washi paper texture, warm morning light, muted matcha green #6B7D3A, terracotta #B76E4C and gold #D8A23A accents. Clean composition, gentle shadows, natural film tones, elegant Kyoto atmosphere, suitable for first-time travelers. Strictly no text, no letters, no words, no watermark, no logo, no UI elements.",
+      "imagePath": "/Users/hbj/Desktop/Workspace/ppt-generator-interview/out-final/5-kyoto-balanced/assets/slide-08.png",
+      "icons": [],
+      "chart": null,
+      "table": null,
+      "fixCount": 0
+    },
+    {
+      "index": 8,
+      "pageType": "bigIdea",
+      "useImage": false,
+      "imageRole": "none",
+      "imagePrompt": null,
+      "imagePath": null,
+      "icons": [
+        "map-pin",
+        "footprints"
+      ],
+      "chart": null,
+      "table": null,
+      "fixCount": 1
+    },
+    {
+      "index": 9,
+      "pageType": "timeline",
+      "useImage": false,
+      "imageRole": "none",
+      "imagePrompt": null,
+      "imagePath": null,
+      "icons": [
+        "clock",
+        "bank",
+        "coffee",
+        "moon"
+      ],
+      "chart": null,
+      "table": null,
+      "fixCount": 0
+    },
+    {
+      "index": 10,
+      "pageType": "threePoints",
+      "useImage": false,
+      "imageRole": "none",
+      "imagePrompt": null,
+      "imagePath": null,
+      "icons": [
+        "camera"
+      ],
+      "chart": null,
+      "table": null,
+      "fixCount": 0
+    },
+    {
+      "index": 11,
+      "pageType": "table",
+      "useImage": false,
+      "imageRole": "none",
+      "imagePrompt": null,
+      "imagePath": null,
+      "icons": [
+        "shopping-bag",
+        "wallet"
+      ],
+      "chart": null,
+      "table": {
+        "headers": [
+          "路段",
+          "适合做什么",
+          "提醒"
+        ],
+        "rows": [
+          [
+            "三年坂",
+            "拍坡道与木屋",
+            "台阶多，雨天慢走"
+          ],
+          [
+            "二年坂",
+            "买甜点、陶器小物",
+            "先看价签再下手"
+          ],
+          [
+            "宁宁之道",
+            "散步换气",
+            "人少，适合休息"
+          ],
+          [
+            "石塀小路",
+            "安静拍照",
+            "保持低声，不进私宅"
+          ]
+        ]
+      },
+      "fixCount": 0
+    },
+    {
+      "index": 12,
+      "pageType": "checklist",
+      "useImage": false,
+      "imageRole": "none",
+      "imagePrompt": null,
+      "imagePath": null,
+      "icons": [
+        "camera",
+        "waves",
+        "train"
+      ],
+      "chart": null,
+      "table": null,
+      "fixCount": 1
+    },
+    {
+      "index": 13,
+      "pageType": "chapter",
+      "useImage": true,
+      "imageRole": "background",
+      "imagePrompt": "章节氛围图：周日：岚山与金阁寺（周末两天玩遍京都）. Wide cinematic composition with generous negative space suitable as a presentation slide background, key subject off-center. Editorial travel magazine style with soft washi paper texture, warm morning light, muted matcha green #6B7D3A, terracotta #B76E4C and gold #D8A23A accents. Clean composition, gentle shadows, natural film tones, elegant Kyoto atmosphere, suitable for first-time travelers. Strictly no text, no letters, no words, no watermark, no logo, no UI elements.",
+      "imagePath": "/Users/hbj/Desktop/Workspace/ppt-generator-interview/out-final/5-kyoto-balanced/assets/slide-14.png",
+      "icons": [],
+      "chart": null,
+      "table": null,
+      "fixCount": 0
+    },
+    {
+      "index": 14,
+      "pageType": "bigIdea",
+      "useImage": false,
+      "imageRole": "none",
+      "imagePrompt": null,
+      "imagePath": null,
+      "icons": [],
+      "chart": null,
+      "table": null,
+      "fixCount": 1
+    },
+    {
+      "index": 15,
+      "pageType": "timeline",
+      "useImage": false,
+      "imageRole": "none",
+      "imagePrompt": null,
+      "imagePath": null,
+      "icons": [
+        "train",
+        "bridge",
+        "shopping-bag"
+      ],
+      "chart": null,
+      "table": null,
+      "fixCount": 0
+    },
+    {
+      "index": 16,
+      "pageType": "threePoints",
+      "useImage": false,
+      "imageRole": "none",
+      "imagePrompt": null,
+      "imagePath": null,
+      "icons": [
+        "leaf",
+        "waves"
+      ],
+      "chart": null,
+      "table": null,
+      "fixCount": 0
+    },
+    {
+      "index": 17,
+      "pageType": "checklist",
+      "useImage": false,
+      "imageRole": "none",
+      "imagePrompt": null,
+      "imagePath": null,
+      "icons": [
+        "camera",
+        "clock",
+        "bus"
+      ],
+      "chart": null,
+      "table": null,
+      "fixCount": 0
+    },
+    {
+      "index": 18,
+      "pageType": "chapter",
+      "useImage": true,
+      "imageRole": "background",
+      "imagePrompt": "章节氛围图：小众体验与美食（周末两天玩遍京都）. Wide cinematic composition with generous negative space suitable as a presentation slide background, key subject off-center. Editorial travel magazine style with soft washi paper texture, warm morning light, muted matcha green #6B7D3A, terracotta #B76E4C and gold #D8A23A accents. Clean composition, gentle shadows, natural film tones, elegant Kyoto atmosphere, suitable for first-time travelers. Strictly no text, no letters, no words, no watermark, no logo, no UI elements.",
+      "imagePath": "/Users/hbj/Desktop/Workspace/ppt-generator-interview/out-final/5-kyoto-balanced/assets/slide-19.png",
+      "icons": [],
+      "chart": null,
+      "table": null,
+      "fixCount": 0
+    },
+    {
+      "index": 19,
+      "pageType": "bigIdea",
+      "useImage": false,
+      "imageRole": "none",
+      "imagePrompt": null,
+      "imagePath": null,
+      "icons": [
+        "map-pin",
+        "heart"
+      ],
+      "chart": null,
+      "table": null,
+      "fixCount": 0
+    },
+    {
+      "index": 20,
+      "pageType": "threePoints",
+      "useImage": false,
+      "imageRole": "none",
+      "imagePrompt": null,
+      "imagePath": null,
+      "icons": [
+        "clock"
+      ],
+      "chart": null,
+      "table": null,
+      "fixCount": 1
+    },
+    {
+      "index": 21,
+      "pageType": "table",
+      "useImage": false,
+      "imageRole": "none",
+      "imagePrompt": null,
+      "imagePath": null,
+      "icons": [
+        "coffee",
+        "shopping-bag"
+      ],
+      "chart": null,
+      "table": {
+        "headers": [
+          "时间空档",
+          "推荐体验",
+          "预算",
+          "新手提示"
+        ],
+        "rows": [
+          [
+            "周六15:30",
+            "二年坂茶屋休息",
+            "¥800—1200",
+            "避开网红店，见空位就进"
+          ],
+          [
+            "周六19:30",
+            "祇园白川夜散步",
+            "¥0",
+            "安静拍照，不打扰艺舞伎"
+          ],
+          [
+            "周日15:00",
+            "岚山小物店手作",
+            "¥1500—3000",
+            "选30分钟款更稳"
+          ],
+          [
+            "周日16:30",
+            "桂川边咖啡",
+            "¥700—1200",
+            "留体力回市区"
+          ]
+        ]
+      },
+      "fixCount": 0
+    },
+    {
+      "index": 22,
+      "pageType": "metricCards",
+      "useImage": false,
+      "imageRole": "none",
+      "imagePrompt": null,
+      "imagePath": null,
+      "icons": [
+        "coffee",
+        "timer",
+        "wallet"
+      ],
+      "chart": null,
+      "table": null,
+      "fixCount": 0
+    },
+    {
+      "index": 23,
+      "pageType": "chapter",
+      "useImage": false,
+      "imageRole": "none",
+      "imagePrompt": null,
+      "imagePath": null,
+      "icons": [],
+      "chart": null,
+      "table": null,
+      "fixCount": 0
+    },
+    {
+      "index": 24,
+      "pageType": "metricCards",
+      "useImage": false,
+      "imageRole": "none",
+      "imagePrompt": null,
+      "imagePath": null,
+      "icons": [
+        "wallet",
+        "bed",
+        "train"
+      ],
+      "chart": null,
+      "table": null,
+      "fixCount": 1
+    },
+    {
+      "index": 25,
+      "pageType": "comparison",
+      "useImage": false,
+      "imageRole": "none",
+      "imagePrompt": null,
+      "imagePath": null,
+      "icons": [
+        "bus",
+        "train",
+        "credit-card",
+        "map-trifold"
+      ],
+      "chart": null,
+      "table": {
+        "headers": [
+          "选择",
+          "适合场景",
+          "新手建议"
+        ],
+        "rows": [
+          [
+            "IC卡",
+            "两日混合出行",
+            "首选，最省心"
+          ],
+          [
+            "公交一日券",
+            "一天坐3次以上公交",
+            "当天再买"
+          ],
+          [
+            "地铁券",
+            "酒店靠地铁线",
+            "按动线判断"
+          ],
+          [
+            "出租车",
+            "夜间或带行李",
+            "短程救急用"
+          ]
+        ]
+      },
+      "fixCount": 1
+    },
+    {
+      "index": 26,
+      "pageType": "threePoints",
+      "useImage": false,
+      "imageRole": "none",
+      "imagePrompt": null,
+      "imagePath": null,
+      "icons": [
+        "clock",
+        "navigation-arrow",
+        "coins"
+      ],
+      "chart": null,
+      "table": null,
+      "fixCount": 0
+    },
+    {
+      "index": 27,
+      "pageType": "checklist",
+      "useImage": false,
+      "imageRole": "none",
+      "imagePrompt": null,
+      "imagePath": null,
+      "icons": [
+        "wifi-high",
+        "map-pin",
+        "shield-check",
+        "clock"
+      ],
+      "chart": null,
+      "table": null,
+      "fixCount": 1
+    },
+    {
+      "index": 28,
+      "pageType": "closing",
+      "useImage": false,
+      "imageRole": "none",
+      "imagePrompt": null,
+      "imagePath": null,
+      "icons": [],
+      "chart": null,
+      "table": null,
+      "fixCount": 0
+    }
+  ]
+}

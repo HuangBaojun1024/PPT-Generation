@@ -1,0 +1,91 @@
+{
+  "templateId": "aurora-consulting",
+  "name": "咨询报告风",
+  "bestFor": ["商业方案", "工作汇报", "说服决策", "复盘总结", "战略规划"],
+  "notGoodFor": ["儿童教育", "强插画风", "生活方式"],
+  "motifs": [
+    "标题左侧 6px 竖向主色 accent-bar",
+    "指标卡：大数字 + 小标签，surface 底 + 细边框 + 微圆角",
+    "页脚：左下角细体页码 + 右下角主题词，全套一致",
+    "分隔线用 1px 的主色 20% 透明度"
+  ],
+  "styleNotes": "克制、高级、留白充分的咨询报告风。大量留白，信息层级用字号和字重表达而非颜色堆砌。标题用大字重，正文行高 1.6。卡片阴影极浅（0 2px 8px rgba(0,0,0,0.06)）。",
+  "layouts": {
+    "cover": {
+      "hint": "整页背景（图片或深色渐变），左下角放大标题（56-72px）+ 副标题，上方小字放场合/受众。文字区加深色半透明底带保证可读。",
+      "maxItems": 0, "density": "low", "allowFullBleedImage": true
+    },
+    "agenda": {
+      "hint": "左侧 1/3 放『目录』大字与装饰，右侧 2/3 垂直列出章节：两位数编号（主色，细体大字）+ 章节标题 + 一句话说明。",
+      "maxItems": 6, "density": "medium"
+    },
+    "chapter": {
+      "hint": "章节过渡页：整页背景图或大色块，超大章节编号（如 02，120px，低透明度）做背景装饰，中央或左下放章节标题与本章一句话主旨。",
+      "maxItems": 1, "density": "low", "allowFullBleedImage": true
+    },
+    "bigIdea": {
+      "hint": "大观点页：整页只有一句核心判断（40-56px，居中或左对齐占 2/3 宽），配一行小字注解。可用超大引号或主色色块装饰。",
+      "maxItems": 1, "density": "low"
+    },
+    "concept": {
+      "hint": "概念解释页：上方标题，下方左右两栏——左栏文字要点，右栏示意（图标组合或配图）。",
+      "maxItems": 3, "density": "medium"
+    },
+    "threePoints": {
+      "hint": "三卡片横排：每卡 = 图标（40px 主色）+ 小标题 + 2 行说明。卡片 surface 底、等宽、间距 24px。",
+      "maxItems": 3, "density": "medium"
+    },
+    "comparison": {
+      "hint": "左右对比双栏：两侧各一张大卡，顶部为对比对象名（一侧主色底白字表示推荐项），下面各 3-4 条要点。中间可放 VS 装饰。",
+      "maxItems": 4, "density": "medium"
+    },
+    "metricCards": {
+      "hint": "2x2 或 1x4 指标卡：每卡大数字（48-64px 主色）+ 指标名 + 一行注解。数字是主角。",
+      "maxItems": 4, "density": "medium"
+    },
+    "timeline": {
+      "hint": "水平时间线：主色横线贯穿，3-5 个节点圆点，节点上下交替放时间标签 + 标题 + 一行描述。",
+      "maxItems": 5, "density": "medium"
+    },
+    "roadmap": {
+      "hint": "阶段路线图：3-4 个阶段卡片横向排列，卡片间箭头连接，每卡 = 阶段名 + 图标 + 2-3 条要点。当前/重点阶段用主色边框强调。",
+      "maxItems": 4, "density": "medium"
+    },
+    "process": {
+      "hint": "流程步骤：横向 3-5 步，每步 = 圆形编号或图标 + 步骤名 + 一行说明，步骤间箭头。",
+      "maxItems": 5, "density": "medium"
+    },
+    "table": {
+      "hint": "表格页：标题下方放表格，表头主色底白字，斑马纹行，重点单元格用主色文字或浅主色底强调。行高宽松。",
+      "maxItems": 6, "density": "high"
+    },
+    "caseStory": {
+      "hint": "案例页：左侧 45% 放配图（圆角），右侧放案例标题 + 叙述要点，底部一行结论用主色强调。",
+      "maxItems": 3, "density": "medium"
+    },
+    "quote": {
+      "hint": "金句页：整页深色或图片背景，中央一句话（36-48px 白字），上方超大装饰引号，下方署名/出处小字。",
+      "maxItems": 1, "density": "low", "allowFullBleedImage": true
+    },
+    "imageSpread": {
+      "hint": "大图页：图片占满整页，一角放短标题与一行说明（半透明深色底带）。",
+      "maxItems": 1, "density": "low", "allowFullBleedImage": true
+    },
+    "checklist": {
+      "hint": "清单页：垂直列表，每项 = 主色对勾图标 + 加粗要点 + 一行补充。最多 5 项，行间距宽松。",
+      "maxItems": 5, "density": "medium"
+    },
+    "code": {
+      "hint": "代码页：深色代码块占右侧 55%（等宽字体，语法高亮用主色/辅助色），左侧放标题与 2-3 条解释要点。",
+      "maxItems": 3, "density": "high"
+    },
+    "barChart": {
+      "hint": "图表页：标题下放图表（占 70% 高度），旁边或底部一行结论文字用主色强调。图表为提供的 SVG。",
+      "maxItems": 2, "density": "medium"
+    },
+    "closing": {
+      "hint": "收尾页：整页背景（图或渐变），中央大字行动号召/总结语，下方一行下一步说明。与封面呼应。",
+      "maxItems": 2, "density": "low", "allowFullBleedImage": true
+    }
+  }
+}

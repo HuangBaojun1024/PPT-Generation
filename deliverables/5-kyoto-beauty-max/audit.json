@@ -1,0 +1,580 @@
+{
+  "reviewScore": null,
+  "entries": [
+    {
+      "slide": 19,
+      "level": "L1",
+      "issues": [
+        "[textClipped] 文本被裁剪: \"04…\" (54x41 > 54x34)"
+      ],
+      "action": "coder 修复（第 1 次）"
+    },
+    {
+      "slide": 2,
+      "level": "L1",
+      "issues": [
+        "[overlap] 装饰元素(div 30x30)与文字重叠: \"预算、预订与Plan B\""
+      ],
+      "action": "coder 修复（第 1 次）"
+    },
+    {
+      "slide": 24,
+      "level": "L1",
+      "issues": [
+        "[overlap] 装饰元素(div 14x14)与文字重叠: \"Fushimi → Arashi\""
+      ],
+      "action": "coder 修复（第 1 次）"
+    },
+    {
+      "slide": 11,
+      "level": "L1",
+      "issues": [
+        "[textClipped] 文本被裁剪: \"4.5公里…\" (226x55 > 226x46)",
+        "[textClipped] 文本被裁剪: \"5小时…\" (226x55 > 226x46)",
+        "[textClipped] 文本被裁剪: \"700日元…\" (226x55 > 226x46)",
+        "[textClipped] 文本被裁剪: \"1次…\" (226x55 > 226x46)"
+      ],
+      "action": "coder 修复（第 1 次）"
+    },
+    {
+      "slide": 26,
+      "level": "L1",
+      "issues": [
+        "[textClipped] 文本被裁剪: \"3000元…\" (360x77 > 360x64)",
+        "[textClipped] 文本被裁剪: \"1200元…\" (283x69 > 283x58)",
+        "[textClipped] 文本被裁剪: \"900元…\" (283x69 > 283x58)",
+        "[textClipped] 文本被裁剪: \"500元…\" (283x69 > 283x58)",
+        "[textClipped] 文本被裁剪: \"400元…\" (283x69 > 283x58)"
+      ],
+      "action": "coder 修复（第 1 次）"
+    },
+    {
+      "slide": 27,
+      "level": "L1",
+      "issues": [
+        "[pageOverflow] slide 内容 1280x728 超出画布 1280x720"
+      ],
+      "action": "coder 修复（第 1 次）"
+    }
+  ],
+  "decisions": [
+    {
+      "index": 0,
+      "pageType": "cover",
+      "useImage": true,
+      "imageRole": "background",
+      "imagePrompt": "封面氛围图：周末两天玩遍京都. Wide cinematic composition with generous negative space suitable as a presentation slide background, key subject off-center. Warm editorial travel photography with subtle washi paper texture, soft morning light and gentle shadows. Use a refined palette of matcha green #5F7448, warm clay #B86B44, vermilion #D94A2B, and cream paper #F7F1E6. Clean magazine composition, approachable, calm, and first-time traveler friendly. Strictly no text, no letters, no words, no watermark, no logo, no UI elements.",
+      "imagePath": "/Users/hbj/Desktop/Workspace/ppt-generator-interview/out-final/5-kyoto-beauty-max/assets/slide-01.png",
+      "icons": [],
+      "chart": null,
+      "table": null,
+      "fixCount": 0
+    },
+    {
+      "index": 1,
+      "pageType": "agenda",
+      "useImage": false,
+      "imageRole": "none",
+      "imagePrompt": null,
+      "imagePath": null,
+      "icons": [],
+      "chart": null,
+      "table": null,
+      "fixCount": 1
+    },
+    {
+      "index": 2,
+      "pageType": "chapter",
+      "useImage": true,
+      "imageRole": "background",
+      "imagePrompt": "章节氛围图：先看懂48小时地图（周末两天玩遍京都）. Wide cinematic composition with generous negative space suitable as a presentation slide background, key subject off-center. Warm editorial travel photography with subtle washi paper texture, soft morning light and gentle shadows. Use a refined palette of matcha green #5F7448, warm clay #B86B44, vermilion #D94A2B, and cream paper #F7F1E6. Clean magazine composition, approachable, calm, and first-time traveler friendly. Strictly no text, no letters, no words, no watermark, no logo, no UI elements.",
+      "imagePath": "/Users/hbj/Desktop/Workspace/ppt-generator-interview/out-final/5-kyoto-beauty-max/assets/slide-03.png",
+      "icons": [],
+      "chart": null,
+      "table": null,
+      "fixCount": 0
+    },
+    {
+      "index": 3,
+      "pageType": "bigIdea",
+      "useImage": true,
+      "imageRole": "supporting",
+      "imagePrompt": "京都手绘地图，标出京都站、东山、伏见稻荷、岚山四点. Clean single-subject composition suitable as an editorial illustration inside a presentation slide. Warm editorial travel photography with subtle washi paper texture, soft morning light and gentle shadows. Use a refined palette of matcha green #5F7448, warm clay #B86B44, vermilion #D94A2B, and cream paper #F7F1E6. Clean magazine composition, approachable, calm, and first-time traveler friendly. Strictly no text, no letters, no words, no watermark, no logo, no UI elements.",
+      "imagePath": "/Users/hbj/Desktop/Workspace/ppt-generator-interview/out-final/5-kyoto-beauty-max/assets/slide-04.png",
+      "icons": [
+        "map-trifold"
+      ],
+      "chart": null,
+      "table": null,
+      "fixCount": 0
+    },
+    {
+      "index": 4,
+      "pageType": "roadmap",
+      "useImage": false,
+      "imageRole": "none",
+      "imagePrompt": null,
+      "imagePath": null,
+      "icons": [
+        "train"
+      ],
+      "chart": null,
+      "table": null,
+      "fixCount": 0
+    },
+    {
+      "index": 5,
+      "pageType": "threePoints",
+      "useImage": false,
+      "imageRole": "none",
+      "imagePrompt": null,
+      "imagePath": null,
+      "icons": [
+        "credit-card",
+        "briefcase"
+      ],
+      "chart": null,
+      "table": null,
+      "fixCount": 0
+    },
+    {
+      "index": 6,
+      "pageType": "table",
+      "useImage": false,
+      "imageRole": "none",
+      "imagePrompt": null,
+      "imagePath": null,
+      "icons": [
+        "wallet",
+        "ticket"
+      ],
+      "chart": null,
+      "table": {
+        "headers": [
+          "项目",
+          "两天估算",
+          "提醒"
+        ],
+        "rows": [
+          [
+            "市内交通",
+            "2,000–3,500日元",
+            "巴士地铁为主，少量JR"
+          ],
+          [
+            "餐饮咖啡",
+            "10,000–16,000日元",
+            "一顿正餐约2,000–4,000日元"
+          ],
+          [
+            "门票体验",
+            "3,000–6,000日元",
+            "寺社、小展、小体验叠加"
+          ],
+          [
+            "伴手礼机动",
+            "7,000–9,000日元",
+            "便利店、药妆、临时打车"
+          ]
+        ]
+      },
+      "fixCount": 0
+    },
+    {
+      "index": 7,
+      "pageType": "chapter",
+      "useImage": true,
+      "imageRole": "background",
+      "imagePrompt": "章节氛围图：周六：东山经典线（周末两天玩遍京都）. Wide cinematic composition with generous negative space suitable as a presentation slide background, key subject off-center. Warm editorial travel photography with subtle washi paper texture, soft morning light and gentle shadows. Use a refined palette of matcha green #5F7448, warm clay #B86B44, vermilion #D94A2B, and cream paper #F7F1E6. Clean magazine composition, approachable, calm, and first-time traveler friendly. Strictly no text, no letters, no words, no watermark, no logo, no UI elements.",
+      "imagePath": "/Users/hbj/Desktop/Workspace/ppt-generator-interview/out-final/5-kyoto-beauty-max/assets/slide-08.png",
+      "icons": [],
+      "chart": null,
+      "table": null,
+      "fixCount": 0
+    },
+    {
+      "index": 8,
+      "pageType": "bigIdea",
+      "useImage": true,
+      "imageRole": "supporting",
+      "imagePrompt": "京都东山石板路上，游客沿坡道走向清水寺. Clean single-subject composition suitable as an editorial illustration inside a presentation slide. Warm editorial travel photography with subtle washi paper texture, soft morning light and gentle shadows. Use a refined palette of matcha green #5F7448, warm clay #B86B44, vermilion #D94A2B, and cream paper #F7F1E6. Clean magazine composition, approachable, calm, and first-time traveler friendly. Strictly no text, no letters, no words, no watermark, no logo, no UI elements.",
+      "imagePath": "/Users/hbj/Desktop/Workspace/ppt-generator-interview/out-final/5-kyoto-beauty-max/assets/slide-09.png",
+      "icons": [
+        "map-trifold",
+        "footprints",
+        "bank"
+      ],
+      "chart": null,
+      "table": null,
+      "fixCount": 0
+    },
+    {
+      "index": 9,
+      "pageType": "roadmap",
+      "useImage": false,
+      "imageRole": "none",
+      "imagePrompt": null,
+      "imagePath": null,
+      "icons": [
+        "camera"
+      ],
+      "chart": null,
+      "table": null,
+      "fixCount": 0
+    },
+    {
+      "index": 10,
+      "pageType": "metricCards",
+      "useImage": false,
+      "imageRole": "none",
+      "imagePrompt": null,
+      "imagePath": null,
+      "icons": [
+        "clock",
+        "ticket",
+        "bus"
+      ],
+      "chart": null,
+      "table": null,
+      "fixCount": 1
+    },
+    {
+      "index": 11,
+      "pageType": "process",
+      "useImage": true,
+      "imageRole": "supporting",
+      "imagePrompt": "清水寺木舞台眺望京都城，游客有序参观. Clean single-subject composition suitable as an editorial illustration inside a presentation slide. Warm editorial travel photography with subtle washi paper texture, soft morning light and gentle shadows. Use a refined palette of matcha green #5F7448, warm clay #B86B44, vermilion #D94A2B, and cream paper #F7F1E6. Clean magazine composition, approachable, calm, and first-time traveler friendly. Strictly no text, no letters, no words, no watermark, no logo, no UI elements.",
+      "imagePath": "/Users/hbj/Desktop/Workspace/ppt-generator-interview/out-final/5-kyoto-beauty-max/assets/slide-12.png",
+      "icons": [
+        "ticket",
+        "binoculars",
+        "city"
+      ],
+      "chart": null,
+      "table": null,
+      "fixCount": 0
+    },
+    {
+      "index": 12,
+      "pageType": "checklist",
+      "useImage": true,
+      "imageRole": "supporting",
+      "imagePrompt": "傍晚祇园花见小路灯笼亮起，游客安静步行. Clean single-subject composition suitable as an editorial illustration inside a presentation slide. Warm editorial travel photography with subtle washi paper texture, soft morning light and gentle shadows. Use a refined palette of matcha green #5F7448, warm clay #B86B44, vermilion #D94A2B, and cream paper #F7F1E6. Clean magazine composition, approachable, calm, and first-time traveler friendly. Strictly no text, no letters, no words, no watermark, no logo, no UI elements.",
+      "imagePath": "/Users/hbj/Desktop/Workspace/ppt-generator-interview/out-final/5-kyoto-beauty-max/assets/slide-13.png",
+      "icons": [
+        "map-pin",
+        "coins"
+      ],
+      "chart": null,
+      "table": null,
+      "fixCount": 0
+    },
+    {
+      "index": 13,
+      "pageType": "chapter",
+      "useImage": true,
+      "imageRole": "background",
+      "imagePrompt": "章节氛围图：夜晚：小众京都切片（周末两天玩遍京都）. Wide cinematic composition with generous negative space suitable as a presentation slide background, key subject off-center. Warm editorial travel photography with subtle washi paper texture, soft morning light and gentle shadows. Use a refined palette of matcha green #5F7448, warm clay #B86B44, vermilion #D94A2B, and cream paper #F7F1E6. Clean magazine composition, approachable, calm, and first-time traveler friendly. Strictly no text, no letters, no words, no watermark, no logo, no UI elements.",
+      "imagePath": "/Users/hbj/Desktop/Workspace/ppt-generator-interview/out-final/5-kyoto-beauty-max/assets/slide-14.png",
+      "icons": [],
+      "chart": null,
+      "table": null,
+      "fixCount": 0
+    },
+    {
+      "index": 14,
+      "pageType": "bigIdea",
+      "useImage": true,
+      "imageRole": "supporting",
+      "imagePrompt": "京都夜晚窄巷，暖灯町家门口，一位游客放慢脚步. Clean single-subject composition suitable as an editorial illustration inside a presentation slide. Warm editorial travel photography with subtle washi paper texture, soft morning light and gentle shadows. Use a refined palette of matcha green #5F7448, warm clay #B86B44, vermilion #D94A2B, and cream paper #F7F1E6. Clean magazine composition, approachable, calm, and first-time traveler friendly. Strictly no text, no letters, no words, no watermark, no logo, no UI elements.",
+      "imagePath": "/Users/hbj/Desktop/Workspace/ppt-generator-interview/out-final/5-kyoto-beauty-max/assets/slide-15.png",
+      "icons": [
+        "moon",
+        "footprints"
+      ],
+      "chart": null,
+      "table": null,
+      "fixCount": 0
+    },
+    {
+      "index": 15,
+      "pageType": "threePoints",
+      "useImage": false,
+      "imageRole": "none",
+      "imagePrompt": null,
+      "imagePath": null,
+      "icons": [
+        "tea-bag",
+        "waves"
+      ],
+      "chart": null,
+      "table": null,
+      "fixCount": 0
+    },
+    {
+      "index": 16,
+      "pageType": "table",
+      "useImage": false,
+      "imageRole": "none",
+      "imagePrompt": null,
+      "imagePath": null,
+      "icons": [
+        "map-pin",
+        "cloud-rain",
+        "wallet"
+      ],
+      "chart": null,
+      "table": {
+        "headers": [
+          "体验",
+          "适合谁",
+          "耗时",
+          "预算",
+          "注意点"
+        ],
+        "rows": [
+          [
+            "茶道",
+            "想理解礼仪",
+            "45-60分钟",
+            "¥3500-6000",
+            "提前预约，袜子干净"
+          ],
+          [
+            "町家晚餐",
+            "想坐下好好吃",
+            "90分钟",
+            "¥4000-8000",
+            "热门店需订位"
+          ],
+          [
+            "鸭川散步",
+            "想低成本放松",
+            "30-60分钟",
+            "¥0",
+            "别大声喧哗"
+          ],
+          [
+            "钱汤",
+            "腿酸想恢复",
+            "60分钟",
+            "¥490-800",
+            "先洗净再入池"
+          ]
+        ]
+      },
+      "fixCount": 0
+    },
+    {
+      "index": 17,
+      "pageType": "checklist",
+      "useImage": false,
+      "imageRole": "none",
+      "imagePrompt": null,
+      "imagePath": null,
+      "icons": [
+        "check-circle",
+        "coins",
+        "train"
+      ],
+      "chart": null,
+      "table": null,
+      "fixCount": 0
+    },
+    {
+      "index": 18,
+      "pageType": "chapter",
+      "useImage": true,
+      "imageRole": "background",
+      "imagePrompt": "章节氛围图：周日：伏见与岚山（周末两天玩遍京都）. Wide cinematic composition with generous negative space suitable as a presentation slide background, key subject off-center. Warm editorial travel photography with subtle washi paper texture, soft morning light and gentle shadows. Use a refined palette of matcha green #5F7448, warm clay #B86B44, vermilion #D94A2B, and cream paper #F7F1E6. Clean magazine composition, approachable, calm, and first-time traveler friendly. Strictly no text, no letters, no words, no watermark, no logo, no UI elements.",
+      "imagePath": "/Users/hbj/Desktop/Workspace/ppt-generator-interview/out-final/5-kyoto-beauty-max/assets/slide-19.png",
+      "icons": [],
+      "chart": null,
+      "table": null,
+      "fixCount": 1
+    },
+    {
+      "index": 19,
+      "pageType": "bigIdea",
+      "useImage": false,
+      "imageRole": "none",
+      "imagePrompt": null,
+      "imagePath": null,
+      "icons": [
+        "leaf"
+      ],
+      "chart": null,
+      "table": null,
+      "fixCount": 0
+    },
+    {
+      "index": 20,
+      "pageType": "timeline",
+      "useImage": false,
+      "imageRole": "none",
+      "imagePrompt": null,
+      "imagePath": null,
+      "icons": [
+        "clock",
+        "train",
+        "map-pin"
+      ],
+      "chart": null,
+      "table": null,
+      "fixCount": 0
+    },
+    {
+      "index": 21,
+      "pageType": "threePoints",
+      "useImage": false,
+      "imageRole": "none",
+      "imagePrompt": null,
+      "imagePath": null,
+      "icons": [
+        "camera",
+        "mountains",
+        "footprints"
+      ],
+      "chart": null,
+      "table": null,
+      "fixCount": 0
+    },
+    {
+      "index": 22,
+      "pageType": "comparison",
+      "useImage": false,
+      "imageRole": "none",
+      "imagePrompt": null,
+      "imagePath": null,
+      "icons": [
+        "waves",
+        "bridge"
+      ],
+      "chart": null,
+      "table": null,
+      "fixCount": 0
+    },
+    {
+      "index": 23,
+      "pageType": "checklist",
+      "useImage": false,
+      "imageRole": "none",
+      "imagePrompt": null,
+      "imagePath": null,
+      "icons": [
+        "wallet",
+        "battery-charging"
+      ],
+      "chart": null,
+      "table": null,
+      "fixCount": 1
+    },
+    {
+      "index": 24,
+      "pageType": "chapter",
+      "useImage": true,
+      "imageRole": "background",
+      "imagePrompt": "章节氛围图：预算、预订与Plan B（周末两天玩遍京都）. Wide cinematic composition with generous negative space suitable as a presentation slide background, key subject off-center. Warm editorial travel photography with subtle washi paper texture, soft morning light and gentle shadows. Use a refined palette of matcha green #5F7448, warm clay #B86B44, vermilion #D94A2B, and cream paper #F7F1E6. Clean magazine composition, approachable, calm, and first-time traveler friendly. Strictly no text, no letters, no words, no watermark, no logo, no UI elements.",
+      "imagePath": "/Users/hbj/Desktop/Workspace/ppt-generator-interview/out-final/5-kyoto-beauty-max/assets/slide-25.png",
+      "icons": [],
+      "chart": null,
+      "table": null,
+      "fixCount": 0
+    },
+    {
+      "index": 25,
+      "pageType": "metricCards",
+      "useImage": false,
+      "imageRole": "none",
+      "imagePrompt": null,
+      "imagePath": null,
+      "icons": [
+        "wallet",
+        "bed",
+        "train",
+        "umbrella"
+      ],
+      "chart": null,
+      "table": null,
+      "fixCount": 1
+    },
+    {
+      "index": 26,
+      "pageType": "checklist",
+      "useImage": false,
+      "imageRole": "none",
+      "imagePrompt": null,
+      "imagePath": null,
+      "icons": [
+        "bed",
+        "credit-card",
+        "calendar-check",
+        "map-pin"
+      ],
+      "chart": null,
+      "table": null,
+      "fixCount": 1
+    },
+    {
+      "index": 27,
+      "pageType": "table",
+      "useImage": false,
+      "imageRole": "none",
+      "imagePrompt": null,
+      "imagePath": null,
+      "icons": [
+        "cloud-rain",
+        "clock",
+        "battery-low"
+      ],
+      "chart": null,
+      "table": {
+        "headers": [
+          "突发情况",
+          "立刻改法",
+          "保留体验"
+        ],
+        "rows": [
+          [
+            "下雨",
+            "清水寺改三十三间堂＋锦市场",
+            "室内看佛像、吃小吃"
+          ],
+          [
+            "伏见排队",
+            "只走千本鸟居前半段",
+            "拍到红鸟居核心画面"
+          ],
+          [
+            "岚山人多",
+            "竹林早到，午后改大河内山庄",
+            "避开主街拥挤"
+          ],
+          [
+            "体力不足",
+            "取消哲学之道或二年坂回头路",
+            "保留祇园夜散步"
+          ],
+          [
+            "迷路超时",
+            "直接打车到下一站入口",
+            "用400元机动金救节奏"
+          ]
+        ]
+      },
+      "fixCount": 0
+    },
+    {
+      "index": 28,
+      "pageType": "closing",
+      "useImage": true,
+      "imageRole": "background",
+      "imagePrompt": "收尾氛围图：周末两天玩遍京都. Wide cinematic composition with generous negative space suitable as a presentation slide background, key subject off-center. Warm editorial travel photography with subtle washi paper texture, soft morning light and gentle shadows. Use a refined palette of matcha green #5F7448, warm clay #B86B44, vermilion #D94A2B, and cream paper #F7F1E6. Clean magazine composition, approachable, calm, and first-time traveler friendly. Strictly no text, no letters, no words, no watermark, no logo, no UI elements.",
+      "imagePath": "/Users/hbj/Desktop/Workspace/ppt-generator-interview/out-final/5-kyoto-beauty-max/assets/slide-29.png",
+      "icons": [],
+      "chart": null,
+      "table": null,
+      "fixCount": 0
+    }
+  ]
+}

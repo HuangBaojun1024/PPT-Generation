@@ -1,0 +1,599 @@
+{
+  "reviewScore": null,
+  "entries": [
+    {
+      "slide": 2,
+      "level": "L1",
+      "issues": [
+        "[textClipped] 文本被裁剪: \"目录…\" (330x87 > 330x73)",
+        "[textClipped] 文本被裁剪: \"01…\" (92x61 > 92x49)",
+        "[textClipped] 文本被裁剪: \"02…\" (92x61 > 92x49)",
+        "[textClipped] 文本被裁剪: \"03…\" (92x61 > 92x49)",
+        "[textClipped] 文本被裁剪: \"04…\" (92x61 > 92x49)",
+        "[textClipped] 文本被裁剪: \"05…\" (92x61 > 92x49)",
+        "[overlap] 装饰元素(div 58x58)与文字重叠: \"目录\""
+      ],
+      "action": "coder 修复（第 1 次）"
+    },
+    {
+      "slide": 21,
+      "level": "L1",
+      "issues": [
+        "[pageOverflow] slide 内容 1280x743 超出画布 1280x720",
+        "[overlap] 装饰元素(div 86x8)与文字重叠: \"washed coffee · \""
+      ],
+      "action": "coder 修复（第 1 次）"
+    },
+    {
+      "slide": 19,
+      "level": "L1",
+      "issues": [
+        "[textClipped] 文本被裁剪: \"方向盘…\" (114x45 > 114x38)"
+      ],
+      "action": "coder 修复（第 1 次）"
+    },
+    {
+      "slide": 11,
+      "level": "L1",
+      "issues": [
+        "[textClipped] 文本被裁剪: \"低…\" (187x89 > 187x72)",
+        "[textClipped] 文本被裁剪: \"中…\" (185x89 > 185x72)",
+        "[textClipped] 文本被裁剪: \"高…\" (187x89 > 187x72)"
+      ],
+      "action": "coder 修复（第 1 次）"
+    },
+    {
+      "slide": 26,
+      "level": "L1",
+      "issues": [
+        "[textClipped] 文本被裁剪: \"四步锁定第一包豆…\" (360x125 > 360x114)"
+      ],
+      "action": "coder 修复（第 1 次）"
+    },
+    {
+      "slide": 22,
+      "level": "L1",
+      "issues": [
+        "[overlap] 装饰元素(div 44x44)与文字重叠: \"可能踩雷点\""
+      ],
+      "action": "coder 修复（第 1 次）"
+    },
+    {
+      "slide": 27,
+      "level": "L1",
+      "issues": [
+        "[overlap] 装饰元素(div 42x42)与文字重叠: \"新手建议\""
+      ],
+      "action": "coder 修复（第 1 次）"
+    },
+    {
+      "slide": 22,
+      "level": "L1",
+      "issues": [
+        "[overlap] 装饰元素(div 44x44)与文字重叠: \"风味描述较宽泛\""
+      ],
+      "action": "coder 修复（第 2 次）"
+    }
+  ],
+  "decisions": [
+    {
+      "index": 0,
+      "pageType": "cover",
+      "useImage": true,
+      "imageRole": "background",
+      "imagePrompt": "封面氛围图：如何挑选一款适合自己的咖啡豆. Wide cinematic composition with generous negative space suitable as a presentation slide background, key subject off-center. Warm editorial coffee photography with hand-drawn tasting notes, cream background #F7F0E6, espresso brown #6B3F2A, sage green #7A8F65 and terracotta #C86B3C accents. Natural morning light, soft paper texture, minimal magazine layout, approachable and artisanal. Strictly no text, no letters, no words, no watermark, no logo, no UI elements.",
+      "imagePath": "/Users/hbj/Desktop/Workspace/ppt-generator-interview/out-final/3-coffee-beauty-max/assets/slide-01.png",
+      "icons": [],
+      "chart": null,
+      "table": null,
+      "fixCount": 0
+    },
+    {
+      "index": 1,
+      "pageType": "agenda",
+      "useImage": false,
+      "imageRole": "none",
+      "imagePrompt": null,
+      "imagePath": null,
+      "icons": [],
+      "chart": null,
+      "table": null,
+      "fixCount": 1
+    },
+    {
+      "index": 2,
+      "pageType": "chapter",
+      "useImage": true,
+      "imageRole": "background",
+      "imagePrompt": "章节氛围图：先从你的杯子开始（如何挑选一款适合自己的咖啡豆）. Wide cinematic composition with generous negative space suitable as a presentation slide background, key subject off-center. Warm editorial coffee photography with hand-drawn tasting notes, cream background #F7F0E6, espresso brown #6B3F2A, sage green #7A8F65 and terracotta #C86B3C accents. Natural morning light, soft paper texture, minimal magazine layout, approachable and artisanal. Strictly no text, no letters, no words, no watermark, no logo, no UI elements.",
+      "imagePath": "/Users/hbj/Desktop/Workspace/ppt-generator-interview/out-final/3-coffee-beauty-max/assets/slide-03.png",
+      "icons": [],
+      "chart": null,
+      "table": null,
+      "fixCount": 0
+    },
+    {
+      "index": 3,
+      "pageType": "bigIdea",
+      "useImage": true,
+      "imageRole": "supporting",
+      "imagePrompt": "新手站在咖啡豆货架前，手里拿着一杯咖啡思考. Clean single-subject composition suitable as an editorial illustration inside a presentation slide. Warm editorial coffee photography with hand-drawn tasting notes, cream background #F7F0E6, espresso brown #6B3F2A, sage green #7A8F65 and terracotta #C86B3C accents. Natural morning light, soft paper texture, minimal magazine layout, approachable and artisanal. Strictly no text, no letters, no words, no watermark, no logo, no UI elements.",
+      "imagePath": "/Users/hbj/Desktop/Workspace/ppt-generator-interview/out-final/3-coffee-beauty-max/assets/slide-04.png",
+      "icons": [
+        "coffee",
+        "map-pin",
+        "heart"
+      ],
+      "chart": null,
+      "table": null,
+      "fixCount": 0
+    },
+    {
+      "index": 4,
+      "pageType": "threePoints",
+      "useImage": false,
+      "imageRole": "none",
+      "imagePrompt": null,
+      "imagePath": null,
+      "icons": [
+        "nut"
+      ],
+      "chart": null,
+      "table": null,
+      "fixCount": 0
+    },
+    {
+      "index": 5,
+      "pageType": "comparison",
+      "useImage": false,
+      "imageRole": "none",
+      "imagePrompt": null,
+      "imagePath": null,
+      "icons": [
+        "scales"
+      ],
+      "chart": null,
+      "table": {
+        "headers": [
+          "你常说的话",
+          "真实偏好可能是",
+          "挑豆关键词"
+        ],
+        "rows": [
+          [
+            "我想要浓一点",
+            "厚度、香气、苦感",
+            "黑巧、坚果、醇厚"
+          ],
+          [
+            "我不想太酸",
+            "低酸、甜感稳定",
+            "焦糖、烘烤、均衡"
+          ],
+          [
+            "我喜欢清爽",
+            "明亮酸、干净尾韵",
+            "柑橘、莓果、花香"
+          ],
+          [
+            "我要配牛奶",
+            "甜感、香气穿透力",
+            "坚果、可可、焦糖"
+          ]
+        ]
+      },
+      "fixCount": 0
+    },
+    {
+      "index": 6,
+      "pageType": "checklist",
+      "useImage": true,
+      "imageRole": "supporting",
+      "imagePrompt": "咖啡店柜台前，顾客用手机备忘录写下挑豆需求. Clean single-subject composition suitable as an editorial illustration inside a presentation slide. Warm editorial coffee photography with hand-drawn tasting notes, cream background #F7F0E6, espresso brown #6B3F2A, sage green #7A8F65 and terracotta #C86B3C accents. Natural morning light, soft paper texture, minimal magazine layout, approachable and artisanal. Strictly no text, no letters, no words, no watermark, no logo, no UI elements.",
+      "imagePath": "/Users/hbj/Desktop/Workspace/ppt-generator-interview/out-final/3-coffee-beauty-max/assets/slide-07.png",
+      "icons": [
+        "check-circle",
+        "x-circle",
+        "target",
+        "shopping-bag"
+      ],
+      "chart": null,
+      "table": null,
+      "fixCount": 0
+    },
+    {
+      "index": 7,
+      "pageType": "chapter",
+      "useImage": true,
+      "imageRole": "background",
+      "imagePrompt": "章节氛围图：烘焙度决定第一印象（如何挑选一款适合自己的咖啡豆）. Wide cinematic composition with generous negative space suitable as a presentation slide background, key subject off-center. Warm editorial coffee photography with hand-drawn tasting notes, cream background #F7F0E6, espresso brown #6B3F2A, sage green #7A8F65 and terracotta #C86B3C accents. Natural morning light, soft paper texture, minimal magazine layout, approachable and artisanal. Strictly no text, no letters, no words, no watermark, no logo, no UI elements.",
+      "imagePath": "/Users/hbj/Desktop/Workspace/ppt-generator-interview/out-final/3-coffee-beauty-max/assets/slide-08.png",
+      "icons": [],
+      "chart": null,
+      "table": null,
+      "fixCount": 0
+    },
+    {
+      "index": 8,
+      "pageType": "bigIdea",
+      "useImage": true,
+      "imageRole": "supporting",
+      "imagePrompt": "三杯咖啡并排，颜色由浅到深，旁边放水果坚果黑巧. Clean single-subject composition suitable as an editorial illustration inside a presentation slide. Warm editorial coffee photography with hand-drawn tasting notes, cream background #F7F0E6, espresso brown #6B3F2A, sage green #7A8F65 and terracotta #C86B3C accents. Natural morning light, soft paper texture, minimal magazine layout, approachable and artisanal. Strictly no text, no letters, no words, no watermark, no logo, no UI elements.",
+      "imagePath": "/Users/hbj/Desktop/Workspace/ppt-generator-interview/out-final/3-coffee-beauty-max/assets/slide-09.png",
+      "icons": [
+        "coffee",
+        "palette"
+      ],
+      "chart": null,
+      "table": null,
+      "fixCount": 0
+    },
+    {
+      "index": 9,
+      "pageType": "comparison",
+      "useImage": false,
+      "imageRole": "none",
+      "imagePrompt": null,
+      "imagePath": null,
+      "icons": [
+        "scales",
+        "cookie"
+      ],
+      "chart": null,
+      "table": {
+        "headers": [
+          "烘焙度",
+          "常见感受",
+          "适合你如果"
+        ],
+        "rows": [
+          [
+            "浅烘",
+            "酸亮、花果香、茶感",
+            "喜欢清爽、愿意慢慢调"
+          ],
+          [
+            "中烘",
+            "酸甜平衡、坚果焦糖",
+            "想少踩雷、黑咖奶咖都喝"
+          ],
+          [
+            "深烘",
+            "苦甜、厚重、烘烤香",
+            "喜欢浓郁、常做拿铁"
+          ]
+        ]
+      },
+      "fixCount": 0
+    },
+    {
+      "index": 10,
+      "pageType": "metricCards",
+      "useImage": false,
+      "imageRole": "none",
+      "imagePrompt": null,
+      "imagePath": null,
+      "icons": [
+        "gauge",
+        "thermometer",
+        "timer"
+      ],
+      "chart": null,
+      "table": null,
+      "fixCount": 1
+    },
+    {
+      "index": 11,
+      "pageType": "checklist",
+      "useImage": true,
+      "imageRole": "supporting",
+      "imagePrompt": "咖啡新手在咖啡店柜台前，根据美式拿铁标签挑豆. Clean single-subject composition suitable as an editorial illustration inside a presentation slide. Warm editorial coffee photography with hand-drawn tasting notes, cream background #F7F0E6, espresso brown #6B3F2A, sage green #7A8F65 and terracotta #C86B3C accents. Natural morning light, soft paper texture, minimal magazine layout, approachable and artisanal. Strictly no text, no letters, no words, no watermark, no logo, no UI elements.",
+      "imagePath": "/Users/hbj/Desktop/Workspace/ppt-generator-interview/out-final/3-coffee-beauty-max/assets/slide-12.png",
+      "icons": [
+        "check-square",
+        "shopping-bag"
+      ],
+      "chart": null,
+      "table": null,
+      "fixCount": 0
+    },
+    {
+      "index": 12,
+      "pageType": "chapter",
+      "useImage": true,
+      "imageRole": "background",
+      "imagePrompt": "章节氛围图：产地是风味地图（如何挑选一款适合自己的咖啡豆）. Wide cinematic composition with generous negative space suitable as a presentation slide background, key subject off-center. Warm editorial coffee photography with hand-drawn tasting notes, cream background #F7F0E6, espresso brown #6B3F2A, sage green #7A8F65 and terracotta #C86B3C accents. Natural morning light, soft paper texture, minimal magazine layout, approachable and artisanal. Strictly no text, no letters, no words, no watermark, no logo, no UI elements.",
+      "imagePath": "/Users/hbj/Desktop/Workspace/ppt-generator-interview/out-final/3-coffee-beauty-max/assets/slide-13.png",
+      "icons": [],
+      "chart": null,
+      "table": null,
+      "fixCount": 0
+    },
+    {
+      "index": 13,
+      "pageType": "bigIdea",
+      "useImage": true,
+      "imageRole": "supporting",
+      "imagePrompt": "桌上摊开世界地图，旁边放三杯不同颜色咖啡. Clean single-subject composition suitable as an editorial illustration inside a presentation slide. Warm editorial coffee photography with hand-drawn tasting notes, cream background #F7F0E6, espresso brown #6B3F2A, sage green #7A8F65 and terracotta #C86B3C accents. Natural morning light, soft paper texture, minimal magazine layout, approachable and artisanal. Strictly no text, no letters, no words, no watermark, no logo, no UI elements.",
+      "imagePath": "/Users/hbj/Desktop/Workspace/ppt-generator-interview/out-final/3-coffee-beauty-max/assets/slide-14.png",
+      "icons": [
+        "map-trifold",
+        "coffee",
+        "compass"
+      ],
+      "chart": null,
+      "table": null,
+      "fixCount": 0
+    },
+    {
+      "index": 14,
+      "pageType": "threePoints",
+      "useImage": false,
+      "imageRole": "none",
+      "imagePrompt": null,
+      "imagePath": null,
+      "icons": [
+        "sun",
+        "scales",
+        "mountains"
+      ],
+      "chart": null,
+      "table": null,
+      "fixCount": 0
+    },
+    {
+      "index": 15,
+      "pageType": "comparison",
+      "useImage": false,
+      "imageRole": "none",
+      "imagePrompt": null,
+      "imagePath": null,
+      "icons": [
+        "cloud-sun"
+      ],
+      "chart": null,
+      "table": null,
+      "fixCount": 0
+    },
+    {
+      "index": 16,
+      "pageType": "checklist",
+      "useImage": false,
+      "imageRole": "none",
+      "imagePrompt": null,
+      "imagePath": null,
+      "icons": [
+        "check-circle",
+        "shopping-bag",
+        "coffee"
+      ],
+      "chart": null,
+      "table": null,
+      "fixCount": 0
+    },
+    {
+      "index": 17,
+      "pageType": "chapter",
+      "useImage": true,
+      "imageRole": "background",
+      "imagePrompt": "章节氛围图：处理法让风味转弯（如何挑选一款适合自己的咖啡豆）. Wide cinematic composition with generous negative space suitable as a presentation slide background, key subject off-center. Warm editorial coffee photography with hand-drawn tasting notes, cream background #F7F0E6, espresso brown #6B3F2A, sage green #7A8F65 and terracotta #C86B3C accents. Natural morning light, soft paper texture, minimal magazine layout, approachable and artisanal. Strictly no text, no letters, no words, no watermark, no logo, no UI elements.",
+      "imagePath": "/Users/hbj/Desktop/Workspace/ppt-generator-interview/out-final/3-coffee-beauty-max/assets/slide-18.png",
+      "icons": [],
+      "chart": null,
+      "table": null,
+      "fixCount": 0
+    },
+    {
+      "index": 18,
+      "pageType": "bigIdea",
+      "useImage": false,
+      "imageRole": "none",
+      "imagePrompt": null,
+      "imagePath": null,
+      "icons": [
+        "coffee"
+      ],
+      "chart": null,
+      "table": null,
+      "fixCount": 1
+    },
+    {
+      "index": 19,
+      "pageType": "comparison",
+      "useImage": false,
+      "imageRole": "none",
+      "imagePrompt": null,
+      "imagePath": null,
+      "icons": [
+        "sun"
+      ],
+      "chart": null,
+      "table": null,
+      "fixCount": 0
+    },
+    {
+      "index": 20,
+      "pageType": "threePoints",
+      "useImage": false,
+      "imageRole": "none",
+      "imagePrompt": null,
+      "imagePath": null,
+      "icons": [
+        "shield-check",
+        "flower"
+      ],
+      "chart": null,
+      "table": null,
+      "fixCount": 1
+    },
+    {
+      "index": 21,
+      "pageType": "table",
+      "useImage": false,
+      "imageRole": "none",
+      "imagePrompt": null,
+      "imagePath": null,
+      "icons": [
+        "table"
+      ],
+      "chart": null,
+      "table": {
+        "headers": [
+          "处理法",
+          "常见感受",
+          "适合你如果",
+          "可能踩雷点"
+        ],
+        "rows": [
+          [
+            "水洗",
+            "干净、明亮、茶感",
+            "喜欢清爽美式",
+            "可能偏酸、偏轻"
+          ],
+          [
+            "日晒",
+            "莓果、酒香、甜熟",
+            "喜欢浓郁果香",
+            "可能发酵感重"
+          ],
+          [
+            "蜜处理",
+            "蜂蜜感、圆润、甜",
+            "想要甜但不太野",
+            "风味描述较宽泛"
+          ]
+        ]
+      },
+      "fixCount": 2
+    },
+    {
+      "index": 22,
+      "pageType": "checklist",
+      "useImage": false,
+      "imageRole": "none",
+      "imagePrompt": null,
+      "imagePath": null,
+      "icons": [
+        "check-circle",
+        "shopping-bag",
+        "coffee"
+      ],
+      "chart": null,
+      "table": null,
+      "fixCount": 0
+    },
+    {
+      "index": 23,
+      "pageType": "chapter",
+      "useImage": true,
+      "imageRole": "background",
+      "imagePrompt": "章节氛围图：把豆单翻译成选择（如何挑选一款适合自己的咖啡豆）. Wide cinematic composition with generous negative space suitable as a presentation slide background, key subject off-center. Warm editorial coffee photography with hand-drawn tasting notes, cream background #F7F0E6, espresso brown #6B3F2A, sage green #7A8F65 and terracotta #C86B3C accents. Natural morning light, soft paper texture, minimal magazine layout, approachable and artisanal. Strictly no text, no letters, no words, no watermark, no logo, no UI elements.",
+      "imagePath": "/Users/hbj/Desktop/Workspace/ppt-generator-interview/out-final/3-coffee-beauty-max/assets/slide-24.png",
+      "icons": [],
+      "chart": null,
+      "table": null,
+      "fixCount": 0
+    },
+    {
+      "index": 24,
+      "pageType": "bigIdea",
+      "useImage": false,
+      "imageRole": "none",
+      "imagePrompt": null,
+      "imagePath": null,
+      "icons": [
+        "coffee",
+        "shopping-bag",
+        "map-trifold"
+      ],
+      "chart": null,
+      "table": null,
+      "fixCount": 0
+    },
+    {
+      "index": 25,
+      "pageType": "process",
+      "useImage": false,
+      "imageRole": "none",
+      "imagePrompt": null,
+      "imagePath": null,
+      "icons": [
+        "shield-check"
+      ],
+      "chart": null,
+      "table": null,
+      "fixCount": 1
+    },
+    {
+      "index": 26,
+      "pageType": "table",
+      "useImage": false,
+      "imageRole": "none",
+      "imagePrompt": null,
+      "imagePath": null,
+      "icons": [
+        "list",
+        "check-circle"
+      ],
+      "chart": null,
+      "table": {
+        "headers": [
+          "豆单写法",
+          "你该读成",
+          "新手建议"
+        ],
+        "rows": [
+          [
+            "浅烘／花果香",
+            "酸感更明显，香气更轻盈",
+            "喜欢清爽美式再选"
+          ],
+          [
+            "中烘／坚果巧克力",
+            "甜苦平衡，容错更高",
+            "第一包优先考虑"
+          ],
+          [
+            "深烘／焦糖烟熏",
+            "苦感厚重，适合加奶",
+            "拿铁党可放心"
+          ],
+          [
+            "日晒／酒香莓果",
+            "风味跳跃，辨识度强",
+            "想尝鲜买小包"
+          ]
+        ]
+      },
+      "fixCount": 1
+    },
+    {
+      "index": 27,
+      "pageType": "checklist",
+      "useImage": false,
+      "imageRole": "none",
+      "imagePrompt": null,
+      "imagePath": null,
+      "icons": [
+        "lego-smiley",
+        "package"
+      ],
+      "chart": null,
+      "table": null,
+      "fixCount": 0
+    },
+    {
+      "index": 28,
+      "pageType": "closing",
+      "useImage": true,
+      "imageRole": "background",
+      "imagePrompt": "收尾氛围图：如何挑选一款适合自己的咖啡豆. Wide cinematic composition with generous negative space suitable as a presentation slide background, key subject off-center. Warm editorial coffee photography with hand-drawn tasting notes, cream background #F7F0E6, espresso brown #6B3F2A, sage green #7A8F65 and terracotta #C86B3C accents. Natural morning light, soft paper texture, minimal magazine layout, approachable and artisanal. Strictly no text, no letters, no words, no watermark, no logo, no UI elements.",
+      "imagePath": "/Users/hbj/Desktop/Workspace/ppt-generator-interview/out-final/3-coffee-beauty-max/assets/slide-29.png",
+      "icons": [],
+      "chart": null,
+      "table": null,
+      "fixCount": 0
+    }
+  ]
+}

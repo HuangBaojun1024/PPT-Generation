@@ -1,0 +1,488 @@
+{
+  "reviewScore": null,
+  "entries": [
+    {
+      "slide": 1,
+      "level": "L1",
+      "issues": [
+        "[textClipped] 文本被裁剪: \"慢慢长出答案…\" (544x85 > 544x71)"
+      ],
+      "action": "coder 修复（第 1 次）"
+    },
+    {
+      "slide": 4,
+      "level": "L1",
+      "issues": [
+        "[overlap] 文本重叠: \"RECEIPT\" 与 \"2025不是爽文，也不是事故报告\""
+      ],
+      "action": "coder 修复（第 1 次）"
+    },
+    {
+      "slide": 2,
+      "level": "L1",
+      "issues": [
+        "[textClipped] 文本被裁剪: \"目录…\" (330x96 > 330x78)",
+        "[textClipped] 文本被裁剪: \"01…\" (112x57 > 112x48)",
+        "[textClipped] 文本被裁剪: \"02…\" (112x57 > 112x48)",
+        "[textClipped] 文本被裁剪: \"03…\" (112x57 > 112x48)",
+        "[textClipped] 文本被裁剪: \"04…\" (112x57 > 112x48)",
+        "[textClipped] 文本被裁剪: \"05…\" (112x57 > 112x48)",
+        "[overlap] 装饰元素(div 42x42)与文字重叠: \"明年先试试看\""
+      ],
+      "action": "coder 修复（第 1 次）"
+    },
+    {
+      "slide": 10,
+      "level": "L1",
+      "issues": [
+        "[textClipped] 文本被裁剪: \"36…\" (226x88 > 226x70)",
+        "[textClipped] 文本被裁剪: \"24…\" (226x88 > 226x70)",
+        "[textClipped] 文本被裁剪: \"8…\" (226x88 > 226x70)",
+        "[textClipped] 文本被裁剪: \"3…\" (226x88 > 226x70)"
+      ],
+      "action": "coder 修复（第 1 次）"
+    },
+    {
+      "slide": 16,
+      "level": "L1",
+      "issues": [
+        "[textClipped] 文本被裁剪: \"6周…\" (226x92 > 226x74)",
+        "[textClipped] 文本被裁剪: \"3次…\" (226x92 > 226x74)",
+        "[textClipped] 文本被裁剪: \"4晚…\" (226x92 > 226x74)",
+        "[textClipped] 文本被裁剪: \"2个…\" (226x92 > 226x74)"
+      ],
+      "action": "coder 修复（第 1 次）"
+    },
+    {
+      "slide": 17,
+      "level": "L1",
+      "issues": [
+        "[pageOverflow] slide 内容 1280x728 超出画布 1280x720"
+      ],
+      "action": "coder 修复（第 1 次）"
+    },
+    {
+      "slide": 21,
+      "level": "L1",
+      "issues": [
+        "[textClipped] 文本被裁剪: \"03…\" (36x36 > 36x30)"
+      ],
+      "action": "coder 修复（第 1 次）"
+    }
+  ],
+  "decisions": [
+    {
+      "index": 0,
+      "pageType": "cover",
+      "useImage": true,
+      "imageRole": "background",
+      "imagePrompt": "封面氛围图：2025 我的年度复盘. Wide cinematic composition with generous negative space suitable as a presentation slide background, key subject off-center. Warm editorial lifestyle collage with soft natural window light, subtle film grain, paper texture, and handcrafted notebook details. Use a calm palette of matcha green #6F8A5B, terracotta #C46A4A, honey accent #E6B85C, cream background #F7F1E6, and deep ink text #263128. Strictly no text, no letters, no words, no watermark, no logo, no UI elements.",
+      "imagePath": "/Users/hbj/Desktop/Workspace/ppt-generator-interview/out-final/2-review-balanced/assets/slide-01.png",
+      "icons": [],
+      "chart": null,
+      "table": null,
+      "fixCount": 1
+    },
+    {
+      "index": 1,
+      "pageType": "agenda",
+      "useImage": false,
+      "imageRole": "none",
+      "imagePrompt": null,
+      "imagePath": null,
+      "icons": [],
+      "chart": null,
+      "table": null,
+      "fixCount": 1
+    },
+    {
+      "index": 2,
+      "pageType": "chapter",
+      "useImage": true,
+      "imageRole": "background",
+      "imagePrompt": "章节氛围图：先把一年摊开（2025 我的年度复盘）. Wide cinematic composition with generous negative space suitable as a presentation slide background, key subject off-center. Warm editorial lifestyle collage with soft natural window light, subtle film grain, paper texture, and handcrafted notebook details. Use a calm palette of matcha green #6F8A5B, terracotta #C46A4A, honey accent #E6B85C, cream background #F7F1E6, and deep ink text #263128. Strictly no text, no letters, no words, no watermark, no logo, no UI elements.",
+      "imagePath": "/Users/hbj/Desktop/Workspace/ppt-generator-interview/out-final/2-review-balanced/assets/slide-03.png",
+      "icons": [],
+      "chart": null,
+      "table": null,
+      "fixCount": 0
+    },
+    {
+      "index": 3,
+      "pageType": "bigIdea",
+      "useImage": false,
+      "imageRole": "none",
+      "imagePrompt": null,
+      "imagePath": null,
+      "icons": [],
+      "chart": null,
+      "table": null,
+      "fixCount": 1
+    },
+    {
+      "index": 4,
+      "pageType": "metricCards",
+      "useImage": false,
+      "imageRole": "none",
+      "imagePrompt": null,
+      "imagePath": null,
+      "icons": [
+        "map-pin",
+        "waves"
+      ],
+      "chart": null,
+      "table": null,
+      "fixCount": 0
+    },
+    {
+      "index": 5,
+      "pageType": "timeline",
+      "useImage": false,
+      "imageRole": "none",
+      "imagePrompt": null,
+      "imagePath": null,
+      "icons": [
+        "sun",
+        "leaf",
+        "snowflake"
+      ],
+      "chart": null,
+      "table": null,
+      "fixCount": 0
+    },
+    {
+      "index": 6,
+      "pageType": "quote",
+      "useImage": false,
+      "imageRole": "none",
+      "imagePrompt": null,
+      "imagePath": null,
+      "icons": [
+        "quotes"
+      ],
+      "chart": null,
+      "table": null,
+      "fixCount": 0
+    },
+    {
+      "index": 7,
+      "pageType": "chapter",
+      "useImage": true,
+      "imageRole": "background",
+      "imagePrompt": "章节氛围图：做成的几件小事（2025 我的年度复盘）. Wide cinematic composition with generous negative space suitable as a presentation slide background, key subject off-center. Warm editorial lifestyle collage with soft natural window light, subtle film grain, paper texture, and handcrafted notebook details. Use a calm palette of matcha green #6F8A5B, terracotta #C46A4A, honey accent #E6B85C, cream background #F7F1E6, and deep ink text #263128. Strictly no text, no letters, no words, no watermark, no logo, no UI elements.",
+      "imagePath": "/Users/hbj/Desktop/Workspace/ppt-generator-interview/out-final/2-review-balanced/assets/slide-08.png",
+      "icons": [],
+      "chart": null,
+      "table": null,
+      "fixCount": 0
+    },
+    {
+      "index": 8,
+      "pageType": "bigIdea",
+      "useImage": false,
+      "imageRole": "none",
+      "imagePrompt": null,
+      "imagePath": null,
+      "icons": [],
+      "chart": null,
+      "table": null,
+      "fixCount": 0
+    },
+    {
+      "index": 9,
+      "pageType": "metricCards",
+      "useImage": false,
+      "imageRole": "none",
+      "imagePrompt": null,
+      "imagePath": null,
+      "icons": [
+        "door-open"
+      ],
+      "chart": null,
+      "table": null,
+      "fixCount": 1
+    },
+    {
+      "index": 10,
+      "pageType": "caseStory",
+      "useImage": false,
+      "imageRole": "none",
+      "imagePrompt": null,
+      "imagePath": null,
+      "icons": [
+        "check-circle"
+      ],
+      "chart": null,
+      "table": null,
+      "fixCount": 0
+    },
+    {
+      "index": 11,
+      "pageType": "threePoints",
+      "useImage": false,
+      "imageRole": "none",
+      "imagePrompt": null,
+      "imagePath": null,
+      "icons": [],
+      "chart": null,
+      "table": null,
+      "fixCount": 0
+    },
+    {
+      "index": 12,
+      "pageType": "checklist",
+      "useImage": false,
+      "imageRole": "none",
+      "imagePrompt": null,
+      "imagePath": null,
+      "icons": [
+        "hourglass"
+      ],
+      "chart": null,
+      "table": null,
+      "fixCount": 0
+    },
+    {
+      "index": 13,
+      "pageType": "chapter",
+      "useImage": true,
+      "imageRole": "background",
+      "imagePrompt": "章节氛围图：踩过的坑与代价（2025 我的年度复盘）. Wide cinematic composition with generous negative space suitable as a presentation slide background, key subject off-center. Warm editorial lifestyle collage with soft natural window light, subtle film grain, paper texture, and handcrafted notebook details. Use a calm palette of matcha green #6F8A5B, terracotta #C46A4A, honey accent #E6B85C, cream background #F7F1E6, and deep ink text #263128. Strictly no text, no letters, no words, no watermark, no logo, no UI elements.",
+      "imagePath": "/Users/hbj/Desktop/Workspace/ppt-generator-interview/out-final/2-review-balanced/assets/slide-14.png",
+      "icons": [],
+      "chart": null,
+      "table": null,
+      "fixCount": 0
+    },
+    {
+      "index": 14,
+      "pageType": "bigIdea",
+      "useImage": false,
+      "imageRole": "none",
+      "imagePrompt": null,
+      "imagePath": null,
+      "icons": [],
+      "chart": null,
+      "table": null,
+      "fixCount": 0
+    },
+    {
+      "index": 15,
+      "pageType": "metricCards",
+      "useImage": false,
+      "imageRole": "none",
+      "imagePrompt": null,
+      "imagePath": null,
+      "icons": [
+        "clock",
+        "moon",
+        "door-open"
+      ],
+      "chart": null,
+      "table": null,
+      "fixCount": 1
+    },
+    {
+      "index": 16,
+      "pageType": "comparison",
+      "useImage": false,
+      "imageRole": "none",
+      "imagePrompt": null,
+      "imagePath": null,
+      "icons": [
+        "repeat"
+      ],
+      "chart": null,
+      "table": null,
+      "fixCount": 1
+    },
+    {
+      "index": 17,
+      "pageType": "checklist",
+      "useImage": false,
+      "imageRole": "none",
+      "imagePrompt": null,
+      "imagePath": null,
+      "icons": [
+        "target",
+        "wallet",
+        "handshake"
+      ],
+      "chart": null,
+      "table": null,
+      "fixCount": 0
+    },
+    {
+      "index": 18,
+      "pageType": "chapter",
+      "useImage": true,
+      "imageRole": "background",
+      "imagePrompt": "章节氛围图：真正留下的变化（2025 我的年度复盘）. Wide cinematic composition with generous negative space suitable as a presentation slide background, key subject off-center. Warm editorial lifestyle collage with soft natural window light, subtle film grain, paper texture, and handcrafted notebook details. Use a calm palette of matcha green #6F8A5B, terracotta #C46A4A, honey accent #E6B85C, cream background #F7F1E6, and deep ink text #263128. Strictly no text, no letters, no words, no watermark, no logo, no UI elements.",
+      "imagePath": "/Users/hbj/Desktop/Workspace/ppt-generator-interview/out-final/2-review-balanced/assets/slide-19.png",
+      "icons": [],
+      "chart": null,
+      "table": null,
+      "fixCount": 0
+    },
+    {
+      "index": 19,
+      "pageType": "bigIdea",
+      "useImage": false,
+      "imageRole": "none",
+      "imagePrompt": null,
+      "imagePath": null,
+      "icons": [],
+      "chart": null,
+      "table": null,
+      "fixCount": 0
+    },
+    {
+      "index": 20,
+      "pageType": "threePoints",
+      "useImage": false,
+      "imageRole": "none",
+      "imagePrompt": null,
+      "imagePath": null,
+      "icons": [
+        "shield-check",
+        "battery-charging"
+      ],
+      "chart": null,
+      "table": null,
+      "fixCount": 1
+    },
+    {
+      "index": 21,
+      "pageType": "comparison",
+      "useImage": false,
+      "imageRole": "none",
+      "imagePrompt": null,
+      "imagePath": null,
+      "icons": [
+        "scales",
+        "moon"
+      ],
+      "chart": null,
+      "table": {
+        "headers": [
+          "以前更在意",
+          "现在会多问"
+        ],
+        "rows": [
+          [
+            "机会够不够大",
+            "代价是不是我能承受"
+          ],
+          [
+            "反馈够不够快",
+            "节奏是不是能长期维持"
+          ],
+          [
+            "别人是否认可",
+            "我是否真的愿意继续"
+          ]
+        ]
+      },
+      "fixCount": 0
+    },
+    {
+      "index": 22,
+      "pageType": "checklist",
+      "useImage": false,
+      "imageRole": "none",
+      "imagePrompt": null,
+      "imagePath": null,
+      "icons": [
+        "calendar-check",
+        "pause-circle",
+        "clock"
+      ],
+      "chart": null,
+      "table": null,
+      "fixCount": 0
+    },
+    {
+      "index": 23,
+      "pageType": "chapter",
+      "useImage": false,
+      "imageRole": "none",
+      "imagePrompt": null,
+      "imagePath": null,
+      "icons": [],
+      "chart": null,
+      "table": null,
+      "fixCount": 0
+    },
+    {
+      "index": 24,
+      "pageType": "bigIdea",
+      "useImage": false,
+      "imageRole": "none",
+      "imagePrompt": null,
+      "imagePath": null,
+      "icons": [],
+      "chart": null,
+      "table": null,
+      "fixCount": 0
+    },
+    {
+      "index": 25,
+      "pageType": "roadmap",
+      "useImage": false,
+      "imageRole": "none",
+      "imagePrompt": null,
+      "imagePath": null,
+      "icons": [
+        "shopping-bag",
+        "users"
+      ],
+      "chart": null,
+      "table": null,
+      "fixCount": 0
+    },
+    {
+      "index": 26,
+      "pageType": "comparison",
+      "useImage": false,
+      "imageRole": "none",
+      "imagePrompt": null,
+      "imagePath": null,
+      "icons": [
+        "flag",
+        "footprints"
+      ],
+      "chart": null,
+      "table": null,
+      "fixCount": 0
+    },
+    {
+      "index": 27,
+      "pageType": "checklist",
+      "useImage": false,
+      "imageRole": "none",
+      "imagePrompt": null,
+      "imagePath": null,
+      "icons": [
+        "check-circle",
+        "repeat",
+        "scissors",
+        "calendar"
+      ],
+      "chart": null,
+      "table": null,
+      "fixCount": 0
+    },
+    {
+      "index": 28,
+      "pageType": "closing",
+      "useImage": false,
+      "imageRole": "none",
+      "imagePrompt": null,
+      "imagePath": null,
+      "icons": [],
+      "chart": null,
+      "table": null,
+      "fixCount": 0
+    }
+  ]
+}

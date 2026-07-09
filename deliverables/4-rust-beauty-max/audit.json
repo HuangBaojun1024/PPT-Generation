@@ -1,0 +1,652 @@
+{
+  "reviewScore": null,
+  "entries": [
+    {
+      "slide": 18,
+      "level": "L1",
+      "issues": [
+        "[textClipped] 文本被裁剪: \"40%…\" (222x69 > 222x58)",
+        "[textClipped] 文本被裁剪: \"30%…\" (222x69 > 222x58)",
+        "[textClipped] 文本被裁剪: \"50%…\" (222x69 > 222x58)",
+        "[textClipped] 文本被裁剪: \"99.95%…\" (222x64 > 222x54)"
+      ],
+      "action": "coder 修复（第 1 次）"
+    },
+    {
+      "slide": 29,
+      "level": "L1",
+      "issues": [
+        "[textClipped] 文本被裁剪: \"99.99%…\" (425x69 > 425x58)",
+        "[textClipped] 文本被裁剪: \"≤0.05%…\" (425x69 > 425x58)",
+        "[textClipped] 文本被裁剪: \"≤200ms…\" (425x69 > 425x58)",
+        "[textClipped] 文本被裁剪: \"14天…\" (425x69 > 425x58)"
+      ],
+      "action": "coder 修复（第 1 次）"
+    },
+    {
+      "slide": 12,
+      "level": "L1",
+      "issues": [
+        "[textClipped] 文本被裁剪: \"3.2倍…\" (136x69 > 136x58)",
+        "[textClipped] 文本被裁剪: \"18分钟…\" (167x69 > 167x58)",
+        "[textClipped] 文本被裁剪: \"42%…\" (122x69 > 122x58)",
+        "[textClipped] 文本被裁剪: \"2.5倍…\" (136x69 > 136x58)"
+      ],
+      "action": "coder 修复（第 1 次）"
+    }
+  ],
+  "decisions": [
+    {
+      "index": 0,
+      "pageType": "cover",
+      "useImage": true,
+      "imageRole": "background",
+      "imagePrompt": "封面氛围图：给老板讲清楚为什么我们应该用 Rust 重写订单系统. Wide cinematic composition with generous negative space suitable as a presentation slide background, key subject off-center. Premium boardroom consulting visuals with clean geometric layouts, subtle paper grain, warm natural light, and restrained editorial realism. Use deep forest green #173B35, copper accent #C46A2D, warm taupe #8A5A44, ivory background #F7F3EA, crisp shadows, executive-grade clarity. Strictly no text, no letters, no words, no watermark, no logo, no UI elements.",
+      "imagePath": "/Users/hbj/Desktop/Workspace/ppt-generator-interview/out-final/4-rust-beauty-max/assets/slide-01.png",
+      "icons": [],
+      "chart": null,
+      "table": null,
+      "fixCount": 0
+    },
+    {
+      "index": 1,
+      "pageType": "agenda",
+      "useImage": false,
+      "imageRole": "none",
+      "imagePrompt": null,
+      "imagePath": null,
+      "icons": [],
+      "chart": null,
+      "table": null,
+      "fixCount": 0
+    },
+    {
+      "index": 2,
+      "pageType": "chapter",
+      "useImage": true,
+      "imageRole": "background",
+      "imagePrompt": "章节氛围图：问题不是慢，是丢单（给老板讲清楚为什么我们应该用 Rust 重写订单系统）. Wide cinematic composition with generous negative space suitable as a presentation slide background, key subject off-center. Premium boardroom consulting visuals with clean geometric layouts, subtle paper grain, warm natural light, and restrained editorial realism. Use deep forest green #173B35, copper accent #C46A2D, warm taupe #8A5A44, ivory background #F7F3EA, crisp shadows, executive-grade clarity. Strictly no text, no letters, no words, no watermark, no logo, no UI elements.",
+      "imagePath": "/Users/hbj/Desktop/Workspace/ppt-generator-interview/out-final/4-rust-beauty-max/assets/slide-03.png",
+      "icons": [],
+      "chart": null,
+      "table": null,
+      "fixCount": 0
+    },
+    {
+      "index": 3,
+      "pageType": "bigIdea",
+      "useImage": true,
+      "imageRole": "supporting",
+      "imagePrompt": "收银台前排队顾客离开，屏幕显示订单处理中. Clean single-subject composition suitable as an editorial illustration inside a presentation slide. Premium boardroom consulting visuals with clean geometric layouts, subtle paper grain, warm natural light, and restrained editorial realism. Use deep forest green #173B35, copper accent #C46A2D, warm taupe #8A5A44, ivory background #F7F3EA, crisp shadows, executive-grade clarity. Strictly no text, no letters, no words, no watermark, no logo, no UI elements.",
+      "imagePath": "/Users/hbj/Desktop/Workspace/ppt-generator-interview/out-final/4-rust-beauty-max/assets/slide-04.png",
+      "icons": [],
+      "chart": null,
+      "table": null,
+      "fixCount": 0
+    },
+    {
+      "index": 4,
+      "pageType": "metricCards",
+      "useImage": false,
+      "imageRole": "none",
+      "imagePrompt": null,
+      "imagePath": null,
+      "icons": [
+        "timer",
+        "shopping-cart",
+        "headphones"
+      ],
+      "chart": null,
+      "table": null,
+      "fixCount": 0
+    },
+    {
+      "index": 5,
+      "pageType": "caseStory",
+      "useImage": true,
+      "imageRole": "supporting",
+      "imagePrompt": "用户手机下单卡住，客服后台弹出多条投诉. Clean single-subject composition suitable as an editorial illustration inside a presentation slide. Premium boardroom consulting visuals with clean geometric layouts, subtle paper grain, warm natural light, and restrained editorial realism. Use deep forest green #173B35, copper accent #C46A2D, warm taupe #8A5A44, ivory background #F7F3EA, crisp shadows, executive-grade clarity. Strictly no text, no letters, no words, no watermark, no logo, no UI elements.",
+      "imagePath": "/Users/hbj/Desktop/Workspace/ppt-generator-interview/out-final/4-rust-beauty-max/assets/slide-06.png",
+      "icons": [],
+      "chart": null,
+      "table": null,
+      "fixCount": 0
+    },
+    {
+      "index": 6,
+      "pageType": "barChart",
+      "useImage": false,
+      "imageRole": "none",
+      "imagePrompt": null,
+      "imagePath": null,
+      "icons": [],
+      "chart": {
+        "type": "bar",
+        "title": "不同流量场景下的订单超时率",
+        "unit": "%",
+        "labels": [
+          "日常",
+          "周末高峰",
+          "活动预热",
+          "大促峰值"
+        ],
+        "values": [
+          0.6,
+          1.4,
+          2.3,
+          3.8
+        ]
+      },
+      "table": null,
+      "fixCount": 0
+    },
+    {
+      "index": 7,
+      "pageType": "chapter",
+      "useImage": true,
+      "imageRole": "background",
+      "imagePrompt": "章节氛围图：补丁无法穿越大促峰值（给老板讲清楚为什么我们应该用 Rust 重写订单系统）. Wide cinematic composition with generous negative space suitable as a presentation slide background, key subject off-center. Premium boardroom consulting visuals with clean geometric layouts, subtle paper grain, warm natural light, and restrained editorial realism. Use deep forest green #173B35, copper accent #C46A2D, warm taupe #8A5A44, ivory background #F7F3EA, crisp shadows, executive-grade clarity. Strictly no text, no letters, no words, no watermark, no logo, no UI elements.",
+      "imagePath": "/Users/hbj/Desktop/Workspace/ppt-generator-interview/out-final/4-rust-beauty-max/assets/slide-08.png",
+      "icons": [],
+      "chart": null,
+      "table": null,
+      "fixCount": 0
+    },
+    {
+      "index": 8,
+      "pageType": "bigIdea",
+      "useImage": true,
+      "imageRole": "supporting",
+      "imagePrompt": "促销夜晚订单洪峰冲向脆弱管道，管道多处漏水. Clean single-subject composition suitable as an editorial illustration inside a presentation slide. Premium boardroom consulting visuals with clean geometric layouts, subtle paper grain, warm natural light, and restrained editorial realism. Use deep forest green #173B35, copper accent #C46A2D, warm taupe #8A5A44, ivory background #F7F3EA, crisp shadows, executive-grade clarity. Strictly no text, no letters, no words, no watermark, no logo, no UI elements.",
+      "imagePath": "/Users/hbj/Desktop/Workspace/ppt-generator-interview/out-final/4-rust-beauty-max/assets/slide-09.png",
+      "icons": [
+        "waves"
+      ],
+      "chart": null,
+      "table": null,
+      "fixCount": 0
+    },
+    {
+      "index": 9,
+      "pageType": "threePoints",
+      "useImage": false,
+      "imageRole": "none",
+      "imagePrompt": null,
+      "imagePath": null,
+      "icons": [
+        "hard-drives",
+        "database"
+      ],
+      "chart": null,
+      "table": null,
+      "fixCount": 0
+    },
+    {
+      "index": 10,
+      "pageType": "comparison",
+      "useImage": false,
+      "imageRole": "none",
+      "imagePrompt": null,
+      "imagePath": null,
+      "icons": [
+        "git-branch",
+        "clock",
+        "cpu"
+      ],
+      "chart": null,
+      "table": null,
+      "fixCount": 0
+    },
+    {
+      "index": 11,
+      "pageType": "metricCards",
+      "useImage": false,
+      "imageRole": "none",
+      "imagePrompt": null,
+      "imagePath": null,
+      "icons": [
+        "timer",
+        "repeat",
+        "gauge"
+      ],
+      "chart": null,
+      "table": null,
+      "fixCount": 1
+    },
+    {
+      "index": 12,
+      "pageType": "table",
+      "useImage": false,
+      "imageRole": "none",
+      "imagePrompt": null,
+      "imagePath": null,
+      "icons": [
+        "wrench",
+        "shield",
+        "x-circle"
+      ],
+      "chart": null,
+      "table": {
+        "headers": [
+          "补丁手段",
+          "短期收益",
+          "峰值天花板",
+          "经营风险"
+        ],
+        "rows": [
+          [
+            "加机器",
+            "提升平均吞吐",
+            "同步排队仍存在",
+            "成本随峰值陡增"
+          ],
+          [
+            "加缓存",
+            "降低读压力",
+            "写链路仍脆弱",
+            "库存与价格不一致"
+          ],
+          [
+            "加重试",
+            "减少表面失败",
+            "放大拥塞流量",
+            "用户重复下单"
+          ],
+          [
+            "拆服务",
+            "局部独立扩展",
+            "调用链更长",
+            "故障定位变慢"
+          ]
+        ]
+      },
+      "fixCount": 0
+    },
+    {
+      "index": 13,
+      "pageType": "chapter",
+      "useImage": true,
+      "imageRole": "background",
+      "imagePrompt": "章节氛围图：为什么是 Rust（给老板讲清楚为什么我们应该用 Rust 重写订单系统）. Wide cinematic composition with generous negative space suitable as a presentation slide background, key subject off-center. Premium boardroom consulting visuals with clean geometric layouts, subtle paper grain, warm natural light, and restrained editorial realism. Use deep forest green #173B35, copper accent #C46A2D, warm taupe #8A5A44, ivory background #F7F3EA, crisp shadows, executive-grade clarity. Strictly no text, no letters, no words, no watermark, no logo, no UI elements.",
+      "imagePath": "/Users/hbj/Desktop/Workspace/ppt-generator-interview/out-final/4-rust-beauty-max/assets/slide-14.png",
+      "icons": [],
+      "chart": null,
+      "table": null,
+      "fixCount": 0
+    },
+    {
+      "index": 14,
+      "pageType": "bigIdea",
+      "useImage": true,
+      "imageRole": "supporting",
+      "imagePrompt": "控制室大屏显示订单链路稳定通过高峰流量. Clean single-subject composition suitable as an editorial illustration inside a presentation slide. Premium boardroom consulting visuals with clean geometric layouts, subtle paper grain, warm natural light, and restrained editorial realism. Use deep forest green #173B35, copper accent #C46A2D, warm taupe #8A5A44, ivory background #F7F3EA, crisp shadows, executive-grade clarity. Strictly no text, no letters, no words, no watermark, no logo, no UI elements.",
+      "imagePath": "/Users/hbj/Desktop/Workspace/ppt-generator-interview/out-final/4-rust-beauty-max/assets/slide-15.png",
+      "icons": [
+        "shield-check",
+        "gauge"
+      ],
+      "chart": null,
+      "table": null,
+      "fixCount": 0
+    },
+    {
+      "index": 15,
+      "pageType": "comparison",
+      "useImage": false,
+      "imageRole": "none",
+      "imagePrompt": null,
+      "imagePath": null,
+      "icons": [
+        "bug",
+        "shield"
+      ],
+      "chart": null,
+      "table": {
+        "headers": [
+          "维度",
+          "Python现状",
+          "Rust改造后"
+        ],
+        "rows": [
+          [
+            "性能波动",
+            "靠扩容缓冲",
+            "靠低开销执行降低波动"
+          ],
+          [
+            "并发安全",
+            "靠约定和测试",
+            "编译器强制约束"
+          ],
+          [
+            "故障发现",
+            "上线后监控发现",
+            "上线前编译拦截一部分"
+          ],
+          [
+            "资源成本",
+            "峰值时堆机器",
+            "同等流量更少资源"
+          ]
+        ]
+      },
+      "fixCount": 0
+    },
+    {
+      "index": 16,
+      "pageType": "threePoints",
+      "useImage": false,
+      "imageRole": "none",
+      "imagePrompt": null,
+      "imagePath": null,
+      "icons": [
+        "shield-check",
+        "coins"
+      ],
+      "chart": null,
+      "table": null,
+      "fixCount": 0
+    },
+    {
+      "index": 17,
+      "pageType": "metricCards",
+      "useImage": false,
+      "imageRole": "none",
+      "imagePrompt": null,
+      "imagePath": null,
+      "icons": [
+        "timer",
+        "hard-drives"
+      ],
+      "chart": null,
+      "table": null,
+      "fixCount": 1
+    },
+    {
+      "index": 18,
+      "pageType": "table",
+      "useImage": false,
+      "imageRole": "none",
+      "imagePrompt": null,
+      "imagePath": null,
+      "icons": [
+        "target",
+        "git-branch",
+        "wallet"
+      ],
+      "chart": null,
+      "table": {
+        "headers": [
+          "系统区域",
+          "建议技术",
+          "原因"
+        ],
+        "rows": [
+          [
+            "下单校验",
+            "Rust",
+            "高并发入口，延迟直接影响转化"
+          ],
+          [
+            "库存锁定",
+            "Rust",
+            "一致性要求高，重复扣减风险大"
+          ],
+          [
+            "支付回调处理",
+            "Rust",
+            "需要稳定幂等，不能重复成单"
+          ],
+          [
+            "运营配置",
+            "Python保留",
+            "变更频繁，性能不是瓶颈"
+          ],
+          [
+            "报表查询",
+            "Python保留",
+            "离线为主，不在交易主链路"
+          ]
+        ]
+      },
+      "fixCount": 0
+    },
+    {
+      "index": 19,
+      "pageType": "chapter",
+      "useImage": true,
+      "imageRole": "background",
+      "imagePrompt": "章节氛围图：这笔账是否划算（给老板讲清楚为什么我们应该用 Rust 重写订单系统）. Wide cinematic composition with generous negative space suitable as a presentation slide background, key subject off-center. Premium boardroom consulting visuals with clean geometric layouts, subtle paper grain, warm natural light, and restrained editorial realism. Use deep forest green #173B35, copper accent #C46A2D, warm taupe #8A5A44, ivory background #F7F3EA, crisp shadows, executive-grade clarity. Strictly no text, no letters, no words, no watermark, no logo, no UI elements.",
+      "imagePath": "/Users/hbj/Desktop/Workspace/ppt-generator-interview/out-final/4-rust-beauty-max/assets/slide-20.png",
+      "icons": [],
+      "chart": null,
+      "table": null,
+      "fixCount": 0
+    },
+    {
+      "index": 20,
+      "pageType": "bigIdea",
+      "useImage": true,
+      "imageRole": "supporting",
+      "imagePrompt": "电商大促指挥室中，订单流稳定穿过峰值曲线. Clean single-subject composition suitable as an editorial illustration inside a presentation slide. Premium boardroom consulting visuals with clean geometric layouts, subtle paper grain, warm natural light, and restrained editorial realism. Use deep forest green #173B35, copper accent #C46A2D, warm taupe #8A5A44, ivory background #F7F3EA, crisp shadows, executive-grade clarity. Strictly no text, no letters, no words, no watermark, no logo, no UI elements.",
+      "imagePath": "/Users/hbj/Desktop/Workspace/ppt-generator-interview/out-final/4-rust-beauty-max/assets/slide-21.png",
+      "icons": [
+        "shield-check",
+        "shopping-cart"
+      ],
+      "chart": null,
+      "table": null,
+      "fixCount": 0
+    },
+    {
+      "index": 21,
+      "pageType": "metricCards",
+      "useImage": false,
+      "imageRole": "none",
+      "imagePrompt": null,
+      "imagePath": null,
+      "icons": [
+        "hard-drives",
+        "gauge"
+      ],
+      "chart": null,
+      "table": null,
+      "fixCount": 0
+    },
+    {
+      "index": 22,
+      "pageType": "barChart",
+      "useImage": false,
+      "imageRole": "none",
+      "imagePrompt": null,
+      "imagePath": null,
+      "icons": [
+        "wrench",
+        "coins"
+      ],
+      "chart": {
+        "type": "bar",
+        "title": "两种路径三年总成本估算",
+        "unit": "万元",
+        "labels": [
+          "继续补丁-第1年",
+          "继续补丁-第2年",
+          "继续补丁-第3年",
+          "Rust重写-第1年",
+          "Rust重写-第2年",
+          "Rust重写-第3年"
+        ],
+        "values": [
+          260,
+          340,
+          430,
+          520,
+          180,
+          160
+        ]
+      },
+      "table": null,
+      "fixCount": 0
+    },
+    {
+      "index": 23,
+      "pageType": "table",
+      "useImage": false,
+      "imageRole": "none",
+      "imagePrompt": null,
+      "imagePath": null,
+      "icons": [
+        "target",
+        "scales"
+      ],
+      "chart": null,
+      "table": {
+        "headers": [
+          "衡量项",
+          "通过线",
+          "经营含义"
+        ],
+        "rows": [
+          [
+            "峰值丢单率",
+            "下降70%以上",
+            "直接保全成交收入"
+          ],
+          [
+            "订单接口P99",
+            "降低50%以上",
+            "减少支付前流失"
+          ],
+          [
+            "峰值机器成本",
+            "下降30%以上",
+            "降低规模化边际成本"
+          ],
+          [
+            "重大事故次数",
+            "季度≤1次",
+            "降低品牌与补偿风险"
+          ]
+        ]
+      },
+      "fixCount": 0
+    },
+    {
+      "index": 24,
+      "pageType": "chapter",
+      "useImage": true,
+      "imageRole": "background",
+      "imagePrompt": "章节氛围图：如何低风险推进（给老板讲清楚为什么我们应该用 Rust 重写订单系统）. Wide cinematic composition with generous negative space suitable as a presentation slide background, key subject off-center. Premium boardroom consulting visuals with clean geometric layouts, subtle paper grain, warm natural light, and restrained editorial realism. Use deep forest green #173B35, copper accent #C46A2D, warm taupe #8A5A44, ivory background #F7F3EA, crisp shadows, executive-grade clarity. Strictly no text, no letters, no words, no watermark, no logo, no UI elements.",
+      "imagePath": "/Users/hbj/Desktop/Workspace/ppt-generator-interview/out-final/4-rust-beauty-max/assets/slide-25.png",
+      "icons": [],
+      "chart": null,
+      "table": null,
+      "fixCount": 0
+    },
+    {
+      "index": 25,
+      "pageType": "bigIdea",
+      "useImage": false,
+      "imageRole": "none",
+      "imagePrompt": null,
+      "imagePath": null,
+      "icons": [
+        "shield-check"
+      ],
+      "chart": null,
+      "table": null,
+      "fixCount": 0
+    },
+    {
+      "index": 26,
+      "pageType": "roadmap",
+      "useImage": false,
+      "imageRole": "none",
+      "imagePrompt": null,
+      "imagePath": null,
+      "icons": [
+        "box-arrow-down",
+        "gauge",
+        "flag"
+      ],
+      "chart": null,
+      "table": null,
+      "fixCount": 0
+    },
+    {
+      "index": 27,
+      "pageType": "table",
+      "useImage": false,
+      "imageRole": "none",
+      "imagePrompt": null,
+      "imagePath": null,
+      "icons": [
+        "traffic-cone"
+      ],
+      "chart": null,
+      "table": {
+        "headers": [
+          "阶段",
+          "放行指标",
+          "刹车条件",
+          "回退方式"
+        ],
+        "rows": [
+          [
+            "双写校验",
+            "订单金额一致率≥99.99%",
+            "任一差异无法解释",
+            "仅保留 Python 生效"
+          ],
+          [
+            "1%灰度",
+            "失败率≤0.05%",
+            "失败率连续10分钟超线",
+            "流量切回 Python"
+          ],
+          [
+            "30%灰度",
+            "P99延迟≤200ms",
+            "延迟超线或投诉上升",
+            "降回上一流量档"
+          ],
+          [
+            "全量接管",
+            "连续14天无P1故障",
+            "出现收入影响故障",
+            "旧链路临时接管"
+          ]
+        ]
+      },
+      "fixCount": 0
+    },
+    {
+      "index": 28,
+      "pageType": "metricCards",
+      "useImage": false,
+      "imageRole": "none",
+      "imagePrompt": null,
+      "imagePath": null,
+      "icons": [
+        "percent",
+        "timer",
+        "calendar-check"
+      ],
+      "chart": null,
+      "table": null,
+      "fixCount": 1
+    },
+    {
+      "index": 29,
+      "pageType": "closing",
+      "useImage": true,
+      "imageRole": "background",
+      "imagePrompt": "收尾氛围图：给老板讲清楚为什么我们应该用 Rust 重写订单系统. Wide cinematic composition with generous negative space suitable as a presentation slide background, key subject off-center. Premium boardroom consulting visuals with clean geometric layouts, subtle paper grain, warm natural light, and restrained editorial realism. Use deep forest green #173B35, copper accent #C46A2D, warm taupe #8A5A44, ivory background #F7F3EA, crisp shadows, executive-grade clarity. Strictly no text, no letters, no words, no watermark, no logo, no UI elements.",
+      "imagePath": "/Users/hbj/Desktop/Workspace/ppt-generator-interview/out-final/4-rust-beauty-max/assets/slide-30.png",
+      "icons": [],
+      "chart": null,
+      "table": null,
+      "fixCount": 0
+    }
+  ]
+}

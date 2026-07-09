@@ -1,0 +1,54 @@
+{
+  "providers": {
+    "saturday": {
+      "baseURLEnv": "SATURDAY_BASE_URL",
+      "apiKeyEnv": "SATURDAY_API_KEY",
+      "protocol": "openai"
+    },
+    "haoai": {
+      "baseURL": "https://api.hao.ai/anthropic/v1",
+      "apiKeyEnv": "HAOAI_API_KEY",
+      "protocol": "anthropic"
+    },
+    "apimart": {
+      "baseURL": "https://api.apimart.ai/v1",
+      "apiKeyEnv": "APIMART_API_KEY",
+      "protocol": "apimart"
+    }
+  },
+  "defaultPreset": "test",
+  "presets": {
+    "test": {
+      "planner": { "provider": "saturday", "model": "gpt-5.5", "reasoningEffort": "high" },
+      "writer": {
+        "provider": "saturday", "model": "gpt-5.5", "reasoningEffort": "low",
+        "fallback": { "provider": "saturday", "model": "glm-5.1" }
+      },
+      "coder": {
+        "provider": "saturday", "model": "gpt-5.5", "reasoningEffort": "low",
+        "fallback": { "provider": "saturday", "model": "glm-5.1" }
+      },
+      "reviewer": { "enabled": false, "provider": "saturday", "model": "gpt-5.5" },
+      "image": {
+        "provider": "saturday", "model": "gpt-image-2",
+        "fallback": { "provider": "apimart", "model": "gpt-image-2" }
+      }
+    },
+    "full": {
+      "planner": { "provider": "saturday", "model": "gpt-5.5", "reasoningEffort": "high" },
+      "writer": {
+        "provider": "saturday", "model": "gpt-5.5", "reasoningEffort": "low",
+        "fallback": { "provider": "saturday", "model": "glm-5.1" }
+      },
+      "coder": {
+        "provider": "haoai", "model": "claude-fable-5",
+        "fallback": { "provider": "saturday", "model": "gpt-5.5", "reasoningEffort": "low" }
+      },
+      "reviewer": { "enabled": true, "provider": "haoai", "model": "claude-opus-4-7", "thinking": true },
+      "image": {
+        "provider": "saturday", "model": "gpt-image-2",
+        "fallback": { "provider": "apimart", "model": "gpt-image-2" }
+      }
+    }
+  }
+}

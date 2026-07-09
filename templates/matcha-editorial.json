@@ -1,0 +1,91 @@
+{
+  "templateId": "matcha-editorial",
+  "name": "杂志编辑风",
+  "bestFor": ["旅行攻略", "生活方式", "美食", "个人分享", "年度复盘", "兴趣科普"],
+  "notGoodFor": ["严肃商务决策", "技术架构"],
+  "motifs": [
+    "衬线感大标题（可用粗黑体模拟杂志标题气质）+ 细体正文的强对比",
+    "照片统一 12px 圆角 + 细白边框，像贴上去的照片卡",
+    "章节编号用超大低透明度数字铺底",
+    "点缀性小标签：主色圆角胶囊小字（如 TIPS / MUST GO）"
+  ],
+  "styleNotes": "温暖、有呼吸感的杂志版式。留白大方，图文错落（避免死板居中），小标签和手账式点缀制造亲切感。正文行高 1.7。",
+  "layouts": {
+    "cover": {
+      "hint": "杂志封面式：整页大图背景，标题竖排或大字居左下（60-76px），配期刊感小字（日期/受众/一句副题）。",
+      "maxItems": 0, "density": "low", "allowFullBleedImage": true
+    },
+    "agenda": {
+      "hint": "目录页：像杂志目录，左列大号章节编号（衬线感），右列章节名 + 一句预告，横向细分隔线。",
+      "maxItems": 6, "density": "medium"
+    },
+    "chapter": {
+      "hint": "章节页：大图占 60%（左或上），另一侧超大章节数字 + 章节标题 + 一句引言。",
+      "maxItems": 1, "density": "low", "allowFullBleedImage": true
+    },
+    "bigIdea": {
+      "hint": "观点页：一句话大字（40-52px）配一张小图或大面积色块，非对称排版。",
+      "maxItems": 1, "density": "low"
+    },
+    "concept": {
+      "hint": "图文页：左文右图或右文左图（与前后页交替），文字侧 = 标题 + 2-3 段短要点，图侧圆角照片。",
+      "maxItems": 3, "density": "medium"
+    },
+    "threePoints": {
+      "hint": "三张竖卡：每卡 = 顶部图标或小图 + 标题 + 短说明，卡片底色交替（surface / 浅主色）。",
+      "maxItems": 3, "density": "medium"
+    },
+    "comparison": {
+      "hint": "对比页：两栏卡片，顶部各一个大标签（胶囊样式），下面要点列表，风格像杂志的 A/B 测评。",
+      "maxItems": 4, "density": "medium"
+    },
+    "metricCards": {
+      "hint": "数字亮点页：2-4 个大数字（预算/时间/数量），手账风卡片，数字用主色大字。",
+      "maxItems": 4, "density": "medium"
+    },
+    "timeline": {
+      "hint": "行程/时间线：垂直时间轴在左，节点 = 时间胶囊标签 + 事件标题 + 一行描述，可配小图标。",
+      "maxItems": 5, "density": "medium"
+    },
+    "roadmap": {
+      "hint": "路线页：横向站点式路线（像地铁线路图），节点圆点 + 地名/阶段名 + 小字说明。",
+      "maxItems": 5, "density": "medium"
+    },
+    "process": {
+      "hint": "步骤页：编号大字（01 02 03）纵向排列，每步标题 + 一行说明，编号用低透明度主色。",
+      "maxItems": 5, "density": "medium"
+    },
+    "table": {
+      "hint": "信息表：圆角卡片包裹的表格，表头浅主色底，行间细线，重点格用胶囊标签。",
+      "maxItems": 6, "density": "high"
+    },
+    "caseStory": {
+      "hint": "故事页：大图占半页 + 叙事文字块，加一个 TIPS 胶囊标签放实用建议。",
+      "maxItems": 3, "density": "medium"
+    },
+    "quote": {
+      "hint": "金句页：全屏图或色块，中央手写感引言大字，下方小字出处。",
+      "maxItems": 1, "density": "low", "allowFullBleedImage": true
+    },
+    "imageSpread": {
+      "hint": "跨页大图：图占满，角落白色小卡片放地点名/标题 + 一句话。",
+      "maxItems": 1, "density": "low", "allowFullBleedImage": true
+    },
+    "checklist": {
+      "hint": "打卡清单：手账风复选框列表，每项加粗要点 + 小字补充，可配小图标。",
+      "maxItems": 5, "density": "medium"
+    },
+    "code": {
+      "hint": "代码示例页：浅色圆角代码卡片 + 行号，旁边放通俗解释。",
+      "maxItems": 3, "density": "high"
+    },
+    "barChart": {
+      "hint": "图表页：图表放圆角卡片内（占 65%），配一行结论，风格轻松。",
+      "maxItems": 2, "density": "medium"
+    },
+    "closing": {
+      "hint": "收尾页：大图背景 + 中央告别语大字 + 一行行动建议，与封面同一视觉语言。",
+      "maxItems": 2, "density": "low", "allowFullBleedImage": true
+    }
+  }
+}

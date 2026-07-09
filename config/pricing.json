@@ -1,0 +1,12 @@
+{
+  "_comment": "单价为占位预估（USD），以网关实测账单校准后回填。文本模型按每百万 token 计价，图片按张计价。",
+  "text": {
+    "gpt-5.5": { "inputPerMTok": 1.25, "outputPerMTok": 10 },
+    "glm-5.1": { "inputPerMTok": 0.6, "outputPerMTok": 2.2 },
+    "claude-fable-5": { "inputPerMTok": 3, "outputPerMTok": 15 },
+    "claude-opus-4-7": { "inputPerMTok": 15, "outputPerMTok": 75 }
+  },
+  "image": {
+    "gpt-image-2": { "1k": 0.07, "2k": 0.19 }
+  }
+}

@@ -1,0 +1,630 @@
+{
+  "input": "3-coffee",
+  "topic": "如何挑选一款适合自己的咖啡豆",
+  "profile": "beauty-max",
+  "preset": "test",
+  "slides": 29,
+  "imagesPlanned": 12,
+  "imagesGenerated": 12,
+  "costUsd": {
+    "llmText": 1.1885,
+    "image": 2.28,
+    "total": 3.4685
+  },
+  "latencyMs": {
+    "plan": 26228,
+    "slides": 36164,
+    "images": 168993,
+    "render": 214255,
+    "evaluate": 196950,
+    "merge": 17695,
+    "total": 660800
+  },
+  "llmCalls": 43,
+  "imageCalls": 12,
+  "byRole": {
+    "planner": {
+      "calls": 1,
+      "costUsd": 0.015,
+      "inputTokens": 1230,
+      "outputTokens": 1349
+    },
+    "writer": {
+      "calls": 5,
+      "costUsd": 0.0532,
+      "inputTokens": 5709,
+      "outputTokens": 4598
+    },
+    "coder": {
+      "calls": 37,
+      "costUsd": 1.1203,
+      "inputTokens": 100531,
+      "outputTokens": 99472
+    }
+  },
+  "calls": [
+    {
+      "stage": "plan",
+      "role": "planner",
+      "model": "gpt-5.5",
+      "provider": "saturday",
+      "inputTokens": 1230,
+      "outputTokens": 1349,
+      "costUsd": 0.0150275,
+      "latencyMs": 26225,
+      "ok": true
+    },
+    {
+      "stage": "slides:ch3",
+      "role": "writer",
+      "model": "gpt-5.5",
+      "provider": "saturday",
+      "inputTokens": 1138,
+      "outputTokens": 748,
+      "costUsd": 0.0089025,
+      "latencyMs": 14896,
+      "ok": true
+    },
+    {
+      "stage": "slides:ch2",
+      "role": "writer",
+      "model": "gpt-5.5",
+      "provider": "saturday",
+      "inputTokens": 1145,
+      "outputTokens": 870,
+      "costUsd": 0.01013125,
+      "latencyMs": 17323,
+      "ok": true
+    },
+    {
+      "stage": "slides:ch1",
+      "role": "writer",
+      "model": "gpt-5.5",
+      "provider": "saturday",
+      "inputTokens": 1141,
+      "outputTokens": 924,
+      "costUsd": 0.01066625,
+      "latencyMs": 18079,
+      "ok": true
+    },
+    {
+      "stage": "slides:ch5",
+      "role": "writer",
+      "model": "gpt-5.5",
+      "provider": "saturday",
+      "inputTokens": 1141,
+      "outputTokens": 954,
+      "costUsd": 0.01096625,
+      "latencyMs": 18769,
+      "ok": true
+    },
+    {
+      "stage": "slides:ch4",
+      "role": "writer",
+      "model": "gpt-5.5",
+      "provider": "saturday",
+      "inputTokens": 1144,
+      "outputTokens": 1102,
+      "costUsd": 0.01245,
+      "latencyMs": 21263,
+      "ok": true
+    },
+    {
+      "stage": "render:slide3",
+      "role": "coder",
+      "model": "gpt-5.5",
+      "provider": "saturday",
+      "inputTokens": 1592,
+      "outputTokens": 1048,
+      "costUsd": 0.01247,
+      "latencyMs": 20854,
+      "ok": true
+    },
+    {
+      "stage": "render:slide1",
+      "role": "coder",
+      "model": "gpt-5.5",
+      "provider": "saturday",
+      "inputTokens": 1585,
+      "outputTokens": 1143,
+      "costUsd": 0.01341125,
+      "latencyMs": 22229,
+      "ok": true
+    },
+    {
+      "stage": "render:slide8",
+      "role": "coder",
+      "model": "gpt-5.5",
+      "provider": "saturday",
+      "inputTokens": 1597,
+      "outputTokens": 1271,
+      "costUsd": 0.01470625,
+      "latencyMs": 24704,
+      "ok": true
+    },
+    {
+      "stage": "render:slide4",
+      "role": "coder",
+      "model": "gpt-5.5",
+      "provider": "saturday",
+      "inputTokens": 2910,
+      "outputTokens": 2198,
+      "costUsd": 0.0256175,
+      "latencyMs": 41323,
+      "ok": true
+    },
+    {
+      "stage": "render:slide2",
+      "role": "coder",
+      "model": "gpt-5.5",
+      "provider": "saturday",
+      "inputTokens": 1681,
+      "outputTokens": 2237,
+      "costUsd": 0.02447125,
+      "latencyMs": 42067,
+      "ok": true
+    },
+    {
+      "stage": "render:slide7",
+      "role": "coder",
+      "model": "gpt-5.5",
+      "provider": "saturday",
+      "inputTokens": 2761,
+      "outputTokens": 2792,
+      "costUsd": 0.03137125,
+      "latencyMs": 52012,
+      "ok": true
+    },
+    {
+      "stage": "render:slide5",
+      "role": "coder",
+      "model": "gpt-5.5",
+      "provider": "saturday",
+      "inputTokens": 2068,
+      "outputTokens": 3248,
+      "costUsd": 0.035065,
+      "latencyMs": 60233,
+      "ok": true
+    },
+    {
+      "stage": "render:slide9",
+      "role": "coder",
+      "model": "gpt-5.5",
+      "provider": "saturday",
+      "inputTokens": 2738,
+      "outputTokens": 2392,
+      "costUsd": 0.0273425,
+      "latencyMs": 44521,
+      "ok": true
+    },
+    {
+      "stage": "render:slide13",
+      "role": "coder",
+      "model": "gpt-5.5",
+      "provider": "saturday",
+      "inputTokens": 1589,
+      "outputTokens": 1315,
+      "costUsd": 0.01513625,
+      "latencyMs": 25311,
+      "ok": true
+    },
+    {
+      "stage": "render:slide6",
+      "role": "coder",
+      "model": "gpt-5.5",
+      "provider": "saturday",
+      "inputTokens": 2242,
+      "outputTokens": 3724,
+      "costUsd": 0.0400425,
+      "latencyMs": 68817,
+      "ok": true
+    },
+    {
+      "stage": "render:slide11",
+      "role": "coder",
+      "model": "gpt-5.5",
+      "provider": "saturday",
+      "inputTokens": 2674,
+      "outputTokens": 2634,
+      "costUsd": 0.0296825,
+      "latencyMs": 50177,
+      "ok": true
+    },
+    {
+      "stage": "render:slide10",
+      "role": "coder",
+      "model": "gpt-5.5",
+      "provider": "saturday",
+      "inputTokens": 2631,
+      "outputTokens": 3622,
+      "costUsd": 0.03950875,
+      "latencyMs": 66854,
+      "ok": true
+    },
+    {
+      "stage": "render:slide18",
+      "role": "coder",
+      "model": "gpt-5.5",
+      "provider": "saturday",
+      "inputTokens": 1597,
+      "outputTokens": 1035,
+      "costUsd": 0.01234625,
+      "latencyMs": 25087,
+      "ok": true
+    },
+    {
+      "stage": "render:slide14",
+      "role": "coder",
+      "model": "gpt-5.5",
+      "provider": "saturday",
+      "inputTokens": 2740,
+      "outputTokens": 2401,
+      "costUsd": 0.027435,
+      "latencyMs": 44828,
+      "ok": true
+    },
+    {
+      "stage": "render:slide12",
+      "role": "coder",
+      "model": "gpt-5.5",
+      "provider": "saturday",
+      "inputTokens": 2254,
+      "outputTokens": 3282,
+      "costUsd": 0.0356375,
+      "latencyMs": 61286,
+      "ok": true
+    },
+    {
+      "stage": "render:slide16",
+      "role": "coder",
+      "model": "gpt-5.5",
+      "provider": "saturday",
+      "inputTokens": 2245,
+      "outputTokens": 2822,
+      "costUsd": 0.03102625,
+      "latencyMs": 52344,
+      "ok": true
+    },
+    {
+      "stage": "render:slide19",
+      "role": "coder",
+      "model": "gpt-5.5",
+      "provider": "saturday",
+      "inputTokens": 2059,
+      "outputTokens": 2630,
+      "costUsd": 0.02887375,
+      "latencyMs": 48813,
+      "ok": true
+    },
+    {
+      "stage": "render:slide21",
+      "role": "coder",
+      "model": "gpt-5.5",
+      "provider": "saturday",
+      "inputTokens": 3421,
+      "outputTokens": 2183,
+      "costUsd": 0.02610625,
+      "latencyMs": 42749,
+      "ok": true
+    },
+    {
+      "stage": "render:slide15",
+      "role": "coder",
+      "model": "gpt-5.5",
+      "provider": "saturday",
+      "inputTokens": 3050,
+      "outputTokens": 4186,
+      "costUsd": 0.0456725,
+      "latencyMs": 76952,
+      "ok": true
+    },
+    {
+      "stage": "render:slide17",
+      "role": "coder",
+      "model": "gpt-5.5",
+      "provider": "saturday",
+      "inputTokens": 2612,
+      "outputTokens": 3823,
+      "costUsd": 0.041495,
+      "latencyMs": 70213,
+      "ok": true
+    },
+    {
+      "stage": "render:slide20",
+      "role": "coder",
+      "model": "gpt-5.5",
+      "provider": "saturday",
+      "inputTokens": 2153,
+      "outputTokens": 2672,
+      "costUsd": 0.02941125,
+      "latencyMs": 49882,
+      "ok": true
+    },
+    {
+      "stage": "render:slide24",
+      "role": "coder",
+      "model": "gpt-5.5",
+      "provider": "saturday",
+      "inputTokens": 1593,
+      "outputTokens": 1130,
+      "costUsd": 0.01329125,
+      "latencyMs": 21752,
+      "ok": true
+    },
+    {
+      "stage": "render:slide29",
+      "role": "coder",
+      "model": "gpt-5.5",
+      "provider": "saturday",
+      "inputTokens": 1587,
+      "outputTokens": 1035,
+      "costUsd": 0.01233375,
+      "latencyMs": 20907,
+      "ok": true
+    },
+    {
+      "stage": "render:slide22",
+      "role": "coder",
+      "model": "gpt-5.5",
+      "provider": "saturday",
+      "inputTokens": 1873,
+      "outputTokens": 3557,
+      "costUsd": 0.03791125,
+      "latencyMs": 65528,
+      "ok": true
+    },
+    {
+      "stage": "render:slide23",
+      "role": "coder",
+      "model": "gpt-5.5",
+      "provider": "saturday",
+      "inputTokens": 2625,
+      "outputTokens": 3832,
+      "costUsd": 0.04160125,
+      "latencyMs": 70648,
+      "ok": true
+    },
+    {
+      "stage": "render:slide26",
+      "role": "coder",
+      "model": "gpt-5.5",
+      "provider": "saturday",
+      "inputTokens": 2023,
+      "outputTokens": 2527,
+      "costUsd": 0.02779875,
+      "latencyMs": 48120,
+      "ok": true
+    },
+    {
+      "stage": "render:slide28",
+      "role": "coder",
+      "model": "gpt-5.5",
+      "provider": "saturday",
+      "inputTokens": 2483,
+      "outputTokens": 3171,
+      "costUsd": 0.03481375,
+      "latencyMs": 58488,
+      "ok": true
+    },
+    {
+      "stage": "render:slide27",
+      "role": "coder",
+      "model": "gpt-5.5",
+      "provider": "saturday",
+      "inputTokens": 2173,
+      "outputTokens": 4095,
+      "costUsd": 0.04366625,
+      "latencyMs": 75105,
+      "ok": true
+    },
+    {
+      "stage": "render:slide25",
+      "role": "coder",
+      "model": "gpt-5.5",
+      "provider": "saturday",
+      "inputTokens": 2637,
+      "outputTokens": 2592,
+      "costUsd": 0.02921625,
+      "latencyMs": 90551,
+      "ok": true
+    },
+    {
+      "stage": "fix:slide2",
+      "role": "coder",
+      "model": "gpt-5.5",
+      "provider": "saturday",
+      "inputTokens": 3846,
+      "outputTokens": 2403,
+      "costUsd": 0.0288375,
+      "latencyMs": 44758,
+      "ok": true
+    },
+    {
+      "stage": "fix:slide21",
+      "role": "coder",
+      "model": "gpt-5.5",
+      "provider": "saturday",
+      "inputTokens": 3528,
+      "outputTokens": 2267,
+      "costUsd": 0.02708,
+      "latencyMs": 43232,
+      "ok": true
+    },
+    {
+      "stage": "fix:slide19",
+      "role": "coder",
+      "model": "gpt-5.5",
+      "provider": "saturday",
+      "inputTokens": 3942,
+      "outputTokens": 2454,
+      "costUsd": 0.0294675,
+      "latencyMs": 45820,
+      "ok": true
+    },
+    {
+      "stage": "fix:slide11",
+      "role": "coder",
+      "model": "gpt-5.5",
+      "provider": "saturday",
+      "inputTokens": 4184,
+      "outputTokens": 2722,
+      "costUsd": 0.03245,
+      "latencyMs": 50703,
+      "ok": true
+    },
+    {
+      "stage": "fix:slide26",
+      "role": "coder",
+      "model": "gpt-5.5",
+      "provider": "saturday",
+      "inputTokens": 3974,
+      "outputTokens": 2569,
+      "costUsd": 0.0306575,
+      "latencyMs": 47786,
+      "ok": true
+    },
+    {
+      "stage": "fix:slide22",
+      "role": "coder",
+      "model": "gpt-5.5",
+      "provider": "saturday",
+      "inputTokens": 4997,
+      "outputTokens": 4013,
+      "costUsd": 0.04637625,
+      "latencyMs": 74547,
+      "ok": true
+    },
+    {
+      "stage": "fix:slide27",
+      "role": "coder",
+      "model": "gpt-5.5",
+      "provider": "saturday",
+      "inputTokens": 5547,
+      "outputTokens": 4508,
+      "costUsd": 0.05201375,
+      "latencyMs": 83458,
+      "ok": true
+    },
+    {
+      "stage": "fix:slide22",
+      "role": "coder",
+      "model": "gpt-5.5",
+      "provider": "saturday",
+      "inputTokens": 5320,
+      "outputTokens": 3939,
+      "costUsd": 0.04604,
+      "latencyMs": 74476,
+      "ok": true
+    }
+  ],
+  "images": [
+    {
+      "stage": "image:slide3",
+      "model": "gpt-image-2",
+      "channel": "saturday",
+      "resolution": "2k",
+      "costUsd": 0.19,
+      "latencyMs": 24996,
+      "ok": true
+    },
+    {
+      "stage": "image:slide4",
+      "model": "gpt-image-2",
+      "channel": "saturday",
+      "resolution": "2k",
+      "costUsd": 0.19,
+      "latencyMs": 56243,
+      "ok": true
+    },
+    {
+      "stage": "image:slide7",
+      "model": "gpt-image-2",
+      "channel": "saturday",
+      "resolution": "2k",
+      "costUsd": 0.19,
+      "latencyMs": 60957,
+      "ok": true
+    },
+    {
+      "stage": "image:slide1",
+      "model": "gpt-image-2",
+      "channel": "saturday",
+      "resolution": "2k",
+      "costUsd": 0.19,
+      "latencyMs": 62407,
+      "ok": true
+    },
+    {
+      "stage": "image:slide8",
+      "model": "gpt-image-2",
+      "channel": "saturday",
+      "resolution": "2k",
+      "costUsd": 0.19,
+      "latencyMs": 45627,
+      "ok": true
+    },
+    {
+      "stage": "image:slide9",
+      "model": "gpt-image-2",
+      "channel": "saturday",
+      "resolution": "2k",
+      "costUsd": 0.19,
+      "latencyMs": 34051,
+      "ok": true
+    },
+    {
+      "stage": "image:slide12",
+      "model": "gpt-image-2",
+      "channel": "saturday",
+      "resolution": "2k",
+      "costUsd": 0.19,
+      "latencyMs": 57137,
+      "ok": true
+    },
+    {
+      "stage": "image:slide13",
+      "model": "gpt-image-2",
+      "channel": "saturday",
+      "resolution": "2k",
+      "costUsd": 0.19,
+      "latencyMs": 59234,
+      "ok": true
+    },
+    {
+      "stage": "image:slide14",
+      "model": "gpt-image-2",
+      "channel": "saturday",
+      "resolution": "2k",
+      "costUsd": 0.19,
+      "latencyMs": 52235,
+      "ok": true
+    },
+    {
+      "stage": "image:slide18",
+      "model": "gpt-image-2",
+      "channel": "saturday",
+      "resolution": "2k",
+      "costUsd": 0.19,
+      "latencyMs": 48873,
+      "ok": true
+    },
+    {
+      "stage": "image:slide24",
+      "model": "gpt-image-2",
+      "channel": "saturday",
+      "resolution": "2k",
+      "costUsd": 0.19,
+      "latencyMs": 46198,
+      "ok": true
+    },
+    {
+      "stage": "image:slide29",
+      "model": "gpt-image-2",
+      "channel": "saturday",
+      "resolution": "2k",
+      "costUsd": 0.19,
+      "latencyMs": 47352,
+      "ok": true
+    }
+  ]
+}

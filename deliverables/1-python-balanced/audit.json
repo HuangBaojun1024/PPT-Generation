@@ -1,0 +1,482 @@
+{
+  "reviewScore": null,
+  "entries": [
+    {
+      "slide": 15,
+      "level": "L1",
+      "issues": [
+        "[textClipped] 文本被裁剪: \"照着写，马上能取…\" (342x54 > 342x46)"
+      ],
+      "action": "coder 修复（第 1 次）"
+    }
+  ],
+  "decisions": [
+    {
+      "index": 0,
+      "pageType": "cover",
+      "useImage": true,
+      "imageRole": "background",
+      "imagePrompt": "封面氛围图：Python 入门 30 分钟. Wide cinematic composition with generous negative space suitable as a presentation slide background, key subject off-center. Friendly dark-mode coding classroom illustration, using #101316 backgrounds and #1A2020 panels, with glowing #7CFFCB, #B8F36A and #FFD166 accents. Clean vector shapes, soft neon rim light, rounded UI cards, subtle hand-drawn annotations, approachable beginner mood, high contrast and minimal clutter. Strictly no text, no letters, no words, no watermark, no logo, no UI elements.",
+      "imagePath": "/Users/hbj/Desktop/Workspace/ppt-generator-interview/out-final/1-python-balanced/assets/slide-01.png",
+      "icons": [],
+      "chart": null,
+      "table": null,
+      "fixCount": 0
+    },
+    {
+      "index": 1,
+      "pageType": "agenda",
+      "useImage": false,
+      "imageRole": "none",
+      "imagePrompt": null,
+      "imagePath": null,
+      "icons": [],
+      "chart": null,
+      "table": null,
+      "fixCount": 0
+    },
+    {
+      "index": 2,
+      "pageType": "chapter",
+      "useImage": true,
+      "imageRole": "background",
+      "imagePrompt": "章节氛围图：先让电脑回应你（Python 入门 30 分钟）. Wide cinematic composition with generous negative space suitable as a presentation slide background, key subject off-center. Friendly dark-mode coding classroom illustration, using #101316 backgrounds and #1A2020 panels, with glowing #7CFFCB, #B8F36A and #FFD166 accents. Clean vector shapes, soft neon rim light, rounded UI cards, subtle hand-drawn annotations, approachable beginner mood, high contrast and minimal clutter. Strictly no text, no letters, no words, no watermark, no logo, no UI elements.",
+      "imagePath": "/Users/hbj/Desktop/Workspace/ppt-generator-interview/out-final/1-python-balanced/assets/slide-03.png",
+      "icons": [],
+      "chart": null,
+      "table": null,
+      "fixCount": 0
+    },
+    {
+      "index": 3,
+      "pageType": "bigIdea",
+      "useImage": false,
+      "imageRole": "none",
+      "imagePrompt": null,
+      "imagePath": null,
+      "icons": [
+        "monitor"
+      ],
+      "chart": null,
+      "table": null,
+      "fixCount": 0
+    },
+    {
+      "index": 4,
+      "pageType": "code",
+      "useImage": false,
+      "imageRole": "none",
+      "imagePrompt": null,
+      "imagePath": null,
+      "icons": [
+        "code",
+        "terminal"
+      ],
+      "chart": null,
+      "table": null,
+      "fixCount": 0
+    },
+    {
+      "index": 5,
+      "pageType": "process",
+      "useImage": false,
+      "imageRole": "none",
+      "imagePrompt": null,
+      "imagePath": null,
+      "icons": [
+        "play",
+        "eye"
+      ],
+      "chart": null,
+      "table": null,
+      "fixCount": 0
+    },
+    {
+      "index": 6,
+      "pageType": "chapter",
+      "useImage": true,
+      "imageRole": "background",
+      "imagePrompt": "章节氛围图：变量：给信息贴标签（Python 入门 30 分钟）. Wide cinematic composition with generous negative space suitable as a presentation slide background, key subject off-center. Friendly dark-mode coding classroom illustration, using #101316 backgrounds and #1A2020 panels, with glowing #7CFFCB, #B8F36A and #FFD166 accents. Clean vector shapes, soft neon rim light, rounded UI cards, subtle hand-drawn annotations, approachable beginner mood, high contrast and minimal clutter. Strictly no text, no letters, no words, no watermark, no logo, no UI elements.",
+      "imagePath": "/Users/hbj/Desktop/Workspace/ppt-generator-interview/out-final/1-python-balanced/assets/slide-07.png",
+      "icons": [],
+      "chart": null,
+      "table": null,
+      "fixCount": 0
+    },
+    {
+      "index": 7,
+      "pageType": "bigIdea",
+      "useImage": false,
+      "imageRole": "none",
+      "imagePrompt": null,
+      "imagePath": null,
+      "icons": [
+        "tag"
+      ],
+      "chart": null,
+      "table": null,
+      "fixCount": 0
+    },
+    {
+      "index": 8,
+      "pageType": "code",
+      "useImage": false,
+      "imageRole": "none",
+      "imagePrompt": null,
+      "imagePath": null,
+      "icons": [
+        "code",
+        "box-arrow-down",
+        "play"
+      ],
+      "chart": null,
+      "table": null,
+      "fixCount": 0
+    },
+    {
+      "index": 9,
+      "pageType": "comparison",
+      "useImage": false,
+      "imageRole": "none",
+      "imagePrompt": null,
+      "imagePath": null,
+      "icons": [
+        "eye",
+        "pencil",
+        "check-circle"
+      ],
+      "chart": null,
+      "table": {
+        "headers": [
+          "不推荐",
+          "更清楚",
+          "原因"
+        ],
+        "rows": [
+          [
+            "x = 18",
+            "age = 18",
+            "看得出含义"
+          ],
+          [
+            "a = \"小明\"",
+            "name = \"小明\"",
+            "像自然语言"
+          ],
+          [
+            "my score = 90",
+            "my_score = 90",
+            "变量名不能有空格"
+          ]
+        ]
+      },
+      "fixCount": 0
+    },
+    {
+      "index": 10,
+      "pageType": "threePoints",
+      "useImage": false,
+      "imageRole": "none",
+      "imagePrompt": null,
+      "imagePath": null,
+      "icons": [
+        "plus-square"
+      ],
+      "chart": null,
+      "table": null,
+      "fixCount": 0
+    },
+    {
+      "index": 11,
+      "pageType": "chapter",
+      "useImage": true,
+      "imageRole": "background",
+      "imagePrompt": "章节氛围图：列表与字典：装下世界（Python 入门 30 分钟）. Wide cinematic composition with generous negative space suitable as a presentation slide background, key subject off-center. Friendly dark-mode coding classroom illustration, using #101316 backgrounds and #1A2020 panels, with glowing #7CFFCB, #B8F36A and #FFD166 accents. Clean vector shapes, soft neon rim light, rounded UI cards, subtle hand-drawn annotations, approachable beginner mood, high contrast and minimal clutter. Strictly no text, no letters, no words, no watermark, no logo, no UI elements.",
+      "imagePath": "/Users/hbj/Desktop/Workspace/ppt-generator-interview/out-final/1-python-balanced/assets/slide-12.png",
+      "icons": [],
+      "chart": null,
+      "table": null,
+      "fixCount": 0
+    },
+    {
+      "index": 12,
+      "pageType": "bigIdea",
+      "useImage": false,
+      "imageRole": "none",
+      "imagePrompt": null,
+      "imagePath": null,
+      "icons": [
+        "list",
+        "tag"
+      ],
+      "chart": null,
+      "table": null,
+      "fixCount": 0
+    },
+    {
+      "index": 13,
+      "pageType": "comparison",
+      "useImage": false,
+      "imageRole": "none",
+      "imagePrompt": null,
+      "imagePath": null,
+      "icons": [],
+      "chart": null,
+      "table": {
+        "headers": [
+          "容器",
+          "像什么",
+          "怎么取",
+          "适合装"
+        ],
+        "rows": [
+          [
+            "列表 list",
+            "排队",
+            "用序号",
+            "购物清单、分数"
+          ],
+          [
+            "字典 dict",
+            "通讯录",
+            "用名字",
+            "个人资料、配置"
+          ]
+        ]
+      },
+      "fixCount": 0
+    },
+    {
+      "index": 14,
+      "pageType": "code",
+      "useImage": false,
+      "imageRole": "none",
+      "imagePrompt": null,
+      "imagePath": null,
+      "icons": [
+        "brackets-angle",
+        "play"
+      ],
+      "chart": null,
+      "table": null,
+      "fixCount": 1
+    },
+    {
+      "index": 15,
+      "pageType": "threePoints",
+      "useImage": false,
+      "imageRole": "none",
+      "imagePrompt": null,
+      "imagePath": null,
+      "icons": [
+        "list-checks",
+        "contactless-payment"
+      ],
+      "chart": null,
+      "table": null,
+      "fixCount": 0
+    },
+    {
+      "index": 16,
+      "pageType": "chapter",
+      "useImage": true,
+      "imageRole": "background",
+      "imagePrompt": "章节氛围图：循环：让电脑重复做（Python 入门 30 分钟）. Wide cinematic composition with generous negative space suitable as a presentation slide background, key subject off-center. Friendly dark-mode coding classroom illustration, using #101316 backgrounds and #1A2020 panels, with glowing #7CFFCB, #B8F36A and #FFD166 accents. Clean vector shapes, soft neon rim light, rounded UI cards, subtle hand-drawn annotations, approachable beginner mood, high contrast and minimal clutter. Strictly no text, no letters, no words, no watermark, no logo, no UI elements.",
+      "imagePath": "/Users/hbj/Desktop/Workspace/ppt-generator-interview/out-final/1-python-balanced/assets/slide-17.png",
+      "icons": [],
+      "chart": null,
+      "table": null,
+      "fixCount": 0
+    },
+    {
+      "index": 17,
+      "pageType": "bigIdea",
+      "useImage": false,
+      "imageRole": "none",
+      "imagePrompt": null,
+      "imagePath": null,
+      "icons": [
+        "repeat",
+        "coffee"
+      ],
+      "chart": null,
+      "table": null,
+      "fixCount": 0
+    },
+    {
+      "index": 18,
+      "pageType": "comparison",
+      "useImage": false,
+      "imageRole": "none",
+      "imagePrompt": null,
+      "imagePath": null,
+      "icons": [
+        "copy",
+        "tag"
+      ],
+      "chart": null,
+      "table": null,
+      "fixCount": 0
+    },
+    {
+      "index": 19,
+      "pageType": "code",
+      "useImage": false,
+      "imageRole": "none",
+      "imagePrompt": null,
+      "imagePath": null,
+      "icons": [
+        "list"
+      ],
+      "chart": null,
+      "table": null,
+      "fixCount": 0
+    },
+    {
+      "index": 20,
+      "pageType": "threePoints",
+      "useImage": false,
+      "imageRole": "none",
+      "imagePrompt": null,
+      "imagePath": null,
+      "icons": [
+        "check-circle",
+        "git-branch"
+      ],
+      "chart": null,
+      "table": null,
+      "fixCount": 0
+    },
+    {
+      "index": 21,
+      "pageType": "process",
+      "useImage": false,
+      "imageRole": "none",
+      "imagePrompt": null,
+      "imagePath": null,
+      "icons": [
+        "list-checks",
+        "repeat",
+        "printer"
+      ],
+      "chart": null,
+      "table": null,
+      "fixCount": 0
+    },
+    {
+      "index": 22,
+      "pageType": "chapter",
+      "useImage": false,
+      "imageRole": "none",
+      "imagePrompt": null,
+      "imagePath": null,
+      "icons": [],
+      "chart": null,
+      "table": null,
+      "fixCount": 0
+    },
+    {
+      "index": 23,
+      "pageType": "bigIdea",
+      "useImage": false,
+      "imageRole": "none",
+      "imagePrompt": null,
+      "imagePath": null,
+      "icons": [
+        "package",
+        "repeat"
+      ],
+      "chart": null,
+      "table": null,
+      "fixCount": 0
+    },
+    {
+      "index": 24,
+      "pageType": "concept",
+      "useImage": false,
+      "imageRole": "none",
+      "imagePrompt": null,
+      "imagePath": null,
+      "icons": [
+        "brackets-angle",
+        "play",
+        "text-indent"
+      ],
+      "chart": null,
+      "table": null,
+      "fixCount": 0
+    },
+    {
+      "index": 25,
+      "pageType": "code",
+      "useImage": false,
+      "imageRole": "none",
+      "imagePrompt": null,
+      "imagePath": null,
+      "icons": [
+        "code",
+        "play-circle"
+      ],
+      "chart": null,
+      "table": null,
+      "fixCount": 0
+    },
+    {
+      "index": 26,
+      "pageType": "process",
+      "useImage": false,
+      "imageRole": "none",
+      "imagePrompt": null,
+      "imagePath": null,
+      "icons": [
+        "cube"
+      ],
+      "chart": null,
+      "table": null,
+      "fixCount": 0
+    },
+    {
+      "index": 27,
+      "pageType": "code",
+      "useImage": false,
+      "imageRole": "none",
+      "imagePrompt": null,
+      "imagePath": null,
+      "icons": [
+        "box-arrow-down",
+        "terminal"
+      ],
+      "chart": null,
+      "table": null,
+      "fixCount": 0
+    },
+    {
+      "index": 28,
+      "pageType": "checklist",
+      "useImage": false,
+      "imageRole": "none",
+      "imagePrompt": null,
+      "imagePath": null,
+      "icons": [
+        "check-square",
+        "tag",
+        "list"
+      ],
+      "chart": null,
+      "table": null,
+      "fixCount": 0
+    },
+    {
+      "index": 29,
+      "pageType": "closing",
+      "useImage": false,
+      "imageRole": "none",
+      "imagePrompt": null,
+      "imagePath": null,
+      "icons": [],
+      "chart": null,
+      "table": null,
+      "fixCount": 0
+    }
+  ]
+}

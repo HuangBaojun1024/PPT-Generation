@@ -1,0 +1,15 @@
+node_modules/
+.tmp-test/
+.DS_Store
+dist/
+.env
+npm-debug.log*
+test-results/
+
+# 生成产物 / 临时输出（deliverables/ 是交付物，需入库）
+out/
+out-v2/
+out-v3/
+out-final/
+logs/
+generated-images/

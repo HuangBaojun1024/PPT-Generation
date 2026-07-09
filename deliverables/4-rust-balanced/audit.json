@@ -1,0 +1,649 @@
+{
+  "reviewScore": null,
+  "entries": [
+    {
+      "slide": 9,
+      "level": "L1",
+      "issues": [
+        "[textClipped] 文本被裁剪: \"Peak…\" (292x103 > 292x84)"
+      ],
+      "action": "coder 修复（第 1 次）"
+    },
+    {
+      "slide": 17,
+      "level": "L1",
+      "issues": [
+        "[textClipped] 文本被裁剪: \"分钟级…\" (427x69 > 427x58)"
+      ],
+      "action": "coder 修复（第 1 次）"
+    },
+    {
+      "slide": 7,
+      "level": "L1",
+      "issues": [
+        "[textClipped] 文本被裁剪: \"23.3x…\" (117x36 > 117x30)",
+        "[textClipped] 文本被裁剪: \"420…\" (117x36 > 117x30)"
+      ],
+      "action": "coder 修复（第 1 次）"
+    },
+    {
+      "slide": 30,
+      "level": "L1",
+      "issues": [
+        "[pageOverflow] slide 内容 1400x890 超出画布 1280x720"
+      ],
+      "action": "coder 修复（第 1 次）"
+    },
+    {
+      "slide": 12,
+      "level": "L1",
+      "issues": [
+        "[pageOverflow] slide 内容 1280x740 超出画布 1280x720"
+      ],
+      "action": "coder 修复（第 1 次）"
+    },
+    {
+      "slide": 24,
+      "level": "L1",
+      "issues": [
+        "[textClipped] 文本被裁剪: \"→…\" (26x31 > 26x26)",
+        "[textClipped] 文本被裁剪: \"→…\" (26x31 > 26x26)",
+        "[textClipped] 文本被裁剪: \"→…\" (26x31 > 26x26)"
+      ],
+      "action": "coder 修复（第 1 次）"
+    }
+  ],
+  "decisions": [
+    {
+      "index": 0,
+      "pageType": "cover",
+      "useImage": true,
+      "imageRole": "background",
+      "imagePrompt": "封面氛围图：给老板讲清楚为什么我们应该用 Rust 重写订单系统. Wide cinematic composition with generous negative space suitable as a presentation slide background, key subject off-center. Executive consulting visuals with warm ivory #F7F3EA backgrounds, dark pine #263A33 typography, copper #B86B3D and muted gold #C6A15B accents. Minimal 3D isometric business systems, subtle grain, soft studio lighting, premium editorial infographics, calm confident tone, high whitespace, no code-heavy screens. Strictly no text, no letters, no words, no watermark, no logo, no UI elements.",
+      "imagePath": "/Users/hbj/Desktop/Workspace/ppt-generator-interview/out-final/4-rust-balanced/assets/slide-01.png",
+      "icons": [],
+      "chart": null,
+      "table": null,
+      "fixCount": 0
+    },
+    {
+      "index": 1,
+      "pageType": "agenda",
+      "useImage": false,
+      "imageRole": "none",
+      "imagePrompt": null,
+      "imagePath": null,
+      "icons": [],
+      "chart": null,
+      "table": null,
+      "fixCount": 0
+    },
+    {
+      "index": 2,
+      "pageType": "chapter",
+      "useImage": true,
+      "imageRole": "background",
+      "imagePrompt": "章节氛围图：问题不是慢，是丢单（给老板讲清楚为什么我们应该用 Rust 重写订单系统）. Wide cinematic composition with generous negative space suitable as a presentation slide background, key subject off-center. Executive consulting visuals with warm ivory #F7F3EA backgrounds, dark pine #263A33 typography, copper #B86B3D and muted gold #C6A15B accents. Minimal 3D isometric business systems, subtle grain, soft studio lighting, premium editorial infographics, calm confident tone, high whitespace, no code-heavy screens. Strictly no text, no letters, no words, no watermark, no logo, no UI elements.",
+      "imagePath": "/Users/hbj/Desktop/Workspace/ppt-generator-interview/out-final/4-rust-balanced/assets/slide-03.png",
+      "icons": [],
+      "chart": null,
+      "table": null,
+      "fixCount": 0
+    },
+    {
+      "index": 3,
+      "pageType": "bigIdea",
+      "useImage": false,
+      "imageRole": "none",
+      "imagePrompt": null,
+      "imagePath": null,
+      "icons": [
+        "shopping-cart",
+        "timer"
+      ],
+      "chart": null,
+      "table": null,
+      "fixCount": 0
+    },
+    {
+      "index": 4,
+      "pageType": "metricCards",
+      "useImage": false,
+      "imageRole": "none",
+      "imagePrompt": null,
+      "imagePath": null,
+      "icons": [
+        "percent",
+        "clock"
+      ],
+      "chart": null,
+      "table": null,
+      "fixCount": 0
+    },
+    {
+      "index": 5,
+      "pageType": "caseStory",
+      "useImage": false,
+      "imageRole": "none",
+      "imagePrompt": null,
+      "imagePath": null,
+      "icons": [
+        "headphones"
+      ],
+      "chart": null,
+      "table": null,
+      "fixCount": 0
+    },
+    {
+      "index": 6,
+      "pageType": "barChart",
+      "useImage": false,
+      "imageRole": "none",
+      "imagePrompt": null,
+      "imagePath": null,
+      "icons": [],
+      "chart": {
+        "type": "bar",
+        "title": "不同场景下估算订单超时损失",
+        "unit": "万元GMV/小时",
+        "labels": [
+          "平日晚高峰",
+          "月度活动",
+          "618峰值",
+          "双11峰值"
+        ],
+        "values": [
+          18,
+          75,
+          210,
+          420
+        ]
+      },
+      "table": null,
+      "fixCount": 1
+    },
+    {
+      "index": 7,
+      "pageType": "chapter",
+      "useImage": true,
+      "imageRole": "background",
+      "imagePrompt": "章节氛围图：现有系统已到天花板（给老板讲清楚为什么我们应该用 Rust 重写订单系统）. Wide cinematic composition with generous negative space suitable as a presentation slide background, key subject off-center. Executive consulting visuals with warm ivory #F7F3EA backgrounds, dark pine #263A33 typography, copper #B86B3D and muted gold #C6A15B accents. Minimal 3D isometric business systems, subtle grain, soft studio lighting, premium editorial infographics, calm confident tone, high whitespace, no code-heavy screens. Strictly no text, no letters, no words, no watermark, no logo, no UI elements.",
+      "imagePath": "/Users/hbj/Desktop/Workspace/ppt-generator-interview/out-final/4-rust-balanced/assets/slide-08.png",
+      "icons": [],
+      "chart": null,
+      "table": null,
+      "fixCount": 0
+    },
+    {
+      "index": 8,
+      "pageType": "bigIdea",
+      "useImage": false,
+      "imageRole": "none",
+      "imagePrompt": null,
+      "imagePath": null,
+      "icons": [
+        "hard-drives"
+      ],
+      "chart": null,
+      "table": null,
+      "fixCount": 1
+    },
+    {
+      "index": 9,
+      "pageType": "process",
+      "useImage": false,
+      "imageRole": "none",
+      "imagePrompt": null,
+      "imagePath": null,
+      "icons": [
+        "calculator",
+        "credit-card",
+        "database"
+      ],
+      "chart": null,
+      "table": null,
+      "fixCount": 0
+    },
+    {
+      "index": 10,
+      "pageType": "barChart",
+      "useImage": false,
+      "imageRole": "none",
+      "imagePrompt": null,
+      "imagePath": null,
+      "icons": [
+        "timer"
+      ],
+      "chart": {
+        "type": "bar",
+        "title": "大促峰值订单接口延迟估算",
+        "unit": "毫秒",
+        "labels": [
+          "P50",
+          "P90",
+          "P95",
+          "P99",
+          "超时阈值"
+        ],
+        "values": [
+          180,
+          760,
+          1350,
+          4200,
+          3000
+        ]
+      },
+      "table": null,
+      "fixCount": 0
+    },
+    {
+      "index": 11,
+      "pageType": "comparison",
+      "useImage": false,
+      "imageRole": "none",
+      "imagePrompt": null,
+      "imagePath": null,
+      "icons": [
+        "scales",
+        "cpu",
+        "database",
+        "shuffle"
+      ],
+      "chart": null,
+      "table": {
+        "headers": [
+          "手段",
+          "短期效果",
+          "长期问题"
+        ],
+        "rows": [
+          [
+            "加应用实例",
+            "入口排队下降",
+            "数据库压力上升"
+          ],
+          [
+            "加缓存",
+            "部分读取变快",
+            "一致性风险增加"
+          ],
+          [
+            "限流降级",
+            "保护系统",
+            "直接牺牲订单"
+          ],
+          [
+            "人工值守",
+            "响应更快",
+            "无法消除抖动"
+          ]
+        ]
+      },
+      "fixCount": 1
+    },
+    {
+      "index": 12,
+      "pageType": "threePoints",
+      "useImage": false,
+      "imageRole": "none",
+      "imagePrompt": null,
+      "imagePath": null,
+      "icons": [
+        "gauge",
+        "wrench"
+      ],
+      "chart": null,
+      "table": null,
+      "fixCount": 0
+    },
+    {
+      "index": 13,
+      "pageType": "chapter",
+      "useImage": true,
+      "imageRole": "background",
+      "imagePrompt": "章节氛围图：为什么选择Rust重写（给老板讲清楚为什么我们应该用 Rust 重写订单系统）. Wide cinematic composition with generous negative space suitable as a presentation slide background, key subject off-center. Executive consulting visuals with warm ivory #F7F3EA backgrounds, dark pine #263A33 typography, copper #B86B3D and muted gold #C6A15B accents. Minimal 3D isometric business systems, subtle grain, soft studio lighting, premium editorial infographics, calm confident tone, high whitespace, no code-heavy screens. Strictly no text, no letters, no words, no watermark, no logo, no UI elements.",
+      "imagePath": "/Users/hbj/Desktop/Workspace/ppt-generator-interview/out-final/4-rust-balanced/assets/slide-14.png",
+      "icons": [],
+      "chart": null,
+      "table": null,
+      "fixCount": 0
+    },
+    {
+      "index": 14,
+      "pageType": "bigIdea",
+      "useImage": false,
+      "imageRole": "none",
+      "imagePrompt": null,
+      "imagePath": null,
+      "icons": [
+        "shield-check",
+        "shopping-cart"
+      ],
+      "chart": null,
+      "table": null,
+      "fixCount": 0
+    },
+    {
+      "index": 15,
+      "pageType": "comparison",
+      "useImage": false,
+      "imageRole": "none",
+      "imagePrompt": null,
+      "imagePath": null,
+      "icons": [
+        "gauge",
+        "hard-drives",
+        "bug",
+        "cpu"
+      ],
+      "chart": null,
+      "table": {
+        "headers": [
+          "维度",
+          "现有Python",
+          "Rust重写后"
+        ],
+        "rows": [
+          [
+            "峰值延迟",
+            "依赖扩容缓冲",
+            "低延迟更稳定"
+          ],
+          [
+            "故障来源",
+            "运行时暴露较多",
+            "编译期提前拦截"
+          ],
+          [
+            "资源效率",
+            "CPU与内存压力高",
+            "单位机器处理更多订单"
+          ],
+          [
+            "大促风险",
+            "靠人盯、靠预案",
+            "靠系统能力兜底"
+          ]
+        ]
+      },
+      "fixCount": 0
+    },
+    {
+      "index": 16,
+      "pageType": "metricCards",
+      "useImage": false,
+      "imageRole": "none",
+      "imagePrompt": null,
+      "imagePath": null,
+      "icons": [
+        "timer",
+        "hard-drives",
+        "credit-card"
+      ],
+      "chart": null,
+      "table": null,
+      "fixCount": 1
+    },
+    {
+      "index": 17,
+      "pageType": "process",
+      "useImage": false,
+      "imageRole": "none",
+      "imagePrompt": null,
+      "imagePath": null,
+      "icons": [
+        "git-branch",
+        "toggle-right"
+      ],
+      "chart": null,
+      "table": null,
+      "fixCount": 0
+    },
+    {
+      "index": 18,
+      "pageType": "chapter",
+      "useImage": true,
+      "imageRole": "background",
+      "imagePrompt": "章节氛围图：这是一笔怎样的账（给老板讲清楚为什么我们应该用 Rust 重写订单系统）. Wide cinematic composition with generous negative space suitable as a presentation slide background, key subject off-center. Executive consulting visuals with warm ivory #F7F3EA backgrounds, dark pine #263A33 typography, copper #B86B3D and muted gold #C6A15B accents. Minimal 3D isometric business systems, subtle grain, soft studio lighting, premium editorial infographics, calm confident tone, high whitespace, no code-heavy screens. Strictly no text, no letters, no words, no watermark, no logo, no UI elements.",
+      "imagePath": "/Users/hbj/Desktop/Workspace/ppt-generator-interview/out-final/4-rust-balanced/assets/slide-19.png",
+      "icons": [],
+      "chart": null,
+      "table": null,
+      "fixCount": 0
+    },
+    {
+      "index": 19,
+      "pageType": "bigIdea",
+      "useImage": false,
+      "imageRole": "none",
+      "imagePrompt": null,
+      "imagePath": null,
+      "icons": [
+        "shopping-cart"
+      ],
+      "chart": null,
+      "table": null,
+      "fixCount": 0
+    },
+    {
+      "index": 20,
+      "pageType": "barChart",
+      "useImage": false,
+      "imageRole": "none",
+      "imagePrompt": null,
+      "imagePath": null,
+      "icons": [
+        "wallet",
+        "clock"
+      ],
+      "chart": {
+        "type": "bar",
+        "title": "大促超时损失与重写投入对比",
+        "unit": "万元",
+        "labels": [
+          "618超时损失",
+          "双11超时损失",
+          "Rust重写投入"
+        ],
+        "values": [
+          180,
+          260,
+          320
+        ]
+      },
+      "table": null,
+      "fixCount": 0
+    },
+    {
+      "index": 21,
+      "pageType": "metricCards",
+      "useImage": false,
+      "imageRole": "none",
+      "imagePrompt": null,
+      "imagePath": null,
+      "icons": [
+        "percent",
+        "hard-drives",
+        "shield-check"
+      ],
+      "chart": null,
+      "table": null,
+      "fixCount": 0
+    },
+    {
+      "index": 22,
+      "pageType": "table",
+      "useImage": false,
+      "imageRole": "none",
+      "imagePrompt": null,
+      "imagePath": null,
+      "icons": [
+        "scales",
+        "wrench",
+        "shield"
+      ],
+      "chart": null,
+      "table": {
+        "headers": [
+          "方案",
+          "直接成本",
+          "隐性成本",
+          "业务结果"
+        ],
+        "rows": [
+          [
+            "继续补丁",
+            "低",
+            "事故、扩容、排障持续增加",
+            "峰值风险不消失"
+          ],
+          [
+            "Python深度优化",
+            "中",
+            "改动碎片化，收益边际递减",
+            "只能延缓一年"
+          ],
+          [
+            "Rust重写核心链路",
+            "中高",
+            "迁移期需双轨验证",
+            "吞吐与稳定性重置"
+          ]
+        ]
+      },
+      "fixCount": 0
+    },
+    {
+      "index": 23,
+      "pageType": "roadmap",
+      "useImage": false,
+      "imageRole": "none",
+      "imagePrompt": null,
+      "imagePath": null,
+      "icons": [
+        "flag",
+        "git-branch",
+        "toggle-right",
+        "check-circle"
+      ],
+      "chart": null,
+      "table": null,
+      "fixCount": 1
+    },
+    {
+      "index": 24,
+      "pageType": "chapter",
+      "useImage": false,
+      "imageRole": "none",
+      "imagePrompt": null,
+      "imagePath": null,
+      "icons": [],
+      "chart": null,
+      "table": null,
+      "fixCount": 0
+    },
+    {
+      "index": 25,
+      "pageType": "bigIdea",
+      "useImage": false,
+      "imageRole": "none",
+      "imagePrompt": null,
+      "imagePath": null,
+      "icons": [
+        "shield-check",
+        "traffic-cone"
+      ],
+      "chart": null,
+      "table": null,
+      "fixCount": 0
+    },
+    {
+      "index": 26,
+      "pageType": "roadmap",
+      "useImage": false,
+      "imageRole": "none",
+      "imagePrompt": null,
+      "imagePath": null,
+      "icons": [
+        "eye",
+        "split-horizontal",
+        "flag"
+      ],
+      "chart": null,
+      "table": null,
+      "fixCount": 0
+    },
+    {
+      "index": 27,
+      "pageType": "comparison",
+      "useImage": false,
+      "imageRole": "none",
+      "imagePrompt": null,
+      "imagePath": null,
+      "icons": [],
+      "chart": null,
+      "table": {
+        "headers": [
+          "阶段",
+          "主要风险",
+          "控制手段",
+          "进入下一步条件"
+        ],
+        "rows": [
+          [
+            "旁路观测",
+            "逻辑理解偏差",
+            "镜像流量比对",
+            "结果一致率≥99.9%"
+          ],
+          [
+            "双写校验",
+            "订单状态不一致",
+            "自动对账与告警",
+            "差异可解释且可修复"
+          ],
+          [
+            "灰度切流",
+            "局部超时或错误",
+            "1分钟内自动回退",
+            "超时率低于Python 50%"
+          ],
+          [
+            "全量接管",
+            "峰值稳定性不足",
+            "压测与应急预案",
+            "大促峰值容量≥2倍"
+          ]
+        ]
+      },
+      "fixCount": 0
+    },
+    {
+      "index": 28,
+      "pageType": "metricCards",
+      "useImage": false,
+      "imageRole": "none",
+      "imagePrompt": null,
+      "imagePath": null,
+      "icons": [
+        "timer",
+        "check-circle"
+      ],
+      "chart": null,
+      "table": null,
+      "fixCount": 0
+    },
+    {
+      "index": 29,
+      "pageType": "closing",
+      "useImage": false,
+      "imageRole": "none",
+      "imagePrompt": null,
+      "imagePath": null,
+      "icons": [],
+      "chart": null,
+      "table": null,
+      "fixCount": 1
+    }
+  ]
+}

@@ -1,0 +1,619 @@
+{
+  "input": "5-kyoto",
+  "topic": "周末两天玩遍京都",
+  "profile": "beauty-max",
+  "preset": "test",
+  "slides": 29,
+  "imagesPlanned": 12,
+  "imagesGenerated": 12,
+  "costUsd": {
+    "llmText": 1.2116,
+    "image": 2.28,
+    "total": 3.4916
+  },
+  "latencyMs": {
+    "plan": 37020,
+    "slides": 57177,
+    "images": 243836,
+    "render": 265375,
+    "evaluate": 124178,
+    "merge": 18505,
+    "total": 746601
+  },
+  "llmCalls": 42,
+  "imageCalls": 12,
+  "byRole": {
+    "planner": {
+      "calls": 1,
+      "costUsd": 0.02,
+      "inputTokens": 1224,
+      "outputTokens": 1844
+    },
+    "writer": {
+      "calls": 6,
+      "costUsd": 0.0651,
+      "inputTokens": 6715,
+      "outputTokens": 5672
+    },
+    "coder": {
+      "calls": 35,
+      "costUsd": 1.1264,
+      "inputTokens": 94030,
+      "outputTokens": 100901
+    }
+  },
+  "calls": [
+    {
+      "stage": "plan",
+      "role": "planner",
+      "model": "gpt-5.5",
+      "provider": "saturday",
+      "inputTokens": 1224,
+      "outputTokens": 1844,
+      "costUsd": 0.01997,
+      "latencyMs": 37017,
+      "ok": true
+    },
+    {
+      "stage": "slides:ch1",
+      "role": "writer",
+      "model": "gpt-5.5",
+      "provider": "saturday",
+      "inputTokens": 1105,
+      "outputTokens": 933,
+      "costUsd": 0.01071125,
+      "latencyMs": 18589,
+      "ok": true
+    },
+    {
+      "stage": "slides:ch3",
+      "role": "writer",
+      "model": "gpt-5.5",
+      "provider": "saturday",
+      "inputTokens": 1106,
+      "outputTokens": 938,
+      "costUsd": 0.0107625,
+      "latencyMs": 18602,
+      "ok": true
+    },
+    {
+      "stage": "slides:ch2",
+      "role": "writer",
+      "model": "gpt-5.5",
+      "provider": "saturday",
+      "inputTokens": 1109,
+      "outputTokens": 1030,
+      "costUsd": 0.01168625,
+      "latencyMs": 20458,
+      "ok": true
+    },
+    {
+      "stage": "slides:ch5",
+      "role": "writer",
+      "model": "gpt-5.5",
+      "provider": "saturday",
+      "inputTokens": 1109,
+      "outputTokens": 789,
+      "costUsd": 0.00927625,
+      "latencyMs": 16122,
+      "ok": true
+    },
+    {
+      "stage": "slides:ch4",
+      "role": "writer",
+      "model": "gpt-5.5",
+      "provider": "saturday",
+      "inputTokens": 1111,
+      "outputTokens": 1034,
+      "costUsd": 0.01172875,
+      "latencyMs": 19995,
+      "ok": true
+    },
+    {
+      "stage": "slides:ch4",
+      "role": "writer",
+      "model": "gpt-5.5",
+      "provider": "saturday",
+      "inputTokens": 1175,
+      "outputTokens": 948,
+      "costUsd": 0.01094875,
+      "latencyMs": 18591,
+      "ok": true
+    },
+    {
+      "stage": "render:slide1",
+      "role": "coder",
+      "model": "gpt-5.5",
+      "provider": "saturday",
+      "inputTokens": 1581,
+      "outputTokens": 1071,
+      "costUsd": 0.01268625,
+      "latencyMs": 21104,
+      "ok": true
+    },
+    {
+      "stage": "render:slide8",
+      "role": "coder",
+      "model": "gpt-5.5",
+      "provider": "saturday",
+      "inputTokens": 1590,
+      "outputTokens": 1277,
+      "costUsd": 0.0147575,
+      "latencyMs": 24471,
+      "ok": true
+    },
+    {
+      "stage": "render:slide3",
+      "role": "coder",
+      "model": "gpt-5.5",
+      "provider": "saturday",
+      "inputTokens": 1587,
+      "outputTokens": 1365,
+      "costUsd": 0.01563375,
+      "latencyMs": 25963,
+      "ok": true
+    },
+    {
+      "stage": "render:slide4",
+      "role": "coder",
+      "model": "gpt-5.5",
+      "provider": "saturday",
+      "inputTokens": 1965,
+      "outputTokens": 1942,
+      "costUsd": 0.02187625,
+      "latencyMs": 43888,
+      "ok": true
+    },
+    {
+      "stage": "render:slide5",
+      "role": "coder",
+      "model": "gpt-5.5",
+      "provider": "saturday",
+      "inputTokens": 1980,
+      "outputTokens": 2697,
+      "costUsd": 0.029445,
+      "latencyMs": 50018,
+      "ok": true
+    },
+    {
+      "stage": "render:slide2",
+      "role": "coder",
+      "model": "gpt-5.5",
+      "provider": "saturday",
+      "inputTokens": 1673,
+      "outputTokens": 2714,
+      "costUsd": 0.02923125,
+      "latencyMs": 50473,
+      "ok": true
+    },
+    {
+      "stage": "render:slide6",
+      "role": "coder",
+      "model": "gpt-5.5",
+      "provider": "saturday",
+      "inputTokens": 2321,
+      "outputTokens": 2808,
+      "costUsd": 0.03098125,
+      "latencyMs": 52068,
+      "ok": true
+    },
+    {
+      "stage": "render:slide9",
+      "role": "coder",
+      "model": "gpt-5.5",
+      "provider": "saturday",
+      "inputTokens": 2969,
+      "outputTokens": 2769,
+      "costUsd": 0.03140125,
+      "latencyMs": 51429,
+      "ok": true
+    },
+    {
+      "stage": "render:slide14",
+      "role": "coder",
+      "model": "gpt-5.5",
+      "provider": "saturday",
+      "inputTokens": 1589,
+      "outputTokens": 1203,
+      "costUsd": 0.01401625,
+      "latencyMs": 24092,
+      "ok": true
+    },
+    {
+      "stage": "render:slide10",
+      "role": "coder",
+      "model": "gpt-5.5",
+      "provider": "saturday",
+      "inputTokens": 2099,
+      "outputTokens": 3549,
+      "costUsd": 0.03811375,
+      "latencyMs": 66189,
+      "ok": true
+    },
+    {
+      "stage": "render:slide12",
+      "role": "coder",
+      "model": "gpt-5.5",
+      "provider": "saturday",
+      "inputTokens": 2957,
+      "outputTokens": 2588,
+      "costUsd": 0.02957625,
+      "latencyMs": 48004,
+      "ok": true
+    },
+    {
+      "stage": "render:slide11",
+      "role": "coder",
+      "model": "gpt-5.5",
+      "provider": "saturday",
+      "inputTokens": 2638,
+      "outputTokens": 3896,
+      "costUsd": 0.0422575,
+      "latencyMs": 72486,
+      "ok": true
+    },
+    {
+      "stage": "render:slide13",
+      "role": "coder",
+      "model": "gpt-5.5",
+      "provider": "saturday",
+      "inputTokens": 2905,
+      "outputTokens": 3010,
+      "costUsd": 0.03373125,
+      "latencyMs": 55818,
+      "ok": true
+    },
+    {
+      "stage": "render:slide15",
+      "role": "coder",
+      "model": "gpt-5.5",
+      "provider": "saturday",
+      "inputTokens": 2752,
+      "outputTokens": 3052,
+      "costUsd": 0.03396,
+      "latencyMs": 56168,
+      "ok": true
+    },
+    {
+      "stage": "render:slide16",
+      "role": "coder",
+      "model": "gpt-5.5",
+      "provider": "saturday",
+      "inputTokens": 2632,
+      "outputTokens": 2175,
+      "costUsd": 0.02504,
+      "latencyMs": 40583,
+      "ok": true
+    },
+    {
+      "stage": "render:slide19",
+      "role": "coder",
+      "model": "gpt-5.5",
+      "provider": "saturday",
+      "inputTokens": 1594,
+      "outputTokens": 1321,
+      "costUsd": 0.0152025,
+      "latencyMs": 28596,
+      "ok": true
+    },
+    {
+      "stage": "render:slide7",
+      "role": "coder",
+      "model": "gpt-5.5",
+      "provider": "saturday",
+      "inputTokens": 2365,
+      "outputTokens": 3893,
+      "costUsd": 0.04188625,
+      "latencyMs": 129264,
+      "ok": true
+    },
+    {
+      "stage": "render:slide20",
+      "role": "coder",
+      "model": "gpt-5.5",
+      "provider": "saturday",
+      "inputTokens": 2013,
+      "outputTokens": 2095,
+      "costUsd": 0.02346625,
+      "latencyMs": 41323,
+      "ok": true
+    },
+    {
+      "stage": "render:slide25",
+      "role": "coder",
+      "model": "gpt-5.5",
+      "provider": "saturday",
+      "inputTokens": 1592,
+      "outputTokens": 1035,
+      "costUsd": 0.01234,
+      "latencyMs": 20855,
+      "ok": true
+    },
+    {
+      "stage": "render:slide17",
+      "role": "coder",
+      "model": "gpt-5.5",
+      "provider": "saturday",
+      "inputTokens": 2790,
+      "outputTokens": 4647,
+      "costUsd": 0.0499575,
+      "latencyMs": 86008,
+      "ok": true
+    },
+    {
+      "stage": "render:slide18",
+      "role": "coder",
+      "model": "gpt-5.5",
+      "provider": "saturday",
+      "inputTokens": 3046,
+      "outputTokens": 3869,
+      "costUsd": 0.0424975,
+      "latencyMs": 71467,
+      "ok": true
+    },
+    {
+      "stage": "render:slide23",
+      "role": "coder",
+      "model": "gpt-5.5",
+      "provider": "saturday",
+      "inputTokens": 2619,
+      "outputTokens": 3347,
+      "costUsd": 0.03674375,
+      "latencyMs": 61499,
+      "ok": true
+    },
+    {
+      "stage": "render:slide22",
+      "role": "coder",
+      "model": "gpt-5.5",
+      "provider": "saturday",
+      "inputTokens": 3201,
+      "outputTokens": 3366,
+      "costUsd": 0.03766125,
+      "latencyMs": 68590,
+      "ok": true
+    },
+    {
+      "stage": "render:slide24",
+      "role": "coder",
+      "model": "gpt-5.5",
+      "provider": "saturday",
+      "inputTokens": 2337,
+      "outputTokens": 3232,
+      "costUsd": 0.03524125,
+      "latencyMs": 59935,
+      "ok": true
+    },
+    {
+      "stage": "render:slide29",
+      "role": "coder",
+      "model": "gpt-5.5",
+      "provider": "saturday",
+      "inputTokens": 1570,
+      "outputTokens": 1138,
+      "costUsd": 0.0133425,
+      "latencyMs": 23748,
+      "ok": true
+    },
+    {
+      "stage": "render:slide21",
+      "role": "coder",
+      "model": "gpt-5.5",
+      "provider": "saturday",
+      "inputTokens": 2628,
+      "outputTokens": 5258,
+      "costUsd": 0.055865,
+      "latencyMs": 97356,
+      "ok": true
+    },
+    {
+      "stage": "render:slide26",
+      "role": "coder",
+      "model": "gpt-5.5",
+      "provider": "saturday",
+      "inputTokens": 2932,
+      "outputTokens": 3637,
+      "costUsd": 0.040035,
+      "latencyMs": 68060,
+      "ok": true
+    },
+    {
+      "stage": "render:slide27",
+      "role": "coder",
+      "model": "gpt-5.5",
+      "provider": "saturday",
+      "inputTokens": 2859,
+      "outputTokens": 3205,
+      "costUsd": 0.03562375,
+      "latencyMs": 64591,
+      "ok": true
+    },
+    {
+      "stage": "render:slide28",
+      "role": "coder",
+      "model": "gpt-5.5",
+      "provider": "saturday",
+      "inputTokens": 2675,
+      "outputTokens": 5739,
+      "costUsd": 0.06073375,
+      "latencyMs": 104797,
+      "ok": true
+    },
+    {
+      "stage": "fix:slide19",
+      "role": "coder",
+      "model": "gpt-5.5",
+      "provider": "saturday",
+      "inputTokens": 2705,
+      "outputTokens": 1296,
+      "costUsd": 0.01634125,
+      "latencyMs": 24841,
+      "ok": true
+    },
+    {
+      "stage": "fix:slide2",
+      "role": "coder",
+      "model": "gpt-5.5",
+      "provider": "saturday",
+      "inputTokens": 4171,
+      "outputTokens": 3074,
+      "costUsd": 0.03595375,
+      "latencyMs": 57072,
+      "ok": true
+    },
+    {
+      "stage": "fix:slide24",
+      "role": "coder",
+      "model": "gpt-5.5",
+      "provider": "saturday",
+      "inputTokens": 4534,
+      "outputTokens": 3322,
+      "costUsd": 0.0388875,
+      "latencyMs": 61508,
+      "ok": true
+    },
+    {
+      "stage": "fix:slide11",
+      "role": "coder",
+      "model": "gpt-5.5",
+      "provider": "saturday",
+      "inputTokens": 5408,
+      "outputTokens": 4045,
+      "costUsd": 0.04721,
+      "latencyMs": 74501,
+      "ok": true
+    },
+    {
+      "stage": "fix:slide26",
+      "role": "coder",
+      "model": "gpt-5.5",
+      "provider": "saturday",
+      "inputTokens": 5178,
+      "outputTokens": 3813,
+      "costUsd": 0.0446025,
+      "latencyMs": 70348,
+      "ok": true
+    },
+    {
+      "stage": "fix:slide27",
+      "role": "coder",
+      "model": "gpt-5.5",
+      "provider": "saturday",
+      "inputTokens": 4575,
+      "outputTokens": 3453,
+      "costUsd": 0.04024875,
+      "latencyMs": 64481,
+      "ok": true
+    }
+  ],
+  "images": [
+    {
+      "stage": "image:slide1",
+      "model": "gpt-image-2",
+      "channel": "saturday",
+      "resolution": "2k",
+      "costUsd": 0.19,
+      "latencyMs": 50060,
+      "ok": true
+    },
+    {
+      "stage": "image:slide3",
+      "model": "gpt-image-2",
+      "channel": "saturday",
+      "resolution": "2k",
+      "costUsd": 0.19,
+      "latencyMs": 50271,
+      "ok": true
+    },
+    {
+      "stage": "image:slide8",
+      "model": "gpt-image-2",
+      "channel": "saturday",
+      "resolution": "2k",
+      "costUsd": 0.19,
+      "latencyMs": 55224,
+      "ok": true
+    },
+    {
+      "stage": "image:slide4",
+      "model": "gpt-image-2",
+      "channel": "saturday",
+      "resolution": "2k",
+      "costUsd": 0.19,
+      "latencyMs": 74845,
+      "ok": true
+    },
+    {
+      "stage": "image:slide13",
+      "model": "gpt-image-2",
+      "channel": "saturday",
+      "resolution": "2k",
+      "costUsd": 0.19,
+      "latencyMs": 49838,
+      "ok": true
+    },
+    {
+      "stage": "image:slide12",
+      "model": "gpt-image-2",
+      "channel": "saturday",
+      "resolution": "2k",
+      "costUsd": 0.19,
+      "latencyMs": 59746,
+      "ok": true
+    },
+    {
+      "stage": "image:slide9",
+      "model": "gpt-image-2",
+      "channel": "saturday",
+      "resolution": "2k",
+      "costUsd": 0.19,
+      "latencyMs": 64373,
+      "ok": true
+    },
+    {
+      "stage": "image:slide14",
+      "model": "gpt-image-2",
+      "channel": "saturday",
+      "resolution": "2k",
+      "costUsd": 0.19,
+      "latencyMs": 54240,
+      "ok": true
+    },
+    {
+      "stage": "image:slide19",
+      "model": "gpt-image-2",
+      "channel": "saturday",
+      "resolution": "2k",
+      "costUsd": 0.19,
+      "latencyMs": 51065,
+      "ok": true
+    },
+    {
+      "stage": "image:slide25",
+      "model": "gpt-image-2",
+      "channel": "saturday",
+      "resolution": "2k",
+      "costUsd": 0.19,
+      "latencyMs": 55218,
+      "ok": true
+    },
+    {
+      "stage": "image:slide29",
+      "model": "gpt-image-2",
+      "channel": "saturday",
+      "resolution": "2k",
+      "costUsd": 0.19,
+      "latencyMs": 54708,
+      "ok": true
+    },
+    {
+      "stage": "image:slide15",
+      "model": "gpt-image-2",
+      "channel": "saturday",
+      "resolution": "2k",
+      "costUsd": 0.19,
+      "latencyMs": 138772,
+      "ok": true
+    }
+  ]
+}

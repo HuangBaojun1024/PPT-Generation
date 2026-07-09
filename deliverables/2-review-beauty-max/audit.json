@@ -1,0 +1,554 @@
+{
+  "reviewScore": null,
+  "entries": [
+    {
+      "slide": 1,
+      "level": "L1",
+      "issues": [
+        "[textClipped] 文本被裁剪: \"把2025过成草稿…\" (542x85 > 542x71)"
+      ],
+      "action": "coder 修复（第 1 次）"
+    },
+    {
+      "slide": 15,
+      "level": "L1",
+      "issues": [
+        "[overlap] 装饰元素(div 238x10)与文字重叠: \"今年很多坑，不是能力不行，而是方\"",
+        "[overlap] 装饰元素(div 188x9)与文字重叠: \"今年很多坑，不是能力不行，而是方\""
+      ],
+      "action": "coder 修复（第 1 次）"
+    },
+    {
+      "slide": 10,
+      "level": "L1",
+      "issues": [
+        "[textClipped] 文本被裁剪: \"3…\" (304x98 > 304x77)",
+        "[textClipped] 文本被裁剪: \"5…\" (304x98 > 304x77)",
+        "[textClipped] 文本被裁剪: \"12…\" (304x98 > 304x77)",
+        "[textClipped] 文本被裁剪: \"1…\" (304x98 > 304x77)"
+      ],
+      "action": "coder 修复（第 1 次）"
+    },
+    {
+      "slide": 7,
+      "level": "L1",
+      "issues": [
+        "[textClipped] 文本被裁剪: \"稳住…\" (96x32 > 96x27)"
+      ],
+      "action": "coder 修复（第 1 次）"
+    },
+    {
+      "slide": 5,
+      "level": "L1",
+      "issues": [
+        "[overlap] 文本重叠: \"01\" 与 \"MONTHS\"",
+        "[overlap] 文本重叠: \"04\" 与 \"PAUSE\""
+      ],
+      "action": "coder 修复（第 1 次）"
+    },
+    {
+      "slide": 28,
+      "level": "L1",
+      "issues": [
+        "[textClipped] 文本被裁剪: \"先完成一个月再说…\" (390x145 > 390x133)"
+      ],
+      "action": "coder 修复（第 1 次）"
+    },
+    {
+      "slide": 23,
+      "level": "L1",
+      "issues": [
+        "[overlap] 文本重叠: \"03\" 与 \"NO\"",
+        "[overlap] 装饰元素(svg 39x39)与文字重叠: \"01\""
+      ],
+      "action": "coder 修复（第 1 次）"
+    },
+    {
+      "slide": 28,
+      "level": "L1",
+      "issues": [
+        "[textClipped] 文本被裁剪: \"先完成一个月再说…\" (430x130 > 430x119)"
+      ],
+      "action": "coder 修复（第 2 次）"
+    }
+  ],
+  "decisions": [
+    {
+      "index": 0,
+      "pageType": "cover",
+      "useImage": true,
+      "imageRole": "background",
+      "imagePrompt": "封面氛围图：2025 我的年度复盘. Wide cinematic composition with generous negative space suitable as a presentation slide background, key subject off-center. Warm editorial scrapbook style with soft paper texture, subtle film grain, natural window light, and relaxed lifestyle composition. Use a muted matcha green #6F7F4B, linen beige #FAF7EF, kraft surface #EFE7D8, and small terracotta accents #D8744F. Minimal, intimate, reflective, magazine-like. Strictly no text, no letters, no words, no watermark, no logo, no UI elements.",
+      "imagePath": "/Users/hbj/Desktop/Workspace/ppt-generator-interview/out-final/2-review-beauty-max/assets/slide-01.png",
+      "icons": [],
+      "chart": null,
+      "table": null,
+      "fixCount": 1
+    },
+    {
+      "index": 1,
+      "pageType": "agenda",
+      "useImage": false,
+      "imageRole": "none",
+      "imagePrompt": null,
+      "imagePath": null,
+      "icons": [],
+      "chart": null,
+      "table": null,
+      "fixCount": 0
+    },
+    {
+      "index": 2,
+      "pageType": "chapter",
+      "useImage": true,
+      "imageRole": "background",
+      "imagePrompt": "章节氛围图：先把日子摊开（2025 我的年度复盘）. Wide cinematic composition with generous negative space suitable as a presentation slide background, key subject off-center. Warm editorial scrapbook style with soft paper texture, subtle film grain, natural window light, and relaxed lifestyle composition. Use a muted matcha green #6F7F4B, linen beige #FAF7EF, kraft surface #EFE7D8, and small terracotta accents #D8744F. Minimal, intimate, reflective, magazine-like. Strictly no text, no letters, no words, no watermark, no logo, no UI elements.",
+      "imagePath": "/Users/hbj/Desktop/Workspace/ppt-generator-interview/out-final/2-review-beauty-max/assets/slide-03.png",
+      "icons": [],
+      "chart": null,
+      "table": null,
+      "fixCount": 0
+    },
+    {
+      "index": 3,
+      "pageType": "bigIdea",
+      "useImage": true,
+      "imageRole": "supporting",
+      "imagePrompt": "桌面摊着日历、票根、照片和咖啡杯，傍晚暖光. Clean single-subject composition suitable as an editorial illustration inside a presentation slide. Warm editorial scrapbook style with soft paper texture, subtle film grain, natural window light, and relaxed lifestyle composition. Use a muted matcha green #6F7F4B, linen beige #FAF7EF, kraft surface #EFE7D8, and small terracotta accents #D8744F. Minimal, intimate, reflective, magazine-like. Strictly no text, no letters, no words, no watermark, no logo, no UI elements.",
+      "imagePath": "/Users/hbj/Desktop/Workspace/ppt-generator-interview/out-final/2-review-beauty-max/assets/slide-04.png",
+      "icons": [],
+      "chart": null,
+      "table": null,
+      "fixCount": 0
+    },
+    {
+      "index": 4,
+      "pageType": "metricCards",
+      "useImage": false,
+      "imageRole": "none",
+      "imagePrompt": null,
+      "imagePath": null,
+      "icons": [
+        "calendar",
+        "notebook",
+        "tag",
+        "pause-circle"
+      ],
+      "chart": null,
+      "table": null,
+      "fixCount": 1
+    },
+    {
+      "index": 5,
+      "pageType": "threePoints",
+      "useImage": true,
+      "imageRole": "supporting",
+      "imagePrompt": "三段路牌分别写着赶路、修补、留白，人物背着包前行. Clean single-subject composition suitable as an editorial illustration inside a presentation slide. Warm editorial scrapbook style with soft paper texture, subtle film grain, natural window light, and relaxed lifestyle composition. Use a muted matcha green #6F7F4B, linen beige #FAF7EF, kraft surface #EFE7D8, and small terracotta accents #D8744F. Minimal, intimate, reflective, magazine-like. Strictly no text, no letters, no words, no watermark, no logo, no UI elements.",
+      "imagePath": "/Users/hbj/Desktop/Workspace/ppt-generator-interview/out-final/2-review-beauty-max/assets/slide-06.png",
+      "icons": [
+        "wrench",
+        "cloud"
+      ],
+      "chart": null,
+      "table": null,
+      "fixCount": 0
+    },
+    {
+      "index": 6,
+      "pageType": "barChart",
+      "useImage": false,
+      "imageRole": "none",
+      "imagePrompt": null,
+      "imagePath": null,
+      "icons": [],
+      "chart": {
+        "type": "line",
+        "title": "2025 情绪能量估算",
+        "unit": "分",
+        "labels": [
+          "1月",
+          "3月",
+          "5月",
+          "7月",
+          "9月",
+          "11月"
+        ],
+        "values": [
+          62,
+          55,
+          68,
+          49,
+          73,
+          70
+        ]
+      },
+      "table": null,
+      "fixCount": 1
+    },
+    {
+      "index": 7,
+      "pageType": "chapter",
+      "useImage": true,
+      "imageRole": "background",
+      "imagePrompt": "章节氛围图：几件事留下重量（2025 我的年度复盘）. Wide cinematic composition with generous negative space suitable as a presentation slide background, key subject off-center. Warm editorial scrapbook style with soft paper texture, subtle film grain, natural window light, and relaxed lifestyle composition. Use a muted matcha green #6F7F4B, linen beige #FAF7EF, kraft surface #EFE7D8, and small terracotta accents #D8744F. Minimal, intimate, reflective, magazine-like. Strictly no text, no letters, no words, no watermark, no logo, no UI elements.",
+      "imagePath": "/Users/hbj/Desktop/Workspace/ppt-generator-interview/out-final/2-review-beauty-max/assets/slide-08.png",
+      "icons": [],
+      "chart": null,
+      "table": null,
+      "fixCount": 0
+    },
+    {
+      "index": 8,
+      "pageType": "bigIdea",
+      "useImage": true,
+      "imageRole": "supporting",
+      "imagePrompt": "傍晚桌面上摊着日历和几张照片，一束光照在其中三张上. Clean single-subject composition suitable as an editorial illustration inside a presentation slide. Warm editorial scrapbook style with soft paper texture, subtle film grain, natural window light, and relaxed lifestyle composition. Use a muted matcha green #6F7F4B, linen beige #FAF7EF, kraft surface #EFE7D8, and small terracotta accents #D8744F. Minimal, intimate, reflective, magazine-like. Strictly no text, no letters, no words, no watermark, no logo, no UI elements.",
+      "imagePath": "/Users/hbj/Desktop/Workspace/ppt-generator-interview/out-final/2-review-beauty-max/assets/slide-09.png",
+      "icons": [],
+      "chart": null,
+      "table": null,
+      "fixCount": 0
+    },
+    {
+      "index": 9,
+      "pageType": "metricCards",
+      "useImage": false,
+      "imageRole": "none",
+      "imagePrompt": null,
+      "imagePath": null,
+      "icons": [
+        "pause-circle",
+        "users"
+      ],
+      "chart": null,
+      "table": null,
+      "fixCount": 1
+    },
+    {
+      "index": 10,
+      "pageType": "caseStory",
+      "useImage": true,
+      "imageRole": "supporting",
+      "imagePrompt": "深夜电脑前的人停下敲键盘，旁边咖啡冷了，屏幕显示待办清单. Clean single-subject composition suitable as an editorial illustration inside a presentation slide. Warm editorial scrapbook style with soft paper texture, subtle film grain, natural window light, and relaxed lifestyle composition. Use a muted matcha green #6F7F4B, linen beige #FAF7EF, kraft surface #EFE7D8, and small terracotta accents #D8744F. Minimal, intimate, reflective, magazine-like. Strictly no text, no letters, no words, no watermark, no logo, no UI elements.",
+      "imagePath": "/Users/hbj/Desktop/Workspace/ppt-generator-interview/out-final/2-review-beauty-max/assets/slide-11.png",
+      "icons": [
+        "coffee",
+        "clock",
+        "target"
+      ],
+      "chart": null,
+      "table": null,
+      "fixCount": 0
+    },
+    {
+      "index": 11,
+      "pageType": "comparison",
+      "useImage": false,
+      "imageRole": "none",
+      "imagePrompt": null,
+      "imagePath": null,
+      "icons": [
+        "scales",
+        "battery-charging",
+        "handshake",
+        "shield-check"
+      ],
+      "chart": null,
+      "table": null,
+      "fixCount": 0
+    },
+    {
+      "index": 12,
+      "pageType": "threePoints",
+      "useImage": false,
+      "imageRole": "none",
+      "imagePrompt": null,
+      "imagePath": null,
+      "icons": [
+        "compass",
+        "heart"
+      ],
+      "chart": null,
+      "table": null,
+      "fixCount": 0
+    },
+    {
+      "index": 13,
+      "pageType": "chapter",
+      "useImage": true,
+      "imageRole": "background",
+      "imagePrompt": "章节氛围图：坑不是白踩的（2025 我的年度复盘）. Wide cinematic composition with generous negative space suitable as a presentation slide background, key subject off-center. Warm editorial scrapbook style with soft paper texture, subtle film grain, natural window light, and relaxed lifestyle composition. Use a muted matcha green #6F7F4B, linen beige #FAF7EF, kraft surface #EFE7D8, and small terracotta accents #D8744F. Minimal, intimate, reflective, magazine-like. Strictly no text, no letters, no words, no watermark, no logo, no UI elements.",
+      "imagePath": "/Users/hbj/Desktop/Workspace/ppt-generator-interview/out-final/2-review-beauty-max/assets/slide-14.png",
+      "icons": [],
+      "chart": null,
+      "table": null,
+      "fixCount": 0
+    },
+    {
+      "index": 14,
+      "pageType": "bigIdea",
+      "useImage": false,
+      "imageRole": "none",
+      "imagePrompt": null,
+      "imagePath": null,
+      "icons": [],
+      "chart": null,
+      "table": null,
+      "fixCount": 1
+    },
+    {
+      "index": 15,
+      "pageType": "table",
+      "useImage": false,
+      "imageRole": "none",
+      "imagePrompt": null,
+      "imagePath": null,
+      "icons": [
+        "wrench"
+      ],
+      "chart": null,
+      "table": {
+        "headers": [
+          "当时的坑",
+          "真正问题",
+          "下次改法"
+        ],
+        "rows": [
+          [
+            "临时赶工",
+            "启动太晚",
+            "先定最小交付"
+          ],
+          [
+            "沟通反复",
+            "预期没对齐",
+            "提前写清边界"
+          ],
+          [
+            "计划崩盘",
+            "只排任务不排缓冲",
+            "默认留20%余量"
+          ],
+          [
+            "情绪内耗",
+            "把问题全归因自己",
+            "先分清责任范围"
+          ]
+        ]
+      },
+      "fixCount": 0
+    },
+    {
+      "index": 16,
+      "pageType": "caseStory",
+      "useImage": true,
+      "imageRole": "supporting",
+      "imagePrompt": "凌晨电脑屏幕亮着，日历截止日被红圈标出. Clean single-subject composition suitable as an editorial illustration inside a presentation slide. Warm editorial scrapbook style with soft paper texture, subtle film grain, natural window light, and relaxed lifestyle composition. Use a muted matcha green #6F7F4B, linen beige #FAF7EF, kraft surface #EFE7D8, and small terracotta accents #D8744F. Minimal, intimate, reflective, magazine-like. Strictly no text, no letters, no words, no watermark, no logo, no UI elements.",
+      "imagePath": "/Users/hbj/Desktop/Workspace/ppt-generator-interview/out-final/2-review-beauty-max/assets/slide-17.png",
+      "icons": [
+        "battery-low",
+        "flame"
+      ],
+      "chart": null,
+      "table": null,
+      "fixCount": 0
+    },
+    {
+      "index": 17,
+      "pageType": "checklist",
+      "useImage": false,
+      "imageRole": "none",
+      "imagePrompt": null,
+      "imagePath": null,
+      "icons": [
+        "check-circle",
+        "target",
+        "clock"
+      ],
+      "chart": null,
+      "table": null,
+      "fixCount": 0
+    },
+    {
+      "index": 18,
+      "pageType": "chapter",
+      "useImage": true,
+      "imageRole": "background",
+      "imagePrompt": "章节氛围图：我被什么改变（2025 我的年度复盘）. Wide cinematic composition with generous negative space suitable as a presentation slide background, key subject off-center. Warm editorial scrapbook style with soft paper texture, subtle film grain, natural window light, and relaxed lifestyle composition. Use a muted matcha green #6F7F4B, linen beige #FAF7EF, kraft surface #EFE7D8, and small terracotta accents #D8744F. Minimal, intimate, reflective, magazine-like. Strictly no text, no letters, no words, no watermark, no logo, no UI elements.",
+      "imagePath": "/Users/hbj/Desktop/Workspace/ppt-generator-interview/out-final/2-review-beauty-max/assets/slide-19.png",
+      "icons": [],
+      "chart": null,
+      "table": null,
+      "fixCount": 0
+    },
+    {
+      "index": 19,
+      "pageType": "bigIdea",
+      "useImage": false,
+      "imageRole": "none",
+      "imagePrompt": null,
+      "imagePath": null,
+      "icons": [],
+      "chart": null,
+      "table": null,
+      "fixCount": 0
+    },
+    {
+      "index": 20,
+      "pageType": "threePoints",
+      "useImage": false,
+      "imageRole": "none",
+      "imagePrompt": null,
+      "imagePath": null,
+      "icons": [
+        "handshake",
+        "shield-check"
+      ],
+      "chart": null,
+      "table": null,
+      "fixCount": 0
+    },
+    {
+      "index": 21,
+      "pageType": "comparison",
+      "useImage": false,
+      "imageRole": "none",
+      "imagePrompt": null,
+      "imagePath": null,
+      "icons": [
+        "scales",
+        "map-trifold",
+        "battery-medium"
+      ],
+      "chart": null,
+      "table": null,
+      "fixCount": 0
+    },
+    {
+      "index": 22,
+      "pageType": "metricCards",
+      "useImage": false,
+      "imageRole": "none",
+      "imagePrompt": null,
+      "imagePath": null,
+      "icons": [
+        "pause-circle",
+        "x-circle",
+        "anchor"
+      ],
+      "chart": null,
+      "table": null,
+      "fixCount": 1
+    },
+    {
+      "index": 23,
+      "pageType": "chapter",
+      "useImage": true,
+      "imageRole": "background",
+      "imagePrompt": "章节氛围图：明年先试一小步（2025 我的年度复盘）. Wide cinematic composition with generous negative space suitable as a presentation slide background, key subject off-center. Warm editorial scrapbook style with soft paper texture, subtle film grain, natural window light, and relaxed lifestyle composition. Use a muted matcha green #6F7F4B, linen beige #FAF7EF, kraft surface #EFE7D8, and small terracotta accents #D8744F. Minimal, intimate, reflective, magazine-like. Strictly no text, no letters, no words, no watermark, no logo, no UI elements.",
+      "imagePath": "/Users/hbj/Desktop/Workspace/ppt-generator-interview/out-final/2-review-beauty-max/assets/slide-24.png",
+      "icons": [],
+      "chart": null,
+      "table": null,
+      "fixCount": 0
+    },
+    {
+      "index": 24,
+      "pageType": "bigIdea",
+      "useImage": false,
+      "imageRole": "none",
+      "imagePrompt": null,
+      "imagePath": null,
+      "icons": [],
+      "chart": null,
+      "table": null,
+      "fixCount": 0
+    },
+    {
+      "index": 25,
+      "pageType": "roadmap",
+      "useImage": false,
+      "imageRole": "none",
+      "imagePrompt": null,
+      "imagePath": null,
+      "icons": [
+        "footprints",
+        "wallet"
+      ],
+      "chart": null,
+      "table": null,
+      "fixCount": 0
+    },
+    {
+      "index": 26,
+      "pageType": "table",
+      "useImage": false,
+      "imageRole": "none",
+      "imagePrompt": null,
+      "imagePath": null,
+      "icons": [
+        "traffic-cone",
+        "shield-check"
+      ],
+      "chart": null,
+      "table": {
+        "headers": [
+          "想做的事",
+          "最小版本",
+          "翻车时怎么办"
+        ],
+        "rows": [
+          [
+            "规律运动",
+            "出门走20分钟",
+            "没空就拉伸5分钟"
+          ],
+          [
+            "持续写作",
+            "写100字备忘录",
+            "只记一个观察"
+          ],
+          [
+            "学新技能",
+            "看一节课并复述",
+            "暂停购买新课"
+          ],
+          [
+            "控制消费",
+            "记下超过200元的支出",
+            "先放购物车24小时"
+          ]
+        ]
+      },
+      "fixCount": 0
+    },
+    {
+      "index": 27,
+      "pageType": "checklist",
+      "useImage": false,
+      "imageRole": "none",
+      "imagePrompt": null,
+      "imagePath": null,
+      "icons": [
+        "calendar-check",
+        "pencil",
+        "scissors"
+      ],
+      "chart": null,
+      "table": null,
+      "fixCount": 2
+    },
+    {
+      "index": 28,
+      "pageType": "closing",
+      "useImage": true,
+      "imageRole": "background",
+      "imagePrompt": "收尾氛围图：2025 我的年度复盘. Wide cinematic composition with generous negative space suitable as a presentation slide background, key subject off-center. Warm editorial scrapbook style with soft paper texture, subtle film grain, natural window light, and relaxed lifestyle composition. Use a muted matcha green #6F7F4B, linen beige #FAF7EF, kraft surface #EFE7D8, and small terracotta accents #D8744F. Minimal, intimate, reflective, magazine-like. Strictly no text, no letters, no words, no watermark, no logo, no UI elements.",
+      "imagePath": "/Users/hbj/Desktop/Workspace/ppt-generator-interview/out-final/2-review-beauty-max/assets/slide-29.png",
+      "icons": [],
+      "chart": null,
+      "table": null,
+      "fixCount": 0
+    }
+  ]
+}

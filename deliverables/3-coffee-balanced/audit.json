@@ -1,0 +1,621 @@
+{
+  "reviewScore": null,
+  "entries": [
+    {
+      "slide": 1,
+      "level": "L1",
+      "issues": [
+        "[textClipped] 文本被裁剪: \"第一包对味的豆子…\" (536x156 > 536x141)"
+      ],
+      "action": "coder 修复（第 1 次）"
+    },
+    {
+      "slide": 2,
+      "level": "L1",
+      "issues": [
+        "[textClipped] 文本被裁剪: \"目录…\" (291x90 > 291x72)",
+        "[textClipped] 文本被裁剪: \"01…\" (86x55 > 86x46)",
+        "[textClipped] 文本被裁剪: \"02…\" (86x55 > 86x46)",
+        "[textClipped] 文本被裁剪: \"03…\" (86x55 > 86x46)",
+        "[textClipped] 文本被裁剪: \"04…\" (86x55 > 86x46)",
+        "[textClipped] 文本被裁剪: \"05…\" (86x55 > 86x46)"
+      ],
+      "action": "coder 修复（第 1 次）"
+    },
+    {
+      "slide": 6,
+      "level": "L1",
+      "issues": [
+        "[textClipped] 文本被裁剪: \"70%…\" (186x86 > 186x70)",
+        "[textClipped] 文本被裁剪: \"60%…\" (186x86 > 186x70)",
+        "[textClipped] 文本被裁剪: \"50%…\" (186x86 > 186x70)"
+      ],
+      "action": "coder 修复（第 1 次）"
+    },
+    {
+      "slide": 11,
+      "level": "L1",
+      "issues": [
+        "[textClipped] 文本被裁剪: \"01…\" (34x41 > 34x34)",
+        "[textClipped] 文本被裁剪: \"02…\" (41x41 > 41x34)",
+        "[textClipped] 文本被裁剪: \"03…\" (41x41 > 41x34)"
+      ],
+      "action": "coder 修复（第 1 次）"
+    },
+    {
+      "slide": 12,
+      "level": "L1",
+      "issues": [
+        "[textClipped] 文本被裁剪: \"酸感↓…\" (324x68 > 324x55)",
+        "[textClipped] 文本被裁剪: \"苦感↑…\" (324x68 > 324x55)",
+        "[textClipped] 文本被裁剪: \"厚度↑…\" (324x68 > 324x55)",
+        "[textClipped] 文本被裁剪: \"产地感↓…\" (324x63 > 324x53)"
+      ],
+      "action": "coder 修复（第 1 次）"
+    },
+    {
+      "slide": 17,
+      "level": "L1",
+      "issues": [
+        "[overlap] 装饰元素(div 14x14)与文字重叠: \"适合谁\""
+      ],
+      "action": "coder 修复（第 1 次）"
+    },
+    {
+      "slide": 22,
+      "level": "L1",
+      "issues": [
+        "[overlap] 装饰元素(div 86x12)与文字重叠: \"TIPS\""
+      ],
+      "action": "coder 修复（第 1 次）"
+    }
+  ],
+  "decisions": [
+    {
+      "index": 0,
+      "pageType": "cover",
+      "useImage": true,
+      "imageRole": "background",
+      "imagePrompt": "封面氛围图：如何挑选一款适合自己的咖啡豆. Wide cinematic composition with generous negative space suitable as a presentation slide background, key subject off-center. Warm editorial food photography and gentle hand-drawn annotations on paper grain textures, natural window light, creamy background #F7F0E4, coffee-brown #5A3825, sage #7F8C63, caramel accents #C9823A. Minimal props, soft shadows, cozy approachable café mood, clean magazine layouts, realistic beans and brewing details. Strictly no text, no letters, no words, no watermark, no logo, no UI elements.",
+      "imagePath": "/Users/hbj/Desktop/Workspace/ppt-generator-interview/out-final/3-coffee-balanced/assets/slide-01.png",
+      "icons": [],
+      "chart": null,
+      "table": null,
+      "fixCount": 1
+    },
+    {
+      "index": 1,
+      "pageType": "agenda",
+      "useImage": false,
+      "imageRole": "none",
+      "imagePrompt": null,
+      "imagePath": null,
+      "icons": [],
+      "chart": null,
+      "table": null,
+      "fixCount": 1
+    },
+    {
+      "index": 2,
+      "pageType": "chapter",
+      "useImage": true,
+      "imageRole": "background",
+      "imagePrompt": "章节氛围图：先找到你的口味坐标（如何挑选一款适合自己的咖啡豆）. Wide cinematic composition with generous negative space suitable as a presentation slide background, key subject off-center. Warm editorial food photography and gentle hand-drawn annotations on paper grain textures, natural window light, creamy background #F7F0E4, coffee-brown #5A3825, sage #7F8C63, caramel accents #C9823A. Minimal props, soft shadows, cozy approachable café mood, clean magazine layouts, realistic beans and brewing details. Strictly no text, no letters, no words, no watermark, no logo, no UI elements.",
+      "imagePath": "/Users/hbj/Desktop/Workspace/ppt-generator-interview/out-final/3-coffee-balanced/assets/slide-03.png",
+      "icons": [],
+      "chart": null,
+      "table": null,
+      "fixCount": 0
+    },
+    {
+      "index": 3,
+      "pageType": "bigIdea",
+      "useImage": false,
+      "imageRole": "none",
+      "imagePrompt": null,
+      "imagePath": null,
+      "icons": [
+        "map-trifold",
+        "coffee"
+      ],
+      "chart": null,
+      "table": null,
+      "fixCount": 0
+    },
+    {
+      "index": 4,
+      "pageType": "comparison",
+      "useImage": false,
+      "imageRole": "none",
+      "imagePrompt": null,
+      "imagePath": null,
+      "icons": [
+        "leaf"
+      ],
+      "chart": null,
+      "table": {
+        "headers": [
+          "口味坐标",
+          "你可能喜欢",
+          "常见描述"
+        ],
+        "rows": [
+          [
+            "苦甜 × 醇厚",
+            "意式浓缩、拿铁",
+            "黑巧、坚果、焦糖"
+          ],
+          [
+            "苦甜 × 清爽",
+            "干净美式",
+            "烤杏仁、麦芽、可可"
+          ],
+          [
+            "酸甜 × 醇厚",
+            "水果感拿铁",
+            "莓果、果酱、红酒"
+          ],
+          [
+            "酸甜 × 清爽",
+            "手冲、冰咖啡",
+            "柑橘、花香、茶感"
+          ]
+        ]
+      },
+      "fixCount": 0
+    },
+    {
+      "index": 5,
+      "pageType": "metricCards",
+      "useImage": false,
+      "imageRole": "none",
+      "imagePrompt": null,
+      "imagePath": null,
+      "icons": [],
+      "chart": null,
+      "table": null,
+      "fixCount": 1
+    },
+    {
+      "index": 6,
+      "pageType": "checklist",
+      "useImage": false,
+      "imageRole": "none",
+      "imagePrompt": null,
+      "imagePath": null,
+      "icons": [
+        "check-square",
+        "coffee"
+      ],
+      "chart": null,
+      "table": null,
+      "fixCount": 0
+    },
+    {
+      "index": 7,
+      "pageType": "chapter",
+      "useImage": true,
+      "imageRole": "background",
+      "imagePrompt": "章节氛围图：烘焙度决定第一印象（如何挑选一款适合自己的咖啡豆）. Wide cinematic composition with generous negative space suitable as a presentation slide background, key subject off-center. Warm editorial food photography and gentle hand-drawn annotations on paper grain textures, natural window light, creamy background #F7F0E4, coffee-brown #5A3825, sage #7F8C63, caramel accents #C9823A. Minimal props, soft shadows, cozy approachable café mood, clean magazine layouts, realistic beans and brewing details. Strictly no text, no letters, no words, no watermark, no logo, no UI elements.",
+      "imagePath": "/Users/hbj/Desktop/Workspace/ppt-generator-interview/out-final/3-coffee-balanced/assets/slide-08.png",
+      "icons": [],
+      "chart": null,
+      "table": null,
+      "fixCount": 0
+    },
+    {
+      "index": 8,
+      "pageType": "bigIdea",
+      "useImage": false,
+      "imageRole": "none",
+      "imagePrompt": null,
+      "imagePath": null,
+      "icons": [
+        "coffee",
+        "sliders-horizontal"
+      ],
+      "chart": null,
+      "table": null,
+      "fixCount": 0
+    },
+    {
+      "index": 9,
+      "pageType": "comparison",
+      "useImage": false,
+      "imageRole": "none",
+      "imagePrompt": null,
+      "imagePath": null,
+      "icons": [
+        "nut",
+        "cookie"
+      ],
+      "chart": null,
+      "table": {
+        "headers": [
+          "烘焙度",
+          "第一印象",
+          "常见香气",
+          "适合偏好"
+        ],
+        "rows": [
+          [
+            "浅烘",
+            "酸感明亮，口感较轻",
+            "柑橘、花香、莓果",
+            "喜欢清爽、果汁感"
+          ],
+          [
+            "中烘",
+            "甜感平衡，层次稳定",
+            "焦糖、坚果、可可",
+            "想要安全不踩雷"
+          ],
+          [
+            "深烘",
+            "苦甜浓郁，厚度更高",
+            "黑巧、烟熏、烤坚果",
+            "喜欢浓、苦、奶咖"
+          ]
+        ]
+      },
+      "fixCount": 0
+    },
+    {
+      "index": 10,
+      "pageType": "threePoints",
+      "useImage": false,
+      "imageRole": "none",
+      "imagePrompt": null,
+      "imagePath": null,
+      "icons": [],
+      "chart": null,
+      "table": null,
+      "fixCount": 1
+    },
+    {
+      "index": 11,
+      "pageType": "metricCards",
+      "useImage": false,
+      "imageRole": "none",
+      "imagePrompt": null,
+      "imagePath": null,
+      "icons": [
+        "arrow-down",
+        "arrow-up",
+        "map-pin"
+      ],
+      "chart": null,
+      "table": null,
+      "fixCount": 1
+    },
+    {
+      "index": 12,
+      "pageType": "chapter",
+      "useImage": true,
+      "imageRole": "background",
+      "imagePrompt": "章节氛围图：产地给出风味方向（如何挑选一款适合自己的咖啡豆）. Wide cinematic composition with generous negative space suitable as a presentation slide background, key subject off-center. Warm editorial food photography and gentle hand-drawn annotations on paper grain textures, natural window light, creamy background #F7F0E4, coffee-brown #5A3825, sage #7F8C63, caramel accents #C9823A. Minimal props, soft shadows, cozy approachable café mood, clean magazine layouts, realistic beans and brewing details. Strictly no text, no letters, no words, no watermark, no logo, no UI elements.",
+      "imagePath": "/Users/hbj/Desktop/Workspace/ppt-generator-interview/out-final/3-coffee-balanced/assets/slide-13.png",
+      "icons": [],
+      "chart": null,
+      "table": null,
+      "fixCount": 0
+    },
+    {
+      "index": 13,
+      "pageType": "bigIdea",
+      "useImage": false,
+      "imageRole": "none",
+      "imagePrompt": null,
+      "imagePath": null,
+      "icons": [
+        "map-pin",
+        "coffee",
+        "compass"
+      ],
+      "chart": null,
+      "table": null,
+      "fixCount": 0
+    },
+    {
+      "index": 14,
+      "pageType": "comparison",
+      "useImage": false,
+      "imageRole": "none",
+      "imagePrompt": null,
+      "imagePath": null,
+      "icons": [
+        "nut",
+        "leaf"
+      ],
+      "chart": null,
+      "table": null,
+      "fixCount": 0
+    },
+    {
+      "index": 15,
+      "pageType": "metricCards",
+      "useImage": false,
+      "imageRole": "none",
+      "imagePrompt": null,
+      "imagePath": null,
+      "icons": [
+        "mountains",
+        "arrow-up"
+      ],
+      "chart": null,
+      "table": null,
+      "fixCount": 0
+    },
+    {
+      "index": 16,
+      "pageType": "table",
+      "useImage": false,
+      "imageRole": "none",
+      "imagePrompt": null,
+      "imagePath": null,
+      "icons": [
+        "tag",
+        "list-checks"
+      ],
+      "chart": null,
+      "table": {
+        "headers": [
+          "标签常见写法",
+          "常见印象",
+          "适合谁"
+        ],
+        "rows": [
+          [
+            "Typica / Bourbon",
+            "甜感干净，口感柔和",
+            "喜欢顺口、不刺激的人"
+          ],
+          [
+            "Caturra / Catuai",
+            "平衡耐喝，坚果焦糖感常见",
+            "日常拿铁、美式都想兼顾的人"
+          ],
+          [
+            "Geisha",
+            "花香、柑橘感突出，层次细",
+            "想尝试清爽花果香的人"
+          ],
+          [
+            "SL28 / SL34",
+            "莓果酸质明亮，风味有冲击力",
+            "能接受明显酸感的人"
+          ]
+        ]
+      },
+      "fixCount": 1
+    },
+    {
+      "index": 17,
+      "pageType": "chapter",
+      "useImage": true,
+      "imageRole": "background",
+      "imagePrompt": "章节氛围图：处理法打开风味开关（如何挑选一款适合自己的咖啡豆）. Wide cinematic composition with generous negative space suitable as a presentation slide background, key subject off-center. Warm editorial food photography and gentle hand-drawn annotations on paper grain textures, natural window light, creamy background #F7F0E4, coffee-brown #5A3825, sage #7F8C63, caramel accents #C9823A. Minimal props, soft shadows, cozy approachable café mood, clean magazine layouts, realistic beans and brewing details. Strictly no text, no letters, no words, no watermark, no logo, no UI elements.",
+      "imagePath": "/Users/hbj/Desktop/Workspace/ppt-generator-interview/out-final/3-coffee-balanced/assets/slide-18.png",
+      "icons": [],
+      "chart": null,
+      "table": null,
+      "fixCount": 0
+    },
+    {
+      "index": 18,
+      "pageType": "bigIdea",
+      "useImage": false,
+      "imageRole": "none",
+      "imagePrompt": null,
+      "imagePath": null,
+      "icons": [
+        "sliders-horizontal",
+        "coffee"
+      ],
+      "chart": null,
+      "table": null,
+      "fixCount": 0
+    },
+    {
+      "index": 19,
+      "pageType": "comparison",
+      "useImage": false,
+      "imageRole": "none",
+      "imagePrompt": null,
+      "imagePath": null,
+      "icons": [
+        "sun"
+      ],
+      "chart": null,
+      "table": null,
+      "fixCount": 0
+    },
+    {
+      "index": 20,
+      "pageType": "threePoints",
+      "useImage": false,
+      "imageRole": "none",
+      "imagePrompt": null,
+      "imagePath": null,
+      "icons": [
+        "waves",
+        "hexagon"
+      ],
+      "chart": null,
+      "table": null,
+      "fixCount": 0
+    },
+    {
+      "index": 21,
+      "pageType": "table",
+      "useImage": false,
+      "imageRole": "none",
+      "imagePrompt": null,
+      "imagePath": null,
+      "icons": [
+        "table",
+        "shopping-bag"
+      ],
+      "chart": null,
+      "table": {
+        "headers": [
+          "处理法",
+          "常见风味",
+          "口感关键词",
+          "适合人群"
+        ],
+        "rows": [
+          [
+            "水洗",
+            "柑橘、花香、茶感",
+            "干净、清爽、明亮",
+            "喜欢美式、怕杂味"
+          ],
+          [
+            "日晒",
+            "莓果、热带水果、酒香",
+            "浓郁、饱满、发酵感",
+            "想尝鲜、爱果香"
+          ],
+          [
+            "蜜处理",
+            "蜂蜜、焦糖、熟果",
+            "甜润、圆滑、平衡",
+            "想要甜感、怕尖酸"
+          ]
+        ]
+      },
+      "fixCount": 1
+    },
+    {
+      "index": 22,
+      "pageType": "checklist",
+      "useImage": false,
+      "imageRole": "none",
+      "imagePrompt": null,
+      "imagePath": null,
+      "icons": [
+        "check-circle",
+        "package",
+        "map-pin",
+        "coffee"
+      ],
+      "chart": null,
+      "table": null,
+      "fixCount": 0
+    },
+    {
+      "index": 23,
+      "pageType": "chapter",
+      "useImage": false,
+      "imageRole": "none",
+      "imagePrompt": null,
+      "imagePath": null,
+      "icons": [],
+      "chart": null,
+      "table": null,
+      "fixCount": 0
+    },
+    {
+      "index": 24,
+      "pageType": "bigIdea",
+      "useImage": false,
+      "imageRole": "none",
+      "imagePrompt": null,
+      "imagePath": null,
+      "icons": [
+        "tag",
+        "coffee",
+        "shopping-bag"
+      ],
+      "chart": null,
+      "table": null,
+      "fixCount": 0
+    },
+    {
+      "index": 25,
+      "pageType": "table",
+      "useImage": false,
+      "imageRole": "none",
+      "imagePrompt": null,
+      "imagePath": null,
+      "icons": [
+        "lego-smiley",
+        "x-circle"
+      ],
+      "chart": null,
+      "table": {
+        "headers": [
+          "标签常见词",
+          "你可以理解成",
+          "适合的人"
+        ],
+        "rows": [
+          [
+            "柑橘、莓果、花香",
+            "像果茶，明亮有酸感",
+            "喜欢清爽美式"
+          ],
+          [
+            "坚果、焦糖、可可",
+            "像巧克力饼干，甜感稳",
+            "喜欢拿铁、奶咖"
+          ],
+          [
+            "酒香、发酵感、热带水果",
+            "像水果酒，个性强",
+            "想尝新鲜风味"
+          ],
+          [
+            "烟熏、黑巧、香料",
+            "像黑巧或烤坚果，苦感明显",
+            "喜欢浓郁厚重"
+          ]
+        ]
+      },
+      "fixCount": 0
+    },
+    {
+      "index": 26,
+      "pageType": "checklist",
+      "useImage": false,
+      "imageRole": "none",
+      "imagePrompt": null,
+      "imagePath": null,
+      "icons": [
+        "wallet"
+      ],
+      "chart": null,
+      "table": null,
+      "fixCount": 0
+    },
+    {
+      "index": 27,
+      "pageType": "process",
+      "useImage": false,
+      "imageRole": "none",
+      "imagePrompt": null,
+      "imagePath": null,
+      "icons": [
+        "target",
+        "calendar-check",
+        "repeat"
+      ],
+      "chart": null,
+      "table": null,
+      "fixCount": 0
+    },
+    {
+      "index": 28,
+      "pageType": "closing",
+      "useImage": false,
+      "imageRole": "none",
+      "imagePrompt": null,
+      "imagePath": null,
+      "icons": [],
+      "chart": null,
+      "table": null,
+      "fixCount": 0
+    }
+  ]
+}
